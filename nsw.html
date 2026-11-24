@@ -1,0 +1,724 @@
+
+<!DOCTYPE html>
+
+<html lang="en-AU">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Free interactive NSW mathematics resources for Years 7–12. Diagnostic tests, topic hubs, escape rooms and HSC exam practice." name="description"/>
+<title>Viorosa Maths | NSW Mathematics Resources</title>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-180BGJQCSL"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-180BGJQCSL");
+  </script>
+<style>
+    :root {
+      --ink: #293449;
+      --muted: #617086;
+      --purple: #7655b3;
+      --teal: #087d83;
+      --pink: #ad4f82;
+      --border: #e5e5f0;
+      --shadow: 0 12px 32px rgba(45,55,90,.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 5%, #fce6ef, transparent 35%),
+        radial-gradient(circle at 90% 12%, #dcf6ef, transparent 35%),
+        linear-gradient(140deg, #fcfaff, #eaf2ff);
+      min-height: 100vh;
+    }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    button { font: inherit; }
+
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid #d28d30;
+      outline-offset: 3px;
+    }
+
+    main {
+      width: min(1100px, 100%);
+      margin: auto;
+      padding: 42px 22px 65px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 34px;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      font-size: .77rem;
+      font-weight: 800;
+      color: #58708b;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 7vw, 4.3rem);
+      letter-spacing: -.05em;
+      margin: 8px 0 12px;
+    }
+
+    header p {
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 680px;
+      margin: auto;
+    }
+
+    .stage-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .stage-card {
+      border: 2px solid white;
+      border-radius: 24px;
+      padding: 34px 20px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .stage-card:hover, .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 36px rgba(45,55,90,.14);
+    }
+
+    .stage4 {
+      background: linear-gradient(135deg, #d6f5ed, #cfe5ff);
+    }
+
+    .stage5 {
+      background: linear-gradient(135deg, #fff0d9, #ffe0e9);
+    }
+
+    .stage6 {
+      background: linear-gradient(135deg, #e9dcff, #ffdce9);
+    }
+
+    .stage-card h2 {
+      margin: 0 0 9px;
+      font-size: 1.85rem;
+    }
+
+    .stage-card p {
+      margin: 0 0 20px;
+      color: #526078;
+    }
+
+    .stage-link {
+      display: inline-block;
+      background: white;
+      border-radius: 12px;
+      padding: 10px 15px;
+      font-weight: 800;
+      font-size: .9rem;
+    }
+
+    .feature {
+      margin: 30px 0 38px;
+      padding: 30px;
+      text-align: center;
+      border-radius: 24px;
+      background: linear-gradient(115deg, #e9dcff, #ffe7f0, #dcf6ed);
+      border: 2px solid white;
+      box-shadow: var(--shadow);
+    }
+
+    .feature h2 { margin: 0 0 10px; }
+
+    .feature p {
+      color: #526078;
+      line-height: 1.65;
+      max-width: 680px;
+      margin: 0 auto 20px;
+    }
+
+    .stage-section[hidden],
+    #stage-selection[hidden],
+    .tab-panel[hidden],
+    .sub-panel[hidden] {
+      display: none !important;
+    }
+
+    .back-button {
+      background: white;
+      border: 2px solid #ded1f2;
+      border-radius: 12px;
+      padding: 12px 19px;
+      font-weight: 800;
+      color: var(--purple);
+      cursor: pointer;
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.3rem);
+      text-align: center;
+      margin: 0 0 8px;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      text-align: center;
+      margin: 0 0 28px;
+      line-height: 1.6;
+    }
+
+    .tabs, .sub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 22px 0;
+    }
+
+    .tab, .sub-tab {
+      border: 2px solid #e5def3;
+      background: white;
+      border-radius: 13px;
+      padding: 12px 19px;
+      cursor: pointer;
+      color: #5b5275;
+      font-weight: 800;
+    }
+
+    .tab.active, .sub-tab.active {
+      background: var(--purple);
+      color: white;
+      border-color: var(--purple);
+    }
+
+    .group-title {
+      margin: 30px 0 8px;
+      font-size: 1.4rem;
+    }
+
+    .group-description {
+      color: var(--muted);
+      line-height: 1.6;
+      margin: 0 0 19px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: rgba(255,255,255,.96);
+      border: 2px solid white;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .art {
+      min-height: 105px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: .83rem;
+      letter-spacing: .1em;
+      font-weight: 850;
+      color: #43516d;
+    }
+
+    .mint { background: linear-gradient(135deg, #d1f3e9, #d6eaff); }
+    .lilac { background: linear-gradient(135deg, #e6d8ff, #f6e3ff); }
+    .peach { background: linear-gradient(135deg, #ffe6d3, #ffe0e9); }
+    .rose { background: linear-gradient(135deg, #ffe0eb, #f0dfff); }
+    .blue { background: linear-gradient(135deg, #d9eaff, #e2f5f3); }
+
+    .content {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .tag {
+      align-self: flex-start;
+      background: #e9f6f2;
+      color: #08706e;
+      padding: 6px 11px;
+      border-radius: 999px;
+      font-size: .72rem;
+      font-weight: 800;
+    }
+
+    .tag.purple {
+      background: #f0e8ff;
+      color: #6843a4;
+    }
+
+    .tag.pink {
+      background: #ffe6ef;
+      color: #9c406b;
+    }
+
+    .content h3 {
+      font-size: 1.35rem;
+      margin: 14px 0 10px;
+    }
+
+    .desc {
+      color: var(--muted);
+      line-height: 1.65;
+      margin: 0 0 22px;
+      flex: 1;
+    }
+
+    .button {
+      display: block;
+      padding: 14px 17px;
+      border-radius: 12px;
+      background: var(--teal);
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .button:hover { filter: brightness(.93); }
+    .button.purple { background: var(--purple); }
+    .button.pink { background: var(--pink); }
+
+    .notice {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 25px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .teacher-area {
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .teacher-area .button {
+      display: inline-block;
+      background: var(--purple);
+      padding: 17px 35px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 35px;
+      color: var(--muted);
+      font-size: .88rem;
+      line-height: 1.7;
+    }
+
+    @media(max-width: 760px) {
+      .stage-grid { grid-template-columns: 1fr; }
+    }
+
+    @media(max-width: 650px) {
+      main { padding: 28px 15px 42px; }
+      .grid { grid-template-columns: 1fr; }
+      .feature { padding: 23px 18px; }
+      .content { padding: 21px; }
+      .tab, .sub-tab { flex: 1; }
+    }
+  
+:root{--ink:#50404b;--muted:#776b72;--purple:#80609a;--teal:#a64e65;--pink:#a64e65;--border:#ebddd5;--shadow:0 5px 16px #503c3010}
+body{background:#fffcf7} main{padding-top:22px} .brand-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px;gap:16px}.wordmark{font:700 32px Georgia,serif;letter-spacing:-1.5px;color:#a64e65;text-decoration:none}.wordmark span{display:block;font:700 10px system-ui;letter-spacing:3px;text-align:center}.home-link{color:#a64e65;font-weight:650;text-decoration:none;font-size:14px}header{position:relative;text-align:left;padding:24px 180px 24px 0}header p{margin:0;max-width:660px}.eyebrow{color:#a64e65}h1{font-size:clamp(2.4rem,5vw,3.7rem)}.botanical{position:absolute;right:8px;top:-15px;width:150px;pointer-events:none}.botanical svg{width:100%;height:auto}.stage-card,.card,.feature{border:1px solid var(--border);border-radius:20px}.stage4{background:#ffe4d8}.stage5{background:#f9edc9}.stage6{background:#f0e6f5}.feature{background:#fff3e8}.stage-card p,.feature p,.art{color:var(--muted)}.stage-link{color:#87465a}.mint{background:#f9edc9}.lilac{background:#f0e6f5}.peach{background:#ffe4d8}.rose{background:#f8e0ec}.blue{background:#e9eee3}.tag{background:#f9edc9;color:#765c26}.tag.purple{background:#f0e6f5;color:#674b82}.tag.pink{background:#f8e0ec;color:#87465a}.tab,.sub-tab,.back-button{border-color:var(--border);color:#87465a}.stage-card:hover,.card:hover{box-shadow:0 8px 20px #503c3015}.button{font-weight:700}@media(max-width:650px){header{padding:12px 85px 12px 0}.botanical{width:80px;right:0;top:0}.brand-nav{margin-bottom:20px}.wordmark{font-size:27px}}
+</style>
+</head>
+<body>
+<main>
+<nav class="brand-nav"><a class="wordmark" href="index.html">viorosa<span>M A T H S</span></a><a class="home-link" href="index.html">← All curricula</a></nav>
+<header><div class="botanical" aria-hidden="true"><svg fill="none" viewbox="0 0 250 290" xmlns="http://www.w3.org/2000/svg"><g stroke="#88947D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M239 276C190 232 136 162 101 66M239 276C194 239 188 164 182 119"></path><path d="M165 189Q130 181 112 154M193 225Q218 194 220 174M143 151Q156 121 148 104M184 162Q207 150 216 130"></path><g fill="#C5CEB7" fill-opacity=".72"><path d="M112 154Q100 128 77 126Q79 153 112 154Z"></path><path d="M220 174Q242 155 235 136Q213 147 220 174Z"></path><path d="M148 104Q137 79 151 66Q166 88 148 104Z"></path><path d="M216 130Q236 110 227 94Q205 108 216 130Z"></path><path d="M185 216Q155 211 141 189Q172 187 185 216Z"></path></g></g><g stroke="#B87878" stroke-linejoin="round" stroke-width="1.35" transform="translate(101 64) rotate(-17)"><path d="M-14 17L-8 29L0 23L9 29L15 15Z" fill="#C5CEB7"></path><path d="M0 23C-20 24-34 9-31-7C-29-21-15-26-5-20C4-32 23-24 25-13C41-5 28 19 0 23Z" fill="#F1C4B7"></path><path d="M-27-9Q-13-15-2 2Q-17 8-11 19Q-31 10-27-9Z" fill="#F6D4C8"></path><path d="M25-13Q9-17 0-5Q15-5 19 8Q30 2 25-13Z" fill="#EAB0A8"></path><path d="M-13-17Q2-27 15-15Q21-6 8 4Q-4 12-14 3Q-23-8-13-17Z" fill="#F8DCD0"></path><path d="M-10-10Q4-18 10-9Q15-1 3 1Q-6 1-3-6Q1-10 5-6M-11 19Q1 8 19 8"></path></g><g stroke="#9380AC" stroke-linejoin="round" stroke-width="1.25" transform="translate(182 119) rotate(12)"><path d="M0 0C-21-5-28-24-15-31C-4-36 3-18 0 0Z" fill="#D9CBE9"></path><path d="M0 0C-3-21 7-35 19-27C30-19 15-4 0 0Z" fill="#E4D7F0"></path><path d="M0 0C-15-16-35-11-32 3C-28 17-9 11 0 0Z" fill="#CBB7E0"></path><path d="M0 0C14-16 34-10 31 4C27 17 10 11 0 0Z" fill="#D4BFE6"></path><path d="M0 0C-15 7-16 25 0 28C16 26 16 7 0 0Z" fill="#E6D9F1"></path><path d="M0 3L-9 17M0 3L8 17M-3 0L-20 2M3 0L19 2" opacity=".65"></path><circle fill="#E4C477" r="4" stroke="#B59B65"></circle></g></svg></div>
+<div class="eyebrow">AUSTRALIA / NEW SOUTH WALES</div>
+<h1>NSW Mathematics</h1>
+<p>
+      Free interactive mathematics resources, diagnostic tests,
+      topic revision, exam-style questions and challenges.
+      Choose your stage to get started.
+    </p>
+</header>
+<!-- HOME -->
+<section aria-label="Choose your stage" id="stage-selection">
+<div class="stage-grid">
+<button class="stage-card stage4" onclick="showStage(4)" type="button">
+<h2>Stage 4</h2>
+<p>Years 7–8 Mathematics</p>
+<span class="stage-link">Explore Stage 4</span>
+</button>
+<button class="stage-card stage5" onclick="showStage(5)" type="button">
+<h2>Stage 5</h2>
+<p>Years 9–10 Mathematics</p>
+<span class="stage-link">Explore Stage 5</span>
+</button>
+<a class="stage-card stage6" href="stage-6.html" style="display:block;text-decoration:none">
+<h2>Stage 6</h2>
+<p>Years 11–12 Mathematics</p>
+<span class="stage-link">Explore Stage 6</span>
+</a>
+</div>
+<div class="feature">
+<h2>Problem of the Day</h2>
+<p>
+        A new mathematical reasoning challenge each day,
+        with optional hints and worked solutions.
+        Suitable for Stages 4, 5 and 6.
+      </p>
+<a class="button purple" href="problem_of_the_day.html" style="display:inline-block">
+        Try Today's Challenge
+      </a>
+</div>
+</section>
+<!-- STAGE 4 -->
+<section class="stage-section" hidden="" id="stage-4">
+<button class="back-button" onclick="showHome()">
+      Back to Stages
+    </button>
+<h2 class="section-title">Stage 4 Mathematics</h2>
+<p class="section-subtitle">
+      Years 7–8 · Topic hubs and diagnostic tests
+    </p>
+<section aria-label="Stage 4 topic hubs" style="margin: 20px 0">
+<h3 class="group-title">Topic Hubs</h3><div class="grid"><article class="card"><div class="art mint">INTEGERS</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Integers Hub</h3><p class="desc">Diagnostic test, skill practice, worked examples, challenges, mini-tests and escape rooms.</p><a class="button" href="year7_integers_hub.html">Explore Integers</a></div></article><article class="card"><div class="art peach">FRACTIONS · DECIMALS · PERCENTAGES</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Fractions, Decimals and Percentages Hub</h3><p class="desc">180 practice questions, worked examples, visual fraction models, mini-tests, a diagnostic test and escape rooms.</p><a class="button" href="year7_fdp_hub.html">Explore FDP</a></div></article><article class="card"><div class="art rose">RATIOS · RATES</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Ratios and Rates Hub</h3><p class="desc">180 practice questions, distance–time graphs, interactive ratio explorer, mini-tests, a diagnostic test and two escape rooms.</p><a class="button" href="year7_ratios_rates_hub.html">Explore Ratios and Rates</a></div></article><article class="card"><div class="art lilac">ALGEBRAIC TECHNIQUES</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Algebraic Techniques Hub</h3><p class="desc">180 practice questions, visual algebra models, interactive substitution, mini-tests, a diagnostic test and two escape rooms.</p><a class="button" href="year7_algebraic_techniques_hub.html">Explore Algebraic Techniques</a></div></article><article class="card"><div class="art mint">EQUATIONS</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Equations Hub</h3><p class="desc">180 practice questions, interactive balance and equation solvers, mini-tests, a diagnostic test and two escape rooms.</p><a class="button" href="year7_equations_hub.html">Explore Equations</a></div></article><article class="card"><div class="art peach">LINEAR RELATIONSHIPS</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Linear Relationships Hub</h3><p class="desc">180 practice questions, interactive coordinate plotting, graph explorers, mini-tests, a diagnostic test and two escape rooms.</p><a class="button" href="year7_linear_relationships_hub.html">Explore Linear Relationships</a></div></article><article class="card"><div class="art peach">LENGTH, AREA AND VOLUME</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Length, Area and Volume Hub</h3><p class="desc">180 practice questions, interactive measurement labs, mini-tests, a diagnostic test and two escape rooms.</p><a class="button" href="year7_measurement_hub.html">Explore Length, Area and Volume</a></div></article><article class="card"><div class="art peach">ANGLE RELATIONSHIPS</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Angle Relationships Hub</h3><p class="desc">180 practice questions, interactive angle explorers, mini-tests, a diagnostic test and two escape rooms.</p><a class="button" href="year7_angle_relationships_hub.html">Explore Angle Relationships</a></div></article><article class="card"><div class="art rose">GEOMETRY</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Properties of Geometrical Figures Hub</h3><p class="desc">Explore triangles, quadrilaterals, symmetry and geometrical reasoning with 208 questions, interactive explorers and escape rooms.</p><a class="button" href="year7_properties_of_geometrical_figures_hub.html">Explore Geometry</a></div></article><article class="card"><div class="art mint">DATA</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Data Classification and Visualisation Hub</h3><p class="desc">Explore statistical displays, data types and misleading graphs with 208 questions, interactive explorers and escape rooms.</p><a class="button" href="year7_data_classification_and_visualisation_hub.html">Explore Data</a></div></article><article class="card"><div class="art lilac">DATA ANALYSIS</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Data Analysis Hub</h3><p class="desc">Explore mean, median, mode, range, outliers and dataset comparisons with 208 questions, interactive explorers and escape rooms.</p><a class="button" href="year7_data_analysis_hub.html">Explore Data Analysis</a></div></article><article class="card"><div class="art peach">PROBABILITY</div><div class="content"><span class="tag">YEAR 7 · STAGE 4</span><h3>Probability Hub</h3><p class="desc">Explore sample spaces, theoretical and experimental probability, and fair games with 208 questions, interactive explorers and escape rooms.</p><a class="button" href="year7_probability_hub.html">Explore Probability</a></div></article></div></section>
+<h3 class="group-title">Diagnostic Tests</h3>
+<div class="tab-panel" id="s4-diagnostic">
+<div aria-label="Stage 4 year" class="sub-tabs" role="tablist">
+<button aria-selected="true" class="sub-tab active" id="s4-y7-tab" onclick="showTab('s4','y7')" role="tab">
+          Year 7
+        </button>
+<button aria-selected="false" class="sub-tab" id="s4-y8-tab" onclick="showTab('s4','y8')" role="tab">
+          Year 8
+        </button>
+</div>
+<div class="sub-panel" id="s4-y7">
+<h3 class="group-title">Year 7 Diagnostic Tests</h3>
+<div class="grid">
+<article class="card">
+<div class="art blue">ALGEBRA</div>
+<div class="content">
+<h3>Algebra</h3>
+<p class="desc">Check your algebraic skills.</p>
+<a class="button" href="year7_algebra_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art mint">INTEGERS</div>
+<div class="content">
+<h3>Integers</h3>
+<p class="desc">Review positive and negative integers.</p>
+<a class="button" href="year7_integers_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art peach">FDP</div>
+<div class="content">
+<h3>Fractions, Decimals and Percentages</h3>
+<p class="desc">Assess your number skills.</p>
+<a class="button" href="year7_fdp_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art lilac">MEASUREMENT</div>
+<div class="content">
+<h3>Length, Area and Volume</h3>
+<p class="desc">Review measurement skills.</p>
+<a class="button" href="year7_measurement_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article><article class="card">
+<div class="art lilac">ANGLES</div>
+<div class="content">
+<h3>Angle Relationships</h3>
+<p class="desc">Review angle relationships and geometrical reasoning.</p>
+<a class="button" href="year7_angle_relationships_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art rose">GEOMETRY</div>
+<div class="content">
+<h3>Geometrical Properties</h3>
+<p class="desc">Review shapes, angles and geometry.</p>
+<a class="button" href="year7_geometry_properties_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card"><div class="art mint">DATA</div><div class="content"><h3>Data Classification and Visualisation</h3><p class="desc">Check your understanding of data types and graphs.</p><a class="button" href="year7_data_classification_and_visualisation_hub.html#diagnostic">Start Diagnostic</a></div></article><article class="card"><div class="art lilac">DATA ANALYSIS</div><div class="content"><h3>Data Analysis</h3><p class="desc">Check your understanding with a 16-question diagnostic.</p><a class="button" href="year7_data_analysis_hub.html#diagnostic">Start Diagnostic</a></div></article><article class="card"><div class="art peach">PROBABILITY</div><div class="content"><h3>Probability</h3><p class="desc">Check your understanding with a 16-question diagnostic.</p><a class="button" href="year7_probability_hub.html#diagnostic">Start Diagnostic</a></div></article></div>
+</div>
+<div class="sub-panel" hidden="" id="s4-y8">
+<h3 class="group-title">Year 8 Diagnostic Tests</h3>
+<div class="grid">
+<article class="card">
+<div class="art blue">ALGEBRA</div>
+<div class="content">
+<h3>Algebra</h3>
+<p class="desc">Check your algebraic skills.</p>
+<a class="button" href="year8_algebra_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art mint">LINEAR RELATIONSHIPS</div>
+<div class="content">
+<h3>Linear Relationships</h3>
+<p class="desc">Review linear equations and graphs.</p>
+<a class="button" href="year8_linear_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art peach">FDP</div>
+<div class="content">
+<h3>Fractions, Decimals and Percentages</h3>
+<p class="desc">Assess your number skills.</p>
+<a class="button" href="year8_fdp_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art lilac">GEOMETRY</div>
+<div class="content">
+<h3>Quadrilaterals</h3>
+<p class="desc">Review properties of quadrilaterals.</p>
+<a class="button" href="year8_quadrilaterals_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art rose">RATES AND RATIOS</div>
+<div class="content">
+<h3>Rates and Ratios</h3>
+<p class="desc">Review proportional reasoning.</p>
+<a class="button" href="year8_rates_ratios_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<!-- STAGE 5 -->
+<section class="stage-section" hidden="" id="stage-5">
+<button class="back-button" onclick="showHome()">
+      Back to Stages
+    </button>
+<h2 class="section-title">Stage 5 Mathematics</h2>
+<p class="section-subtitle">
+      Years 9–10 · Escape rooms and diagnostic tests
+    </p>
+<div aria-label="Stage 5 resources" class="tabs" role="tablist">
+<button aria-selected="true" class="tab active" id="s5-escape-tab" onclick="showTab('s5','escape')" role="tab">
+        Escape Rooms
+      </button>
+<button aria-selected="false" class="tab" id="s5-diagnostic-tab" onclick="showTab('s5','diagnostic')" role="tab">
+        Diagnostic Tests
+      </button>
+</div>
+<div class="tab-panel" id="s5-escape">
+<div class="notice">
+        New Stage 5 escape rooms are coming soon.
+      </div>
+</div>
+<div class="tab-panel" hidden="" id="s5-diagnostic">
+<div aria-label="Stage 5 year" class="sub-tabs" role="tablist">
+<button aria-selected="true" class="sub-tab active" id="s5-y9-tab" onclick="showTab('s5','y9')" role="tab">
+          Year 9
+        </button>
+<button aria-selected="false" class="sub-tab" id="s5-y10-tab" onclick="showTab('s5','y10')" role="tab">
+          Year 10
+        </button>
+</div>
+<div class="sub-panel" id="s5-y9">
+<h3 class="group-title">Year 9 Diagnostic Tests</h3>
+<div class="grid">
+<article class="card">
+<div class="art lilac">ALGEBRA</div>
+<div class="content">
+<h3>Algebra</h3>
+<p class="desc">Check your algebraic skills.</p>
+<a class="button purple" href="year9_algebra_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art blue">LINEAR RELATIONSHIPS</div>
+<div class="content">
+<h3>Linear Relationships</h3>
+<p class="desc">Review equations and linear graphs.</p>
+<a class="button purple" href="year9_linear_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+</div>
+</div>
+<div class="sub-panel" hidden="" id="s5-y10">
+<h3 class="group-title">Year 10 Diagnostic Tests</h3>
+<div class="grid">
+<article class="card">
+<div class="art lilac">ALGEBRA</div>
+<div class="content">
+<h3>Algebra</h3>
+<p class="desc">Check your algebraic skills.</p>
+<a class="button purple" href="year10_algebra_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+<article class="card">
+<div class="art blue">LINEAR RELATIONSHIPS</div>
+<div class="content">
+<h3>Linear Relationships</h3>
+<p class="desc">Review equations and linear graphs.</p>
+<a class="button purple" href="year10_linear_diagnostic.html">
+                Start Diagnostic
+              </a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<!-- STAGE 6 -->
+
+<!-- TEACHER HQ -->
+<div class="teacher-area">
+<a class="button" href="teacher_dashboard.html">
+      Enter Teacher HQ
+    </a>
+</div>
+<footer>
+    Viorosa Maths · Free NSW Mathematics Resources
+    <div>
+      Years 7–12 · Interactive revision and practice
+    </div>
+</footer>
+</main>
+<script>
+  function showStage(stage) {
+    const home = document.getElementById("stage-selection");
+    home.hidden = true;
+
+    document.querySelectorAll(".stage-section").forEach(section => {
+      section.hidden = true;
+    });
+
+    const target = document.getElementById("stage-" + stage);
+    if (target) target.hidden = false;
+
+
+    window.scrollTo(0, 0);
+  }
+
+  function showHome() {
+    document.querySelectorAll(".stage-section").forEach(section => {
+      section.hidden = true;
+    });
+
+    document.getElementById("stage-selection").hidden = false;
+    window.scrollTo(0, 0);
+  }
+
+  function showTab(group, selected) {
+    const groups = {
+      s4: ["diagnostic", "y7", "y8"],
+      s5: ["escape", "diagnostic", "y9", "y10"],
+      s6: ["topics", "hsc", "resources", "y11", "y12"]
+    };
+
+    if (!groups[group]) return;
+
+    const mainTabs = {
+      s4: ["diagnostic"],
+      s5: ["escape", "diagnostic"],
+      s6: ["topics", "hsc", "resources"]
+    };
+
+    const subTabs = {
+      s4: ["y7", "y8"],
+      s5: ["y9", "y10"],
+      s6: ["y11", "y12"]
+    };
+
+    if (mainTabs[group].includes(selected)) {
+      mainTabs[group].forEach(name => {
+        const panel = document.getElementById(group + "-" + name);
+        const tab = document.getElementById(group + "-" + name + "-tab");
+        const active = name === selected;
+
+        if (panel) panel.hidden = !active;
+
+        if (tab) {
+          tab.classList.toggle("active", active);
+          tab.setAttribute("aria-selected", String(active));
+        }
+      });
+
+      return;
+    }
+
+    if (subTabs[group] && subTabs[group].includes(selected)) {
+      subTabs[group].forEach(name => {
+        const panel = document.getElementById(group + "-" + name);
+        const tab = document.getElementById(group + "-" + name + "-tab");
+        const active = name === selected;
+
+        if (panel) panel.hidden = !active;
+
+        if (tab) {
+          tab.classList.toggle("active", active);
+          tab.setAttribute("aria-selected", String(active));
+        }
+      });
+    }
+  }
+
+  // Set the default tabs.
+  showTab("s4", "diagnostic");
+  showTab("s4", "y7");
+  showTab("s5", "escape");
+  showTab("s5", "y9");
+</script>
+</body>
+</html>
