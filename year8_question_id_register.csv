@@ -1,0 +1,1500 @@
+file,previous_id,permanent_id,prompt
+year8_algebra_hub.html,Q-001,VM-ALG-181,"Find the next term: 4, 7, 10, 13, ..."
+year8_algebra_hub.html,Q-002,VM-ALG-182,Write “five more than twice n” as an expression.
+year8_algebra_hub.html,Q-003,VM-ALG-183,Simplify: 7x + 2x − 4x.
+year8_algebra_hub.html,Q-004,VM-ALG-184,Simplify: 3a + 4b + 2a − b.
+year8_algebra_hub.html,Q-005,VM-ALG-185,Evaluate 4x − 3 when x = 5.
+year8_algebra_hub.html,Q-006,VM-ALG-186,Evaluate x² + 2 when x = −3.
+year8_algebra_hub.html,Q-007,VM-ALG-187,Expand: 3(x + 4).
+year8_algebra_hub.html,Q-008,VM-ALG-188,Expand: −2(a − 5).
+year8_algebra_hub.html,Q-009,VM-ALG-189,Solve: x + 8 = 19.
+year8_algebra_hub.html,Q-010,VM-ALG-190,Solve: 5x = 35.
+year8_algebra_hub.html,Q-011,VM-ALG-191,Solve: 2x + 3 = 15.
+year8_algebra_hub.html,Q-012,VM-ALG-192,A sequence follows the rule 4n − 1. What is term 6?
+year8_algebra_hub.html,Q-013,VM-ALG-193,A cinema ticket costs $12 and a snack costs $5. Which expression is the cost of t tickets and one snack?
+year8_algebra_hub.html,Q-014,VM-ALG-194,Four identical notebooks cost $28. How much does one notebook cost?
+year8_algebra_hub.html,Q-015,VM-ALG-195,A rectangle has length x + 3 cm and width x cm. What is its perimeter when x = 4?
+year8_algebra_hub.html,Q-016,VM-ALG-196,Simplify: 2(3x + 1) − x.
+year8_algebra_hub.html,Q-017,VM-ALG-197,Solve: 3(x + 2) = 21.
+year8_algebra_hub.html,Q-018,VM-ALG-198,Factorise: 4x + 12.
+year8_algebra_hub.html,Q-019,VM-ALG-199,"For y = 2x + 1, find y when x = −2."
+year8_algebra_hub.html,Q-020,VM-ALG-200,Solve: 5x − 4 = 2x + 11.
+year8_algebra_hub.html,Q-021,VM-ALG-201,A pattern starts with 7 tiles and gains 4 tiles each new figure. How many tiles are in figure 12?
+year8_algebra_hub.html,Q-022,VM-ALG-202,A number is tripled and then 8 is subtracted. The result is 31. What is the number?
+year8_algebra_hub.html,Q-023,VM-ALG-203,A taxi costs $6 plus $2 per kilometre. A trip costs $30. How far was the trip?
+year8_algebra_hub.html,Q-024,VM-ALG-204,A rectangle has width x and length x + 5. Which expression gives its perimeter?
+year8_algebra_hub.html,,VM-ALG-205,Expand 2(x + 3).
+year8_algebra_hub.html,,VM-ALG-206,Solve 3x − 1 = 11.
+year8_algebra_hub.html,,VM-ALG-207,Expand 3(x + 4).
+year8_algebra_hub.html,,VM-ALG-208,Solve 4x − 2 = 18.
+year8_algebra_hub.html,,VM-ALG-209,Expand 4(x + 5).
+year8_algebra_hub.html,,VM-ALG-210,Solve 5x − 3 = 27.
+year8_algebra_hub.html,,VM-ALG-211,Expand 5(x + 6).
+year8_algebra_hub.html,,VM-ALG-212,Solve 6x − 4 = 38.
+year8_algebra_hub.html,,VM-ALG-213,Expand 6(x + 7).
+year8_algebra_hub.html,,VM-ALG-214,Solve 7x − 5 = 51.
+year8_algebra_hub.html,,VM-ALG-215,Expand 7(x + 8).
+year8_algebra_hub.html,,VM-ALG-216,Solve 8x − 6 = 66.
+year8_algebra_hub.html,,VM-ALG-217,Expand 8(x + 9).
+year8_algebra_hub.html,,VM-ALG-218,Solve 9x − 7 = 83.
+year8_algebra_hub.html,,VM-ALG-219,Expand 9(x + 10).
+year8_algebra_hub.html,,VM-ALG-220,Solve 10x − 8 = 102.
+year8_algebra_hub.html,,VM-ALG-221,Expand 10(x + 11).
+year8_algebra_hub.html,,VM-ALG-222,Solve 11x − 9 = 123.
+year8_algebra_hub.html,,VM-ALG-223,Expand 11(x + 12).
+year8_algebra_hub.html,,VM-ALG-224,Solve 12x − 10 = 146.
+year8_algebra_hub.html,,VM-ALG-225,Expand 12(x + 13).
+year8_algebra_hub.html,,VM-ALG-226,Solve 13x − 11 = 171.
+year8_algebra_hub.html,,VM-ALG-227,Expand 13(x + 14).
+year8_algebra_hub.html,,VM-ALG-228,Solve 14x − 12 = 198.
+year8_algebra_hub.html,,VM-ALG-229,Factorise 4x + 12 fully.
+year8_algebra_hub.html,,VM-ALG-230,Solve 5x + 2 = 2x + 8.
+year8_algebra_hub.html,,VM-ALG-231,Factorise 6x + 18 fully.
+year8_algebra_hub.html,,VM-ALG-232,Solve 6x + 2 = 3x + 11.
+year8_algebra_hub.html,,VM-ALG-233,Factorise 8x + 24 fully.
+year8_algebra_hub.html,,VM-ALG-234,Solve 7x + 2 = 4x + 14.
+year8_algebra_hub.html,,VM-ALG-235,Factorise 10x + 30 fully.
+year8_algebra_hub.html,,VM-ALG-236,Solve 8x + 2 = 5x + 17.
+year8_algebra_hub.html,,VM-ALG-237,Factorise 12x + 36 fully.
+year8_algebra_hub.html,,VM-ALG-238,Solve 9x + 2 = 6x + 20.
+year8_algebra_hub.html,,VM-ALG-239,Factorise 14x + 42 fully.
+year8_algebra_hub.html,,VM-ALG-240,Solve 10x + 2 = 7x + 23.
+year8_algebra_hub.html,,VM-ALG-241,Factorise 16x + 48 fully.
+year8_algebra_hub.html,,VM-ALG-242,Solve 11x + 2 = 8x + 26.
+year8_algebra_hub.html,,VM-ALG-243,Factorise 18x + 54 fully.
+year8_algebra_hub.html,,VM-ALG-244,Solve 12x + 2 = 9x + 29.
+year8_algebra_diagnostic.html,Q-001,VM-ALG-181,"Find the next term: 4, 7, 10, 13, ..."
+year8_algebra_diagnostic.html,Q-002,VM-ALG-182,Write “five more than twice n” as an expression.
+year8_algebra_diagnostic.html,Q-003,VM-ALG-183,Simplify: 7x + 2x − 4x.
+year8_algebra_diagnostic.html,Q-004,VM-ALG-184,Simplify: 3a + 4b + 2a − b.
+year8_algebra_diagnostic.html,Q-005,VM-ALG-185,Evaluate 4x − 3 when x = 5.
+year8_algebra_diagnostic.html,Q-006,VM-ALG-186,Evaluate x² + 2 when x = −3.
+year8_algebra_diagnostic.html,Q-007,VM-ALG-187,Expand: 3(x + 4).
+year8_algebra_diagnostic.html,Q-008,VM-ALG-188,Expand: −2(a − 5).
+year8_algebra_diagnostic.html,Q-009,VM-ALG-189,Solve: x + 8 = 19.
+year8_algebra_diagnostic.html,Q-010,VM-ALG-190,Solve: 5x = 35.
+year8_algebra_diagnostic.html,Q-011,VM-ALG-191,Solve: 2x + 3 = 15.
+year8_algebra_diagnostic.html,Q-012,VM-ALG-192,A sequence follows the rule 4n − 1. What is term 6?
+year8_algebra_diagnostic.html,Q-013,VM-ALG-193,A cinema ticket costs $12 and a snack costs $5. Which expression is the cost of t tickets and one snack?
+year8_algebra_diagnostic.html,Q-014,VM-ALG-194,Four identical notebooks cost $28. How much does one notebook cost?
+year8_algebra_diagnostic.html,Q-015,VM-ALG-195,A rectangle has length x + 3 cm and width x cm. What is its perimeter when x = 4?
+year8_algebra_diagnostic.html,Q-016,VM-ALG-196,Simplify: 2(3x + 1) − x.
+year8_algebra_diagnostic.html,Q-017,VM-ALG-197,Solve: 3(x + 2) = 21.
+year8_algebra_diagnostic.html,Q-018,VM-ALG-198,Factorise: 4x + 12.
+year8_algebra_diagnostic.html,Q-019,VM-ALG-199,"For y = 2x + 1, find y when x = −2."
+year8_algebra_diagnostic.html,Q-020,VM-ALG-200,Solve: 5x − 4 = 2x + 11.
+year8_algebra_diagnostic.html,Q-021,VM-ALG-201,A pattern starts with 7 tiles and gains 4 tiles each new figure. How many tiles are in figure 12?
+year8_algebra_diagnostic.html,Q-022,VM-ALG-202,A number is tripled and then 8 is subtracted. The result is 31. What is the number?
+year8_algebra_diagnostic.html,Q-023,VM-ALG-203,A taxi costs $6 plus $2 per kilometre. A trip costs $30. How far was the trip?
+year8_algebra_diagnostic.html,Q-024,VM-ALG-204,A rectangle has width x and length x + 5. Which expression gives its perimeter?
+year8_fdp_hub.html,FDP8-001,VM-FDP-181,Which statement defines an irrational number?
+year8_fdp_hub.html,FDP8-002,VM-FDP-182,Which number is irrational?
+year8_fdp_hub.html,FDP8-003,VM-FDP-183,Which number is rational?
+year8_fdp_hub.html,FDP8-004,VM-FDP-184,What does 35% mean?
+year8_fdp_hub.html,FDP8-005,VM-FDP-185,Write 0.075 as a percentage.
+year8_fdp_hub.html,FDP8-006,VM-FDP-186,Write 3/8 as a percentage.
+year8_fdp_hub.html,FDP8-007,VM-FDP-187,Express 12% as a fraction in simplest form.
+year8_fdp_hub.html,FDP8-008,VM-FDP-188,A $80 jacket is discounted by 25%. What is its sale price?
+year8_fdp_hub.html,FDP8-009,VM-FDP-189,"A town has 2,000 residents. Its population grows by 5%. What is the new population?"
+year8_fdp_hub.html,FDP8-010,VM-FDP-190,A $150 item increases in price by 10%. What is the new price?
+year8_fdp_hub.html,FDP8-011,VM-FDP-191,A shop buys a bag for $40 and sells it for $55. What is the profit?
+year8_fdp_hub.html,FDP8-012,VM-FDP-192,A bicycle costs $200 and is sold for $180. What is the loss percentage?
+year8_fdp_hub.html,FDP8-013,VM-FDP-193,What does GST stand for in Australia?
+year8_fdp_hub.html,FDP8-014,VM-FDP-194,An item costs $50 before GST. Add 10% GST. What is the total price?
+year8_fdp_hub.html,FDP8-015,VM-FDP-195,Four identical notebooks cost $12. How much do seven notebooks cost?
+year8_fdp_hub.html,FDP8-016,VM-FDP-196,"After a 20% discount, a shirt costs $64. What was its original price?"
+year8_fdp_hub.html,FDP8-017,VM-FDP-197,A salary increases by 10% to $550. What was the salary before the increase?
+year8_fdp_hub.html,FDP8-018,VM-FDP-198,A price of $88 includes 10% GST. What is the price before GST?
+year8_fdp_hub.html,FDP8-019,VM-FDP-199,A shop buys a phone case for $24 and sells it for $30. What is the profit percentage on cost?
+year8_fdp_hub.html,FDP8-020,VM-FDP-200,"A $200 item is reduced by 15%, then the reduced price rises by 10%. What is the final price?"
+year8_fdp_hub.html,FDP8-021,VM-FDP-201,A $120 item is advertised before GST. What is the GST component and total including 10% GST?
+year8_fdp_hub.html,FDP8-022,VM-FDP-202,"Five kilograms of rice cost $17.50. At the same rate, how much do eight kilograms cost?"
+year8_fdp_hub.html,FDP8-023,VM-FDP-203,An investment earns simple interest of 4% per year on $750. How much interest is earned in 2 years?
+year8_fdp_hub.html,FDP8-024,VM-FDP-204,"After a 12% increase, a population is 2,800. What was the original population?"
+year8_fdp_hub.html,,VM-FDP-205,Increase $20 by 5%.
+year8_fdp_hub.html,,VM-FDP-206,"After a 20% discount, a price is $8. Find the original price."
+year8_fdp_hub.html,,VM-FDP-207,Increase $40 by 10%.
+year8_fdp_hub.html,,VM-FDP-208,"After a 20% discount, a price is $16. Find the original price."
+year8_fdp_hub.html,,VM-FDP-209,Increase $60 by 15%.
+year8_fdp_hub.html,,VM-FDP-210,"After a 20% discount, a price is $24. Find the original price."
+year8_fdp_hub.html,,VM-FDP-211,Increase $80 by 20%.
+year8_fdp_hub.html,,VM-FDP-212,"After a 20% discount, a price is $32. Find the original price."
+year8_fdp_hub.html,,VM-FDP-213,Increase $100 by 25%.
+year8_fdp_hub.html,,VM-FDP-214,"After a 20% discount, a price is $40. Find the original price."
+year8_fdp_hub.html,,VM-FDP-215,Increase $120 by 30%.
+year8_fdp_hub.html,,VM-FDP-216,"After a 20% discount, a price is $48. Find the original price."
+year8_fdp_hub.html,,VM-FDP-217,Increase $140 by 35%.
+year8_fdp_hub.html,,VM-FDP-218,"After a 20% discount, a price is $56. Find the original price."
+year8_fdp_hub.html,,VM-FDP-219,Increase $160 by 40%.
+year8_fdp_hub.html,,VM-FDP-220,"After a 20% discount, a price is $64. Find the original price."
+year8_fdp_hub.html,,VM-FDP-221,Increase $180 by 45%.
+year8_fdp_hub.html,,VM-FDP-222,"After a 20% discount, a price is $72. Find the original price."
+year8_fdp_hub.html,,VM-FDP-223,Increase $200 by 50%.
+year8_fdp_hub.html,,VM-FDP-224,"After a 20% discount, a price is $80. Find the original price."
+year8_fdp_hub.html,,VM-FDP-225,Increase $220 by 55%.
+year8_fdp_hub.html,,VM-FDP-226,"After a 20% discount, a price is $88. Find the original price."
+year8_fdp_hub.html,,VM-FDP-227,Increase $240 by 60%.
+year8_fdp_hub.html,,VM-FDP-228,"After a 20% discount, a price is $96. Find the original price."
+year8_fdp_hub.html,,VM-FDP-229,After a 20% discount a jacket costs $16. Find the original price.
+year8_fdp_hub.html,,VM-FDP-230,After a 20% discount a jacket costs $24. Find the original price.
+year8_fdp_hub.html,,VM-FDP-231,After a 20% discount a jacket costs $32. Find the original price.
+year8_fdp_hub.html,,VM-FDP-232,After a 20% discount a jacket costs $40. Find the original price.
+year8_fdp_hub.html,,VM-FDP-233,After a 20% discount a jacket costs $48. Find the original price.
+year8_fdp_hub.html,,VM-FDP-234,After a 20% discount a jacket costs $56. Find the original price.
+year8_fdp_hub.html,,VM-FDP-235,After a 20% discount a jacket costs $64. Find the original price.
+year8_fdp_hub.html,,VM-FDP-236,After a 20% discount a jacket costs $72. Find the original price.
+year8_fdp_diagnostic.html,FDP8-001,VM-FDP-181,Which statement defines an irrational number?
+year8_fdp_diagnostic.html,FDP8-002,VM-FDP-182,Which number is irrational?
+year8_fdp_diagnostic.html,FDP8-003,VM-FDP-183,Which number is rational?
+year8_fdp_diagnostic.html,FDP8-004,VM-FDP-184,What does 35% mean?
+year8_fdp_diagnostic.html,FDP8-005,VM-FDP-185,Write 0.075 as a percentage.
+year8_fdp_diagnostic.html,FDP8-006,VM-FDP-186,Write 3/8 as a percentage.
+year8_fdp_diagnostic.html,FDP8-007,VM-FDP-187,Express 12% as a fraction in simplest form.
+year8_fdp_diagnostic.html,FDP8-008,VM-FDP-188,A $80 jacket is discounted by 25%. What is its sale price?
+year8_fdp_diagnostic.html,FDP8-009,VM-FDP-189,"A town has 2,000 residents. Its population grows by 5%. What is the new population?"
+year8_fdp_diagnostic.html,FDP8-010,VM-FDP-190,A $150 item increases in price by 10%. What is the new price?
+year8_fdp_diagnostic.html,FDP8-011,VM-FDP-191,A shop buys a bag for $40 and sells it for $55. What is the profit?
+year8_fdp_diagnostic.html,FDP8-012,VM-FDP-192,A bicycle costs $200 and is sold for $180. What is the loss percentage?
+year8_fdp_diagnostic.html,FDP8-013,VM-FDP-193,What does GST stand for in Australia?
+year8_fdp_diagnostic.html,FDP8-014,VM-FDP-194,An item costs $50 before GST. Add 10% GST. What is the total price?
+year8_fdp_diagnostic.html,FDP8-015,VM-FDP-195,Four identical notebooks cost $12. How much do seven notebooks cost?
+year8_fdp_diagnostic.html,FDP8-016,VM-FDP-196,"After a 20% discount, a shirt costs $64. What was its original price?"
+year8_fdp_diagnostic.html,FDP8-017,VM-FDP-197,A salary increases by 10% to $550. What was the salary before the increase?
+year8_fdp_diagnostic.html,FDP8-018,VM-FDP-198,A price of $88 includes 10% GST. What is the price before GST?
+year8_fdp_diagnostic.html,FDP8-019,VM-FDP-199,A shop buys a phone case for $24 and sells it for $30. What is the profit percentage on cost?
+year8_fdp_diagnostic.html,FDP8-020,VM-FDP-200,"A $200 item is reduced by 15%, then the reduced price rises by 10%. What is the final price?"
+year8_fdp_diagnostic.html,FDP8-021,VM-FDP-201,A $120 item is advertised before GST. What is the GST component and total including 10% GST?
+year8_fdp_diagnostic.html,FDP8-022,VM-FDP-202,"Five kilograms of rice cost $17.50. At the same rate, how much do eight kilograms cost?"
+year8_fdp_diagnostic.html,FDP8-023,VM-FDP-203,An investment earns simple interest of 4% per year on $750. How much interest is earned in 2 years?
+year8_fdp_diagnostic.html,FDP8-024,VM-FDP-204,"After a 12% increase, a population is 2,800. What was the original population?"
+year8_linear_hub.html,Q-001,VM-LR-181,Which point has x-coordinate 3 and y-coordinate −2?
+year8_linear_hub.html,Q-002,VM-LR-182,"Which quadrant contains (−4, 5)?"
+year8_linear_hub.html,Q-003,VM-LR-183,A point lies on the y-axis at y = −6. What are its coordinates?
+year8_linear_hub.html,Q-004,VM-LR-184,"For y = x + 4, find y when x = 3."
+year8_linear_hub.html,Q-005,VM-LR-185,"For y = 2x, find y when x = −3."
+year8_linear_hub.html,Q-006,VM-LR-186,"The input-output pairs are (1, 5), (2, 8), (3, 11). What is the output when the input is 4?"
+year8_linear_hub.html,Q-007,VM-LR-187,"A pattern starts 6, 10, 14, 18. What is the next term?"
+year8_linear_hub.html,Q-008,VM-LR-188,The nth term is 3n + 1. Find the 5th term.
+year8_linear_hub.html,Q-009,VM-LR-189,Where does the line y = 5 cross the y-axis?
+year8_linear_hub.html,Q-010,VM-LR-190,Which equation describes a horizontal line through y = −2?
+year8_linear_hub.html,Q-011,VM-LR-191,Which equation describes a vertical line through x = 4?
+year8_linear_hub.html,Q-012,VM-LR-192,A line rises 3 units for every 1 unit moved right. What is its gradient?
+year8_linear_hub.html,Q-013,VM-LR-193,A horizontal line has what gradient?
+year8_linear_hub.html,Q-014,VM-LR-194,A taxi fare is $5 plus $3 per kilometre. How much does a 4 km trip cost?
+year8_linear_hub.html,Q-015,VM-LR-195,A growing pattern has 4 tiles in figure 1 and gains 5 tiles each figure. How many in figure 6?
+year8_linear_hub.html,Q-016,VM-LR-196,"A line passes through (0, 1) and (2, 7). What is its gradient?"
+year8_linear_hub.html,Q-017,VM-LR-197,Which equation has gradient 2 and y-intercept 5?
+year8_linear_hub.html,Q-018,VM-LR-198,What is the y-intercept of y = −3x + 4?
+year8_linear_hub.html,Q-019,VM-LR-199,"For y = 2x − 3, which point lies on the line?"
+year8_linear_hub.html,Q-020,VM-LR-200,"Which equation represents a line through (0, −2) with gradient 4?"
+year8_linear_hub.html,Q-021,VM-LR-201,A plant is 12 cm tall and grows 3 cm each week. After how many weeks will it be 30 cm tall?
+year8_linear_hub.html,Q-022,VM-LR-202,Two plans cost A = 8 + 4w and B = 20 + 2w dollars after w weeks. When are they equal?
+year8_linear_hub.html,Q-023,VM-LR-203,A ramp rises 6 cm over a horizontal distance of 3 cm. What is its gradient?
+year8_linear_hub.html,Q-024,VM-LR-204,"A robot moves from (−2, 1) four units right and three units down. Where does it finish?"
+year8_linear_hub.html,,VM-LR-205,Find y when x = 3 on y = 1x − 3.
+year8_linear_hub.html,,VM-LR-206,"Find the gradient between (0, 1) and (4, 5)."
+year8_linear_hub.html,,VM-LR-207,Find y when x = 4 on y = 2x − 3.
+year8_linear_hub.html,,VM-LR-208,"Find the gradient between (0, 2) and (4, 10)."
+year8_linear_hub.html,,VM-LR-209,Find y when x = 5 on y = 3x − 3.
+year8_linear_hub.html,,VM-LR-210,"Find the gradient between (0, 3) and (4, 15)."
+year8_linear_hub.html,,VM-LR-211,Find y when x = 6 on y = 4x − 3.
+year8_linear_hub.html,,VM-LR-212,"Find the gradient between (0, 4) and (4, 20)."
+year8_linear_hub.html,,VM-LR-213,Find y when x = 7 on y = 5x − 3.
+year8_linear_hub.html,,VM-LR-214,"Find the gradient between (0, 5) and (4, 25)."
+year8_linear_hub.html,,VM-LR-215,Find y when x = 8 on y = 6x − 3.
+year8_linear_hub.html,,VM-LR-216,"Find the gradient between (0, 6) and (4, 30)."
+year8_linear_hub.html,,VM-LR-217,Find y when x = 9 on y = 7x − 3.
+year8_linear_hub.html,,VM-LR-218,"Find the gradient between (0, 7) and (4, 35)."
+year8_linear_hub.html,,VM-LR-219,Find y when x = 10 on y = 8x − 3.
+year8_linear_hub.html,,VM-LR-220,"Find the gradient between (0, 8) and (4, 40)."
+year8_linear_hub.html,,VM-LR-221,Find y when x = 11 on y = 9x − 3.
+year8_linear_hub.html,,VM-LR-222,"Find the gradient between (0, 9) and (4, 45)."
+year8_linear_hub.html,,VM-LR-223,Find y when x = 12 on y = 10x − 3.
+year8_linear_hub.html,,VM-LR-224,"Find the gradient between (0, 10) and (4, 50)."
+year8_linear_hub.html,,VM-LR-225,Find y when x = 13 on y = 11x − 3.
+year8_linear_hub.html,,VM-LR-226,"Find the gradient between (0, 11) and (4, 55)."
+year8_linear_hub.html,,VM-LR-227,Find y when x = 14 on y = 12x − 3.
+year8_linear_hub.html,,VM-LR-228,"Find the gradient between (0, 12) and (4, 60)."
+year8_linear_hub.html,,VM-LR-229,"Find the gradient of the line through (0, 2) and (4, 10)."
+year8_linear_hub.html,,VM-LR-230,"Find the gradient of the line through (0, 2) and (4, 14)."
+year8_linear_hub.html,,VM-LR-231,"Find the gradient of the line through (0, 2) and (4, 18)."
+year8_linear_hub.html,,VM-LR-232,"Find the gradient of the line through (0, 2) and (4, 22)."
+year8_linear_hub.html,,VM-LR-233,"Find the gradient of the line through (0, 2) and (4, 26)."
+year8_linear_hub.html,,VM-LR-234,"Find the gradient of the line through (0, 2) and (4, 30)."
+year8_linear_hub.html,,VM-LR-235,"Find the gradient of the line through (0, 2) and (4, 34)."
+year8_linear_hub.html,,VM-LR-236,"Find the gradient of the line through (0, 2) and (4, 38)."
+year8_linear_diagnostic.html,Q-001,VM-LR-181,Which point has x-coordinate 3 and y-coordinate −2?
+year8_linear_diagnostic.html,Q-002,VM-LR-182,"Which quadrant contains (−4, 5)?"
+year8_linear_diagnostic.html,Q-003,VM-LR-183,A point lies on the y-axis at y = −6. What are its coordinates?
+year8_linear_diagnostic.html,Q-004,VM-LR-184,"For y = x + 4, find y when x = 3."
+year8_linear_diagnostic.html,Q-005,VM-LR-185,"For y = 2x, find y when x = −3."
+year8_linear_diagnostic.html,Q-006,VM-LR-186,"The input-output pairs are (1, 5), (2, 8), (3, 11). What is the output when the input is 4?"
+year8_linear_diagnostic.html,Q-007,VM-LR-187,"A pattern starts 6, 10, 14, 18. What is the next term?"
+year8_linear_diagnostic.html,Q-008,VM-LR-188,The nth term is 3n + 1. Find the 5th term.
+year8_linear_diagnostic.html,Q-009,VM-LR-189,Where does the line y = 5 cross the y-axis?
+year8_linear_diagnostic.html,Q-010,VM-LR-190,Which equation describes a horizontal line through y = −2?
+year8_linear_diagnostic.html,Q-011,VM-LR-191,Which equation describes a vertical line through x = 4?
+year8_linear_diagnostic.html,Q-012,VM-LR-192,A line rises 3 units for every 1 unit moved right. What is its gradient?
+year8_linear_diagnostic.html,Q-013,VM-LR-193,A horizontal line has what gradient?
+year8_linear_diagnostic.html,Q-014,VM-LR-194,A taxi fare is $5 plus $3 per kilometre. How much does a 4 km trip cost?
+year8_linear_diagnostic.html,Q-015,VM-LR-195,A growing pattern has 4 tiles in figure 1 and gains 5 tiles each figure. How many in figure 6?
+year8_linear_diagnostic.html,Q-016,VM-LR-196,"A line passes through (0, 1) and (2, 7). What is its gradient?"
+year8_linear_diagnostic.html,Q-017,VM-LR-197,Which equation has gradient 2 and y-intercept 5?
+year8_linear_diagnostic.html,Q-018,VM-LR-198,What is the y-intercept of y = −3x + 4?
+year8_linear_diagnostic.html,Q-019,VM-LR-199,"For y = 2x − 3, which point lies on the line?"
+year8_linear_diagnostic.html,Q-020,VM-LR-200,"Which equation represents a line through (0, −2) with gradient 4?"
+year8_linear_diagnostic.html,Q-021,VM-LR-201,A plant is 12 cm tall and grows 3 cm each week. After how many weeks will it be 30 cm tall?
+year8_linear_diagnostic.html,Q-022,VM-LR-202,Two plans cost A = 8 + 4w and B = 20 + 2w dollars after w weeks. When are they equal?
+year8_linear_diagnostic.html,Q-023,VM-LR-203,A ramp rises 6 cm over a horizontal distance of 3 cm. What is its gradient?
+year8_linear_diagnostic.html,Q-024,VM-LR-204,"A robot moves from (−2, 1) four units right and three units down. Where does it finish?"
+year8_quadrilaterals_hub.html,QUAD-001,VM-PGF-209,Which quadrilateral has two pairs of parallel opposite sides?
+year8_quadrilaterals_hub.html,QUAD-002,VM-PGF-210,Which property must every rectangle have?
+year8_quadrilaterals_hub.html,QUAD-003,VM-PGF-211,Which property must every rhombus have?
+year8_quadrilaterals_hub.html,QUAD-004,VM-PGF-212,A quadrilateral has four equal sides and four right angles. What is it?
+year8_quadrilaterals_hub.html,QUAD-005,VM-PGF-213,"In a parallelogram, opposite angles are…"
+year8_quadrilaterals_hub.html,QUAD-006,VM-PGF-214,Which shape always has exactly one pair of parallel sides?
+year8_quadrilaterals_hub.html,QUAD-007,VM-PGF-215,Which quadrilateral has two pairs of adjacent equal sides?
+year8_quadrilaterals_hub.html,QUAD-008,VM-PGF-216,A parallelogram has one angle of 68°. What is an adjacent interior angle?
+year8_quadrilaterals_hub.html,QUAD-009,VM-PGF-217,"A quadrilateral has angles 80°, 95° and 110°. Find the fourth angle."
+year8_quadrilaterals_hub.html,QUAD-010,VM-PGF-218,A parallelogram has adjacent side lengths 7 cm and 11 cm. What is its perimeter?
+year8_quadrilaterals_hub.html,QUAD-011,VM-PGF-219,Which quadrilateral is shown in the diagram?
+year8_quadrilaterals_hub.html,QUAD-012,VM-PGF-220,An exterior angle of a triangle is 125°. One remote interior angle is 55°. Find the other.
+year8_quadrilaterals_hub.html,QUAD-013,VM-PGF-221,A rhombus has perimeter 52 cm. How long is one side?
+year8_quadrilaterals_hub.html,QUAD-014,VM-PGF-222,Which statement about a square is true?
+year8_quadrilaterals_hub.html,QUAD-015,VM-PGF-223,A rhombus has one interior angle of 120°. Find an adjacent interior angle.
+year8_quadrilaterals_hub.html,QUAD-016,VM-PGF-224,A quadrilateral has four equal sides but no right angles. Identify it.
+year8_quadrilaterals_hub.html,QUAD-017,VM-PGF-225,A rectangle has perimeter 46 cm and length 15 cm. Find its width.
+year8_quadrilaterals_hub.html,QUAD-018,VM-PGF-226,Which property holds for a kite with two distinct pairs of equal adjacent sides?
+year8_quadrilaterals_hub.html,QUAD-019,VM-PGF-227,Identify the quadrilateral shown.
+year8_quadrilaterals_hub.html,QUAD-020,VM-PGF-228,An exterior angle of a triangle is 135°. The remote interior angles are x and 2x. Find x.
+year8_quadrilaterals_hub.html,QUAD-021,VM-PGF-229,"In a parallelogram, adjacent angles are (3x + 10)° and (2x + 20)°. Find x."
+year8_quadrilaterals_hub.html,QUAD-022,VM-PGF-230,A rhombus and a rectangle have equal perimeters. The rhombus side is 9 cm; the rectangle length is 12 cm. Find its width.
+year8_quadrilaterals_hub.html,QUAD-023,VM-PGF-231,The two remote interior angles of a triangle are (x + 15)° and (2x − 5)°. Its exterior angle is 130°. Find x.
+year8_quadrilaterals_hub.html,QUAD-024,VM-PGF-232,"A quadrilateral has diagonals that bisect each other at right angles, but are not equal. Which is the most specific option?"
+year8_quadrilaterals_hub.html,,VM-PGF-233,"A quadrilateral has angles 61°, 90° and 101°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-234,A parallelogram has perimeter 26 cm and one side 5 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-235,"A quadrilateral has angles 62°, 90° and 102°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-236,A parallelogram has perimeter 32 cm and one side 6 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-237,"A quadrilateral has angles 63°, 90° and 103°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-238,A parallelogram has perimeter 38 cm and one side 7 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-239,"A quadrilateral has angles 64°, 90° and 104°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-240,A parallelogram has perimeter 44 cm and one side 8 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-241,"A quadrilateral has angles 65°, 90° and 105°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-242,A parallelogram has perimeter 50 cm and one side 9 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-243,"A quadrilateral has angles 66°, 90° and 106°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-244,A parallelogram has perimeter 56 cm and one side 10 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-245,"A quadrilateral has angles 67°, 90° and 107°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-246,A parallelogram has perimeter 62 cm and one side 11 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-247,"A quadrilateral has angles 68°, 90° and 108°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-248,A parallelogram has perimeter 68 cm and one side 12 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-249,"A quadrilateral has angles 69°, 90° and 109°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-250,A parallelogram has perimeter 74 cm and one side 13 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-251,"A quadrilateral has angles 70°, 90° and 110°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-252,A parallelogram has perimeter 80 cm and one side 14 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-253,"A quadrilateral has angles 71°, 90° and 111°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-254,A parallelogram has perimeter 86 cm and one side 15 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-255,"A quadrilateral has angles 72°, 90° and 112°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-256,A parallelogram has perimeter 92 cm and one side 16 cm. Find the adjacent side.
+year8_quadrilaterals_hub.html,,VM-PGF-257,"A quadrilateral has angles 90°, 110° and 62°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-258,"A quadrilateral has angles 90°, 110° and 63°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-259,"A quadrilateral has angles 90°, 110° and 64°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-260,"A quadrilateral has angles 90°, 110° and 65°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-261,"A quadrilateral has angles 90°, 110° and 66°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-262,"A quadrilateral has angles 90°, 110° and 67°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-263,"A quadrilateral has angles 90°, 110° and 68°. Find the fourth angle."
+year8_quadrilaterals_hub.html,,VM-PGF-264,"A quadrilateral has angles 90°, 110° and 69°. Find the fourth angle."
+year8_quadrilaterals_diagnostic.html,QUAD-001,VM-PGF-209,Which quadrilateral has two pairs of parallel opposite sides?
+year8_quadrilaterals_diagnostic.html,QUAD-002,VM-PGF-210,Which property must every rectangle have?
+year8_quadrilaterals_diagnostic.html,QUAD-003,VM-PGF-211,Which property must every rhombus have?
+year8_quadrilaterals_diagnostic.html,QUAD-004,VM-PGF-212,A quadrilateral has four equal sides and four right angles. What is it?
+year8_quadrilaterals_diagnostic.html,QUAD-005,VM-PGF-213,"In a parallelogram, opposite angles are…"
+year8_quadrilaterals_diagnostic.html,QUAD-006,VM-PGF-214,Which shape always has exactly one pair of parallel sides?
+year8_quadrilaterals_diagnostic.html,QUAD-007,VM-PGF-215,Which quadrilateral has two pairs of adjacent equal sides?
+year8_quadrilaterals_diagnostic.html,QUAD-008,VM-PGF-216,A parallelogram has one angle of 68°. What is an adjacent interior angle?
+year8_quadrilaterals_diagnostic.html,QUAD-009,VM-PGF-217,"A quadrilateral has angles 80°, 95° and 110°. Find the fourth angle."
+year8_quadrilaterals_diagnostic.html,QUAD-010,VM-PGF-218,A parallelogram has adjacent side lengths 7 cm and 11 cm. What is its perimeter?
+year8_quadrilaterals_diagnostic.html,QUAD-011,VM-PGF-219,Which quadrilateral is shown in the diagram?
+year8_quadrilaterals_diagnostic.html,QUAD-012,VM-PGF-220,An exterior angle of a triangle is 125°. One remote interior angle is 55°. Find the other.
+year8_quadrilaterals_diagnostic.html,QUAD-013,VM-PGF-221,A rhombus has perimeter 52 cm. How long is one side?
+year8_quadrilaterals_diagnostic.html,QUAD-014,VM-PGF-222,Which statement about a square is true?
+year8_quadrilaterals_diagnostic.html,QUAD-015,VM-PGF-223,A rhombus has one interior angle of 120°. Find an adjacent interior angle.
+year8_quadrilaterals_diagnostic.html,QUAD-016,VM-PGF-224,A quadrilateral has four equal sides but no right angles. Identify it.
+year8_quadrilaterals_diagnostic.html,QUAD-017,VM-PGF-225,A rectangle has perimeter 46 cm and length 15 cm. Find its width.
+year8_quadrilaterals_diagnostic.html,QUAD-018,VM-PGF-226,Which property holds for a kite with two distinct pairs of equal adjacent sides?
+year8_quadrilaterals_diagnostic.html,QUAD-019,VM-PGF-227,Identify the quadrilateral shown.
+year8_quadrilaterals_diagnostic.html,QUAD-020,VM-PGF-228,An exterior angle of a triangle is 135°. The remote interior angles are x and 2x. Find x.
+year8_quadrilaterals_diagnostic.html,QUAD-021,VM-PGF-229,"In a parallelogram, adjacent angles are (3x + 10)° and (2x + 20)°. Find x."
+year8_quadrilaterals_diagnostic.html,QUAD-022,VM-PGF-230,A rhombus and a rectangle have equal perimeters. The rhombus side is 9 cm; the rectangle length is 12 cm. Find its width.
+year8_quadrilaterals_diagnostic.html,QUAD-023,VM-PGF-231,The two remote interior angles of a triangle are (x + 15)° and (2x − 5)°. Its exterior angle is 130°. Find x.
+year8_quadrilaterals_diagnostic.html,QUAD-024,VM-PGF-232,"A quadrilateral has diagonals that bisect each other at right angles, but are not equal. Which is the most specific option?"
+year8_rates_ratios_hub.html,RATE-001,VM-RR-181,A ratio compares…
+year8_rates_ratios_hub.html,RATE-002,VM-RR-182,Simplify 12:18.
+year8_rates_ratios_hub.html,RATE-003,VM-RR-183,Which ratio is equivalent to 3:5?
+year8_rates_ratios_hub.html,RATE-004,VM-RR-184,Share 40 stickers in the ratio 3:5. How many go to the first person?
+year8_rates_ratios_hub.html,RATE-005,VM-RR-185,A cyclist travels 60 km in 3 hours. What is the average speed?
+year8_rates_ratios_hub.html,RATE-006,VM-RR-186,Convert 2.5 km to metres.
+year8_rates_ratios_hub.html,RATE-007,VM-RR-187,A 500 g bag costs $4. What is the price per kilogram?
+year8_rates_ratios_hub.html,RATE-008,VM-RR-188,A recipe uses flour and sugar in a 4:1 ratio. How much sugar for 600 g flour?
+year8_rates_ratios_hub.html,RATE-009,VM-RR-189,A tap fills 24 L in 6 minutes. Find its rate.
+year8_rates_ratios_hub.html,RATE-010,VM-RR-190,Convert 72 km/h to m/s.
+year8_rates_ratios_hub.html,RATE-011,VM-RR-191,What does a horizontal section on a distance–time graph mean?
+year8_rates_ratios_hub.html,RATE-012,VM-RR-192,"On the graph, how far has the traveller gone after 2 hours?"
+year8_rates_ratios_hub.html,RATE-013,VM-RR-193,A car travels 150 km in 2.5 hours. Find its average speed.
+year8_rates_ratios_hub.html,RATE-014,VM-RR-194,"Red:blue counters are 5:2. If there are 15 red counters, how many blue?"
+year8_rates_ratios_hub.html,RATE-015,VM-RR-195,Convert 450 cm/s to m/s.
+year8_rates_ratios_hub.html,RATE-016,VM-RR-196,A worker earns $96 for 8 hours. How much for 11 hours at the same rate?
+year8_rates_ratios_hub.html,RATE-017,VM-RR-197,A drink mix uses concentrate and water in ratio 1:4. How much water is needed for 750 mL concentrate?
+year8_rates_ratios_hub.html,RATE-018,VM-RR-198,"On the graph, between which hours is the traveller stopped?"
+year8_rates_ratios_hub.html,RATE-019,VM-RR-199,A distance–time graph rises from 0 km at 0 h to 18 km at 3 h in a straight line. What is the speed?
+year8_rates_ratios_hub.html,RATE-020,VM-RR-200,"Which graph matches a traveller who goes 6 km in 2 h, rests 1 h, then travels another 3 km in 1 h?"
+year8_rates_ratios_hub.html,RATE-021,VM-RR-201,Two printers together print 180 pages in 6 minutes. One prints 12 pages/min. What is the other printer’s rate?
+year8_rates_ratios_hub.html,RATE-022,VM-RR-202,A:B = 2:3 and B:C = 4:5. Find A:B:C.
+year8_rates_ratios_hub.html,RATE-023,VM-RR-203,A journey is 120 km at 60 km/h followed by 120 km at 40 km/h. Find average speed for the whole journey.
+year8_rates_ratios_hub.html,RATE-024,VM-RR-204,A runner travels 400 m in 50 s. What is the speed in km/h?
+year8_rates_ratios_hub.html,,VM-RR-205,A cyclist travels 12 km in 2 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-206,Divide $15 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-207,A cyclist travels 24 km in 3 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-208,Divide $30 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-209,A cyclist travels 36 km in 4 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-210,Divide $45 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-211,A cyclist travels 48 km in 5 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-212,Divide $60 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-213,A cyclist travels 60 km in 6 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-214,Divide $75 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-215,A cyclist travels 72 km in 7 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-216,Divide $90 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-217,A cyclist travels 84 km in 8 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-218,Divide $105 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-219,A cyclist travels 96 km in 9 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-220,Divide $120 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-221,A cyclist travels 108 km in 10 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-222,Divide $135 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-223,A cyclist travels 120 km in 11 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-224,Divide $150 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-225,A cyclist travels 132 km in 12 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-226,Divide $165 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-227,A cyclist travels 144 km in 13 hours. Find the average speed to 2 decimal places.
+year8_rates_ratios_hub.html,,VM-RR-228,Divide $180 in the ratio 2 : 3. Find the larger share.
+year8_rates_ratios_hub.html,,VM-RR-229,A recipe for 4 people uses 200 g of flour. How much is needed for 6 people?
+year8_rates_ratios_hub.html,,VM-RR-230,A recipe for 4 people uses 300 g of flour. How much is needed for 6 people?
+year8_rates_ratios_hub.html,,VM-RR-231,A recipe for 4 people uses 400 g of flour. How much is needed for 6 people?
+year8_rates_ratios_hub.html,,VM-RR-232,A recipe for 4 people uses 500 g of flour. How much is needed for 6 people?
+year8_rates_ratios_hub.html,,VM-RR-233,A recipe for 4 people uses 600 g of flour. How much is needed for 6 people?
+year8_rates_ratios_hub.html,,VM-RR-234,A recipe for 4 people uses 700 g of flour. How much is needed for 6 people?
+year8_rates_ratios_hub.html,,VM-RR-235,A recipe for 4 people uses 800 g of flour. How much is needed for 6 people?
+year8_rates_ratios_hub.html,,VM-RR-236,A recipe for 4 people uses 900 g of flour. How much is needed for 6 people?
+year8_rates_ratios_diagnostic.html,RATE-001,VM-RR-181,A ratio compares…
+year8_rates_ratios_diagnostic.html,RATE-002,VM-RR-182,Simplify 12:18.
+year8_rates_ratios_diagnostic.html,RATE-003,VM-RR-183,Which ratio is equivalent to 3:5?
+year8_rates_ratios_diagnostic.html,RATE-004,VM-RR-184,Share 40 stickers in the ratio 3:5. How many go to the first person?
+year8_rates_ratios_diagnostic.html,RATE-005,VM-RR-185,A cyclist travels 60 km in 3 hours. What is the average speed?
+year8_rates_ratios_diagnostic.html,RATE-006,VM-RR-186,Convert 2.5 km to metres.
+year8_rates_ratios_diagnostic.html,RATE-007,VM-RR-187,A 500 g bag costs $4. What is the price per kilogram?
+year8_rates_ratios_diagnostic.html,RATE-008,VM-RR-188,A recipe uses flour and sugar in a 4:1 ratio. How much sugar for 600 g flour?
+year8_rates_ratios_diagnostic.html,RATE-009,VM-RR-189,A tap fills 24 L in 6 minutes. Find its rate.
+year8_rates_ratios_diagnostic.html,RATE-010,VM-RR-190,Convert 72 km/h to m/s.
+year8_rates_ratios_diagnostic.html,RATE-011,VM-RR-191,What does a horizontal section on a distance–time graph mean?
+year8_rates_ratios_diagnostic.html,RATE-012,VM-RR-192,"On the graph, how far has the traveller gone after 2 hours?"
+year8_rates_ratios_diagnostic.html,RATE-013,VM-RR-193,A car travels 150 km in 2.5 hours. Find its average speed.
+year8_rates_ratios_diagnostic.html,RATE-014,VM-RR-194,"Red:blue counters are 5:2. If there are 15 red counters, how many blue?"
+year8_rates_ratios_diagnostic.html,RATE-015,VM-RR-195,Convert 450 cm/s to m/s.
+year8_rates_ratios_diagnostic.html,RATE-016,VM-RR-196,A worker earns $96 for 8 hours. How much for 11 hours at the same rate?
+year8_rates_ratios_diagnostic.html,RATE-017,VM-RR-197,A drink mix uses concentrate and water in ratio 1:4. How much water is needed for 750 mL concentrate?
+year8_rates_ratios_diagnostic.html,RATE-018,VM-RR-198,"On the graph, between which hours is the traveller stopped?"
+year8_rates_ratios_diagnostic.html,RATE-019,VM-RR-199,A distance–time graph rises from 0 km at 0 h to 18 km at 3 h in a straight line. What is the speed?
+year8_rates_ratios_diagnostic.html,RATE-020,VM-RR-200,"Which graph matches a traveller who goes 6 km in 2 h, rests 1 h, then travels another 3 km in 1 h?"
+year8_rates_ratios_diagnostic.html,RATE-021,VM-RR-201,Two printers together print 180 pages in 6 minutes. One prints 12 pages/min. What is the other printer’s rate?
+year8_rates_ratios_diagnostic.html,RATE-022,VM-RR-202,A:B = 2:3 and B:C = 4:5. Find A:B:C.
+year8_rates_ratios_diagnostic.html,RATE-023,VM-RR-203,A journey is 120 km at 60 km/h followed by 120 km at 40 km/h. Find average speed for the whole journey.
+year8_rates_ratios_diagnostic.html,RATE-024,VM-RR-204,A runner travels 400 m in 50 s. What is the speed in km/h?
+year8_indices_hub.html,,VM-IND-001,Simplify x<sup>2</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-002,Find √16.
+year8_indices_hub.html,,VM-IND-003,"Simplify (a<sup>2</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_hub.html,,VM-IND-004,Simplify x<sup>3</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-005,Find √36.
+year8_indices_hub.html,,VM-IND-006,"Simplify (a<sup>3</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_hub.html,,VM-IND-007,Simplify x<sup>4</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-008,Find √64.
+year8_indices_hub.html,,VM-IND-009,"Simplify (a<sup>4</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_hub.html,,VM-IND-010,Simplify x<sup>5</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-011,Find √100.
+year8_indices_hub.html,,VM-IND-012,"Simplify (a<sup>5</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_hub.html,,VM-IND-013,Simplify x<sup>6</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-014,Find √144.
+year8_indices_hub.html,,VM-IND-015,"Simplify (a<sup>6</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_hub.html,,VM-IND-016,Simplify x<sup>7</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-017,Find √196.
+year8_indices_hub.html,,VM-IND-018,"Simplify (a<sup>7</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_hub.html,,VM-IND-019,Simplify x<sup>8</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-020,Find √256.
+year8_indices_hub.html,,VM-IND-021,"Simplify (a<sup>8</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_hub.html,,VM-IND-022,Simplify x<sup>9</sup> × x<sup>3</sup>.
+year8_indices_hub.html,,VM-IND-023,Find √324.
+year8_indices_hub.html,,VM-IND-024,"Simplify (a<sup>9</sup>)<sup>3</sup> ÷ a<sup>2</sup>, where a ≠ 0."
+year8_indices_diagnostic.html,,VM-IND-025,Evaluate 3⁴.
+year8_indices_diagnostic.html,,VM-IND-026,Simplify x³ × x⁵.
+year8_indices_diagnostic.html,,VM-IND-027,Simplify (a³)².
+year8_indices_diagnostic.html,,VM-IND-028,Evaluate 7⁰.
+year8_indices_diagnostic.html,,VM-IND-029,Find ∛125.
+year8_indices_diagnostic.html,,VM-IND-030,Evaluate (−2)⁴.
+year8_indices_diagnostic.html,,VM-IND-031,"Simplify b⁹ ÷ b⁴, b ≠ 0."
+year8_indices_diagnostic.html,,VM-IND-032,Which is equal to 2⁶?
+year8_measurement_hub.html,,VM-ME-181,A trapezium has parallel sides 5 cm and 9 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-182,"A triangular prism has triangular base of width 4 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-183,A circle has radius 2 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-184,A closed rectangular box measures 2 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_hub.html,,VM-ME-185,A trapezium has parallel sides 6 cm and 10 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-186,"A triangular prism has triangular base of width 6 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-187,A circle has radius 3 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-188,A closed rectangular box measures 3 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_hub.html,,VM-ME-189,A trapezium has parallel sides 7 cm and 11 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-190,"A triangular prism has triangular base of width 8 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-191,A circle has radius 4 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-192,A closed rectangular box measures 4 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_hub.html,,VM-ME-193,A trapezium has parallel sides 8 cm and 12 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-194,"A triangular prism has triangular base of width 10 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-195,A circle has radius 5 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-196,A closed rectangular box measures 5 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_hub.html,,VM-ME-197,A trapezium has parallel sides 9 cm and 13 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-198,"A triangular prism has triangular base of width 12 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-199,A circle has radius 6 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-200,A closed rectangular box measures 6 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_hub.html,,VM-ME-201,A trapezium has parallel sides 10 cm and 14 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-202,"A triangular prism has triangular base of width 14 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-203,A circle has radius 7 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-204,A closed rectangular box measures 7 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_hub.html,,VM-ME-205,A trapezium has parallel sides 11 cm and 15 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-206,"A triangular prism has triangular base of width 16 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-207,A circle has radius 8 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-208,A closed rectangular box measures 8 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_hub.html,,VM-ME-209,A trapezium has parallel sides 12 cm and 16 cm and height 6 cm. Find its area.
+year8_measurement_hub.html,,VM-ME-210,"A triangular prism has triangular base of width 18 cm, perpendicular height 5 cm and length 7 cm. Find its volume."
+year8_measurement_hub.html,,VM-ME-211,A circle has radius 9 cm. Find its exact area.
+year8_measurement_hub.html,,VM-ME-212,A closed rectangular box measures 9 cm by 4 cm by 5 cm. Find its surface area.
+year8_measurement_diagnostic.html,,VM-ME-213,Area of a triangle with base 12 cm and perpendicular height 7 cm?
+year8_measurement_diagnostic.html,,VM-ME-214,Circumference of a circle of diameter 10 cm?
+year8_measurement_diagnostic.html,,VM-ME-215,Convert 2.5 m² to cm².
+year8_measurement_diagnostic.html,,VM-ME-216,Volume of a prism with cross-sectional area 15 cm² and length 8 cm?
+year8_measurement_diagnostic.html,,VM-ME-217,Area of a circle of radius 6 cm?
+year8_measurement_diagnostic.html,,VM-ME-218,Convert 3500 mL to litres.
+year8_measurement_diagnostic.html,,VM-ME-219,Surface area of a cube of side 4 cm?
+year8_measurement_diagnostic.html,,VM-ME-220,"Area of a trapezium with parallel sides 6 and 10 cm, height 5 cm?"
+year8_pythagoras_hub.html,,VM-PYT-001,A right triangle has perpendicular sides 6 cm and 8 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-002,A ladder of length 10 m reaches 8 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-003,"Can lengths 6, 8 and 11 form a right triangle?"
+year8_pythagoras_hub.html,,VM-PYT-004,A right triangle has perpendicular sides 9 cm and 12 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-005,A ladder of length 15 m reaches 12 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-006,"Can lengths 9, 12 and 16 form a right triangle?"
+year8_pythagoras_hub.html,,VM-PYT-007,A right triangle has perpendicular sides 12 cm and 16 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-008,A ladder of length 20 m reaches 16 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-009,"Can lengths 12, 16 and 21 form a right triangle?"
+year8_pythagoras_hub.html,,VM-PYT-010,A right triangle has perpendicular sides 15 cm and 20 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-011,A ladder of length 25 m reaches 20 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-012,"Can lengths 15, 20 and 26 form a right triangle?"
+year8_pythagoras_hub.html,,VM-PYT-013,A right triangle has perpendicular sides 18 cm and 24 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-014,A ladder of length 30 m reaches 24 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-015,"Can lengths 18, 24 and 31 form a right triangle?"
+year8_pythagoras_hub.html,,VM-PYT-016,A right triangle has perpendicular sides 21 cm and 28 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-017,A ladder of length 35 m reaches 28 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-018,"Can lengths 21, 28 and 36 form a right triangle?"
+year8_pythagoras_hub.html,,VM-PYT-019,A right triangle has perpendicular sides 24 cm and 32 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-020,A ladder of length 40 m reaches 32 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-021,"Can lengths 24, 32 and 41 form a right triangle?"
+year8_pythagoras_hub.html,,VM-PYT-022,A right triangle has perpendicular sides 27 cm and 36 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-023,A ladder of length 45 m reaches 36 m up a vertical wall. How far is its foot from the wall?
+year8_pythagoras_hub.html,,VM-PYT-024,"Can lengths 27, 36 and 46 form a right triangle?"
+year8_pythagoras_diagnostic.html,,VM-PYT-025,Right triangle legs 6 and 8 cm. Hypotenuse?
+year8_pythagoras_diagnostic.html,,VM-PYT-026,"Hypotenuse 13 cm, one leg 5 cm. Other leg?"
+year8_pythagoras_diagnostic.html,,VM-PYT-027,Which triple forms a right triangle?
+year8_pythagoras_diagnostic.html,,VM-PYT-028,Rectangle 9 m by 12 m. Diagonal?
+year8_pythagoras_diagnostic.html,,VM-PYT-029,Which side is the hypotenuse?
+year8_pythagoras_diagnostic.html,,VM-PYT-030,Right triangle legs 1 cm and 2 cm. Exact hypotenuse?
+year8_pythagoras_diagnostic.html,,VM-PYT-031,A 10 m ladder reaches 8 m up a wall. Distance from wall?
+year8_pythagoras_diagnostic.html,,VM-PYT-032,"Do sides 6, 8 and 11 form a right triangle?"
+year8_data_hub.html,,VM-DA-209,"Find the mean of 2, 4, 6, 8."
+year8_data_hub.html,,VM-DA-210,"Set A: 2, 4, 6. Set B: 1, 4, 7. Which has the larger range?"
+year8_data_hub.html,,VM-DA-211,"Find the new mean when 14 is added to the data 2, 4, 6."
+year8_data_hub.html,,VM-DA-212,"Find the mean of 3, 5, 7, 9."
+year8_data_hub.html,,VM-DA-213,"Set A: 3, 5, 7. Set B: 2, 5, 8. Which has the larger range?"
+year8_data_hub.html,,VM-DA-214,"Find the new mean when 15 is added to the data 3, 5, 7."
+year8_data_hub.html,,VM-DA-215,"Find the mean of 4, 6, 8, 10."
+year8_data_hub.html,,VM-DA-216,"Set A: 4, 6, 8. Set B: 3, 6, 9. Which has the larger range?"
+year8_data_hub.html,,VM-DA-217,"Find the new mean when 16 is added to the data 4, 6, 8."
+year8_data_hub.html,,VM-DA-218,"Find the mean of 5, 7, 9, 11."
+year8_data_hub.html,,VM-DA-219,"Set A: 5, 7, 9. Set B: 4, 7, 10. Which has the larger range?"
+year8_data_hub.html,,VM-DA-220,"Find the new mean when 17 is added to the data 5, 7, 9."
+year8_data_hub.html,,VM-DA-221,"Find the mean of 6, 8, 10, 12."
+year8_data_hub.html,,VM-DA-222,"Set A: 6, 8, 10. Set B: 5, 8, 11. Which has the larger range?"
+year8_data_hub.html,,VM-DA-223,"Find the new mean when 18 is added to the data 6, 8, 10."
+year8_data_hub.html,,VM-DA-224,"Find the mean of 7, 9, 11, 13."
+year8_data_hub.html,,VM-DA-225,"Set A: 7, 9, 11. Set B: 6, 9, 12. Which has the larger range?"
+year8_data_hub.html,,VM-DA-226,"Find the new mean when 19 is added to the data 7, 9, 11."
+year8_data_hub.html,,VM-DA-227,"Find the mean of 8, 10, 12, 14."
+year8_data_hub.html,,VM-DA-228,"Set A: 8, 10, 12. Set B: 7, 10, 13. Which has the larger range?"
+year8_data_hub.html,,VM-DA-229,"Find the new mean when 20 is added to the data 8, 10, 12."
+year8_data_hub.html,,VM-DA-230,"Find the mean of 9, 11, 13, 15."
+year8_data_hub.html,,VM-DA-231,"Set A: 9, 11, 13. Set B: 8, 11, 14. Which has the larger range?"
+year8_data_hub.html,,VM-DA-232,"Find the new mean when 21 is added to the data 9, 11, 13."
+year8_data_diagnostic.html,,VM-DA-233,"Mean of 2, 4, 6, 12?"
+year8_data_diagnostic.html,,VM-DA-234,"Median of 9, 2, 5, 7?"
+year8_data_diagnostic.html,,VM-DA-235,"Mode of 1, 2, 2, 3, 5?"
+year8_data_diagnostic.html,,VM-DA-236,"Range of 12, 18, 7, 15?"
+year8_data_diagnostic.html,,VM-DA-237,Which is continuous data?
+year8_data_diagnostic.html,,VM-DA-238,Best graph for frequencies of favourite colours?
+year8_data_diagnostic.html,,VM-DA-239,Which measure is most affected by an extreme value?
+year8_data_diagnostic.html,,VM-DA-240,Which sample is least biased for a whole-school survey?
+year8_probability_hub.html,,VM-PRO-209,A bag contains 2 red counters and 4 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-210,A spinner lands on green 6 times in 20 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-211,A fair die is rolled 24 times. How many sixes would you expect?
+year8_probability_hub.html,,VM-PRO-212,A bag contains 3 red counters and 6 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-213,A spinner lands on green 9 times in 30 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-214,A fair die is rolled 36 times. How many sixes would you expect?
+year8_probability_hub.html,,VM-PRO-215,A bag contains 4 red counters and 8 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-216,A spinner lands on green 12 times in 40 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-217,A fair die is rolled 48 times. How many sixes would you expect?
+year8_probability_hub.html,,VM-PRO-218,A bag contains 5 red counters and 10 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-219,A spinner lands on green 15 times in 50 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-220,A fair die is rolled 60 times. How many sixes would you expect?
+year8_probability_hub.html,,VM-PRO-221,A bag contains 6 red counters and 12 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-222,A spinner lands on green 18 times in 60 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-223,A fair die is rolled 72 times. How many sixes would you expect?
+year8_probability_hub.html,,VM-PRO-224,A bag contains 7 red counters and 14 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-225,A spinner lands on green 21 times in 70 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-226,A fair die is rolled 84 times. How many sixes would you expect?
+year8_probability_hub.html,,VM-PRO-227,A bag contains 8 red counters and 16 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-228,A spinner lands on green 24 times in 80 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-229,A fair die is rolled 96 times. How many sixes would you expect?
+year8_probability_hub.html,,VM-PRO-230,A bag contains 9 red counters and 18 blue counters. What is the probability of not drawing red?
+year8_probability_hub.html,,VM-PRO-231,A spinner lands on green 27 times in 90 trials. Estimate the probability of green.
+year8_probability_hub.html,,VM-PRO-232,A fair die is rolled 108 times. How many sixes would you expect?
+year8_probability_diagnostic.html,,VM-PRO-233,Fair die: probability of rolling greater than 4?
+year8_probability_diagnostic.html,,VM-PRO-234,Probability of an impossible event?
+year8_probability_diagnostic.html,,VM-PRO-235,"If P(rain) = 0.3, P(no rain)?"
+year8_probability_diagnostic.html,,VM-PRO-236,Two fair coins: probability of two heads?
+year8_probability_diagnostic.html,,VM-PRO-237,A spinner lands on red 18 times in 60 spins. Relative frequency?
+year8_probability_diagnostic.html,,VM-PRO-238,Bag: 3 red and 5 blue counters. Probability of blue?
+year8_probability_diagnostic.html,,VM-PRO-239,A fair coin is tossed 80 times. Expected heads?
+year8_probability_diagnostic.html,,VM-PRO-240,Two fair coins: probability of exactly one head?
+year8_number_hub.html,,VM-NUM-001,"Calculate <span class=""frac""><span>3</span><span>4</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-002,Evaluate −3 × (−3) − 5.
+year8_number_hub.html,,VM-NUM-003,"Which fraction lies strictly between <span class=""frac""><span>3</span><span>10</span></span> and <span class=""frac""><span>2</span><span>5</span></span>?"
+year8_number_hub.html,,VM-NUM-004,"Express 0.<span style=""text-decoration:overline"">23</span> as a fraction."
+year8_number_hub.html,,VM-NUM-005,"Calculate <span class=""frac""><span>4</span><span>5</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-006,Evaluate −4 × (−3) − 6.
+year8_number_hub.html,,VM-NUM-007,"Which fraction lies strictly between <span class=""frac""><span>2</span><span>5</span></span> and <span class=""frac""><span>1</span><span>2</span></span>?"
+year8_number_hub.html,,VM-NUM-008,"Express 0.<span style=""text-decoration:overline"">24</span> as a fraction."
+year8_number_hub.html,,VM-NUM-009,"Calculate <span class=""frac""><span>5</span><span>6</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-010,Evaluate −5 × (−3) − 7.
+year8_number_hub.html,,VM-NUM-011,"Which fraction lies strictly between <span class=""frac""><span>1</span><span>2</span></span> and <span class=""frac""><span>3</span><span>5</span></span>?"
+year8_number_hub.html,,VM-NUM-012,"Express 0.<span style=""text-decoration:overline"">25</span> as a fraction."
+year8_number_hub.html,,VM-NUM-013,"Calculate <span class=""frac""><span>6</span><span>7</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-014,Evaluate −6 × (−3) − 8.
+year8_number_hub.html,,VM-NUM-015,"Which fraction lies strictly between <span class=""frac""><span>3</span><span>5</span></span> and <span class=""frac""><span>7</span><span>10</span></span>?"
+year8_number_hub.html,,VM-NUM-016,"Express 0.<span style=""text-decoration:overline"">26</span> as a fraction."
+year8_number_hub.html,,VM-NUM-017,"Calculate <span class=""frac""><span>7</span><span>8</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-018,Evaluate −7 × (−3) − 9.
+year8_number_hub.html,,VM-NUM-019,"Which fraction lies strictly between <span class=""frac""><span>7</span><span>10</span></span> and <span class=""frac""><span>4</span><span>5</span></span>?"
+year8_number_hub.html,,VM-NUM-020,"Express 0.<span style=""text-decoration:overline"">27</span> as a fraction."
+year8_number_hub.html,,VM-NUM-021,"Calculate <span class=""frac""><span>8</span><span>9</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-022,Evaluate −8 × (−3) − 10.
+year8_number_hub.html,,VM-NUM-023,"Which fraction lies strictly between <span class=""frac""><span>4</span><span>5</span></span> and <span class=""frac""><span>9</span><span>10</span></span>?"
+year8_number_hub.html,,VM-NUM-024,"Express 0.<span style=""text-decoration:overline"">28</span> as a fraction."
+year8_number_hub.html,,VM-NUM-025,"Calculate <span class=""frac""><span>9</span><span>10</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-026,Evaluate −9 × (−3) − 11.
+year8_number_hub.html,,VM-NUM-027,"Which fraction lies strictly between <span class=""frac""><span>9</span><span>10</span></span> and 1?"
+year8_number_hub.html,,VM-NUM-028,"Express 0.<span style=""text-decoration:overline"">29</span> as a fraction."
+year8_number_hub.html,,VM-NUM-029,"Calculate <span class=""frac""><span>10</span><span>11</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-030,Evaluate −10 × (−3) − 12.
+year8_number_hub.html,,VM-NUM-031,"Which fraction lies strictly between 1 and <span class=""frac""><span>11</span><span>10</span></span>?"
+year8_number_hub.html,,VM-NUM-032,"Express 0.<span style=""text-decoration:overline"">30</span> as a fraction."
+year8_number_hub.html,,VM-NUM-033,"Calculate <span class=""frac""><span>11</span><span>12</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-034,Evaluate −11 × (−3) − 13.
+year8_number_hub.html,,VM-NUM-035,"Which fraction lies strictly between <span class=""frac""><span>11</span><span>10</span></span> and <span class=""frac""><span>6</span><span>5</span></span>?"
+year8_number_hub.html,,VM-NUM-036,"Express 0.<span style=""text-decoration:overline"">31</span> as a fraction."
+year8_number_hub.html,,VM-NUM-037,"Calculate <span class=""frac""><span>12</span><span>13</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-038,Evaluate −12 × (−3) − 14.
+year8_number_hub.html,,VM-NUM-039,"Which fraction lies strictly between <span class=""frac""><span>6</span><span>5</span></span> and <span class=""frac""><span>13</span><span>10</span></span>?"
+year8_number_hub.html,,VM-NUM-040,"Express 0.<span style=""text-decoration:overline"">32</span> as a fraction."
+year8_number_hub.html,,VM-NUM-041,"Calculate <span class=""frac""><span>13</span><span>14</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-042,Evaluate −13 × (−3) − 15.
+year8_number_hub.html,,VM-NUM-043,"Which fraction lies strictly between <span class=""frac""><span>13</span><span>10</span></span> and <span class=""frac""><span>7</span><span>5</span></span>?"
+year8_number_hub.html,,VM-NUM-044,"Express 0.<span style=""text-decoration:overline"">33</span> as a fraction."
+year8_number_hub.html,,VM-NUM-045,"Calculate <span class=""frac""><span>14</span><span>15</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_hub.html,,VM-NUM-046,Evaluate −14 × (−3) − 16.
+year8_number_hub.html,,VM-NUM-047,"Which fraction lies strictly between <span class=""frac""><span>7</span><span>5</span></span> and <span class=""frac""><span>3</span><span>2</span></span>?"
+year8_number_hub.html,,VM-NUM-048,"Express 0.<span style=""text-decoration:overline"">34</span> as a fraction."
+year8_number_diagnostic.html,,VM-NUM-001,"Calculate <span class=""frac""><span>3</span><span>4</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_diagnostic.html,,VM-NUM-002,Evaluate −3 × (−3) − 5.
+year8_number_diagnostic.html,,VM-NUM-007,"Which fraction lies strictly between <span class=""frac""><span>2</span><span>5</span></span> and <span class=""frac""><span>1</span><span>2</span></span>?"
+year8_number_diagnostic.html,,VM-NUM-008,"Express 0.<span style=""text-decoration:overline"">24</span> as a fraction."
+year8_number_diagnostic.html,,VM-NUM-009,"Calculate <span class=""frac""><span>5</span><span>6</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_diagnostic.html,,VM-NUM-010,Evaluate −5 × (−3) − 7.
+year8_number_diagnostic.html,,VM-NUM-015,"Which fraction lies strictly between <span class=""frac""><span>3</span><span>5</span></span> and <span class=""frac""><span>7</span><span>10</span></span>?"
+year8_number_diagnostic.html,,VM-NUM-016,"Express 0.<span style=""text-decoration:overline"">26</span> as a fraction."
+year8_number_diagnostic.html,,VM-NUM-017,"Calculate <span class=""frac""><span>7</span><span>8</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_diagnostic.html,,VM-NUM-018,Evaluate −7 × (−3) − 9.
+year8_number_diagnostic.html,,VM-NUM-023,"Which fraction lies strictly between <span class=""frac""><span>4</span><span>5</span></span> and <span class=""frac""><span>9</span><span>10</span></span>?"
+year8_number_diagnostic.html,,VM-NUM-024,"Express 0.<span style=""text-decoration:overline"">28</span> as a fraction."
+year8_number_diagnostic.html,,VM-NUM-025,"Calculate <span class=""frac""><span>9</span><span>10</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_diagnostic.html,,VM-NUM-026,Evaluate −9 × (−3) − 11.
+year8_number_diagnostic.html,,VM-NUM-031,"Which fraction lies strictly between 1 and <span class=""frac""><span>11</span><span>10</span></span>?"
+year8_number_diagnostic.html,,VM-NUM-032,"Express 0.<span style=""text-decoration:overline"">30</span> as a fraction."
+year8_number_diagnostic.html,,VM-NUM-033,"Calculate <span class=""frac""><span>11</span><span>12</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_diagnostic.html,,VM-NUM-034,Evaluate −11 × (−3) − 13.
+year8_number_diagnostic.html,,VM-NUM-039,"Which fraction lies strictly between <span class=""frac""><span>6</span><span>5</span></span> and <span class=""frac""><span>13</span><span>10</span></span>?"
+year8_number_diagnostic.html,,VM-NUM-040,"Express 0.<span style=""text-decoration:overline"">32</span> as a fraction."
+year8_number_diagnostic.html,,VM-NUM-041,"Calculate <span class=""frac""><span>13</span><span>14</span></span> − <span class=""frac""><span>1</span><span>2</span></span>."
+year8_number_diagnostic.html,,VM-NUM-042,Evaluate −13 × (−3) − 15.
+year8_number_diagnostic.html,,VM-NUM-047,"Which fraction lies strictly between <span class=""frac""><span>7</span><span>5</span></span> and <span class=""frac""><span>3</span><span>2</span></span>?"
+year8_number_diagnostic.html,,VM-NUM-048,"Express 0.<span style=""text-decoration:overline"">34</span> as a fraction."
+year8_financial_hub.html,,VM-FIN-001,A jacket costs $60. Find its price after a 5% discount.
+year8_financial_hub.html,,VM-FIN-002,A service costs $60 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-003,A shop buys an item for $60 and sells it for $90. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-004,After a 20% discount a bicycle costs $240. Find the original price.
+year8_financial_hub.html,,VM-FIN-005,A jacket costs $80. Find its price after a 10% discount.
+year8_financial_hub.html,,VM-FIN-006,A service costs $80 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-007,A shop buys an item for $80 and sells it for $120. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-008,After a 20% discount a bicycle costs $320. Find the original price.
+year8_financial_hub.html,,VM-FIN-009,A jacket costs $100. Find its price after a 15% discount.
+year8_financial_hub.html,,VM-FIN-010,A service costs $100 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-011,A shop buys an item for $100 and sells it for $150. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-012,After a 20% discount a bicycle costs $400. Find the original price.
+year8_financial_hub.html,,VM-FIN-013,A jacket costs $120. Find its price after a 20% discount.
+year8_financial_hub.html,,VM-FIN-014,A service costs $120 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-015,A shop buys an item for $120 and sells it for $180. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-016,After a 20% discount a bicycle costs $480. Find the original price.
+year8_financial_hub.html,,VM-FIN-017,A jacket costs $140. Find its price after a 25% discount.
+year8_financial_hub.html,,VM-FIN-018,A service costs $140 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-019,A shop buys an item for $140 and sells it for $210. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-020,After a 20% discount a bicycle costs $560. Find the original price.
+year8_financial_hub.html,,VM-FIN-021,A jacket costs $160. Find its price after a 5% discount.
+year8_financial_hub.html,,VM-FIN-022,A service costs $160 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-023,A shop buys an item for $160 and sells it for $240. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-024,After a 20% discount a bicycle costs $640. Find the original price.
+year8_financial_hub.html,,VM-FIN-025,A jacket costs $180. Find its price after a 10% discount.
+year8_financial_hub.html,,VM-FIN-026,A service costs $180 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-027,A shop buys an item for $180 and sells it for $270. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-028,After a 20% discount a bicycle costs $720. Find the original price.
+year8_financial_hub.html,,VM-FIN-029,A jacket costs $200. Find its price after a 15% discount.
+year8_financial_hub.html,,VM-FIN-030,A service costs $200 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-031,A shop buys an item for $200 and sells it for $300. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-032,After a 20% discount a bicycle costs $800. Find the original price.
+year8_financial_hub.html,,VM-FIN-033,A jacket costs $220. Find its price after a 20% discount.
+year8_financial_hub.html,,VM-FIN-034,A service costs $220 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-035,A shop buys an item for $220 and sells it for $330. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-036,After a 20% discount a bicycle costs $880. Find the original price.
+year8_financial_hub.html,,VM-FIN-037,A jacket costs $240. Find its price after a 25% discount.
+year8_financial_hub.html,,VM-FIN-038,A service costs $240 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-039,A shop buys an item for $240 and sells it for $360. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-040,After a 20% discount a bicycle costs $960. Find the original price.
+year8_financial_hub.html,,VM-FIN-041,A jacket costs $260. Find its price after a 5% discount.
+year8_financial_hub.html,,VM-FIN-042,A service costs $260 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-043,A shop buys an item for $260 and sells it for $390. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-044,After a 20% discount a bicycle costs $1040. Find the original price.
+year8_financial_hub.html,,VM-FIN-045,A jacket costs $280. Find its price after a 10% discount.
+year8_financial_hub.html,,VM-FIN-046,A service costs $280 before 10% GST. Find the total.
+year8_financial_hub.html,,VM-FIN-047,A shop buys an item for $280 and sells it for $420. Find the profit as a percentage of cost.
+year8_financial_hub.html,,VM-FIN-048,After a 20% discount a bicycle costs $1120. Find the original price.
+year8_financial_diagnostic.html,,VM-FIN-001,A jacket costs $60. Find its price after a 5% discount.
+year8_financial_diagnostic.html,,VM-FIN-002,A service costs $60 before 10% GST. Find the total.
+year8_financial_diagnostic.html,,VM-FIN-007,A shop buys an item for $80 and sells it for $120. Find the profit as a percentage of cost.
+year8_financial_diagnostic.html,,VM-FIN-008,After a 20% discount a bicycle costs $320. Find the original price.
+year8_financial_diagnostic.html,,VM-FIN-009,A jacket costs $100. Find its price after a 15% discount.
+year8_financial_diagnostic.html,,VM-FIN-010,A service costs $100 before 10% GST. Find the total.
+year8_financial_diagnostic.html,,VM-FIN-015,A shop buys an item for $120 and sells it for $180. Find the profit as a percentage of cost.
+year8_financial_diagnostic.html,,VM-FIN-016,After a 20% discount a bicycle costs $480. Find the original price.
+year8_financial_diagnostic.html,,VM-FIN-017,A jacket costs $140. Find its price after a 25% discount.
+year8_financial_diagnostic.html,,VM-FIN-018,A service costs $140 before 10% GST. Find the total.
+year8_financial_diagnostic.html,,VM-FIN-023,A shop buys an item for $160 and sells it for $240. Find the profit as a percentage of cost.
+year8_financial_diagnostic.html,,VM-FIN-024,After a 20% discount a bicycle costs $640. Find the original price.
+year8_financial_diagnostic.html,,VM-FIN-025,A jacket costs $180. Find its price after a 10% discount.
+year8_financial_diagnostic.html,,VM-FIN-026,A service costs $180 before 10% GST. Find the total.
+year8_financial_diagnostic.html,,VM-FIN-031,A shop buys an item for $200 and sells it for $300. Find the profit as a percentage of cost.
+year8_financial_diagnostic.html,,VM-FIN-032,After a 20% discount a bicycle costs $800. Find the original price.
+year8_financial_diagnostic.html,,VM-FIN-033,A jacket costs $220. Find its price after a 20% discount.
+year8_financial_diagnostic.html,,VM-FIN-034,A service costs $220 before 10% GST. Find the total.
+year8_financial_diagnostic.html,,VM-FIN-039,A shop buys an item for $240 and sells it for $360. Find the profit as a percentage of cost.
+year8_financial_diagnostic.html,,VM-FIN-040,After a 20% discount a bicycle costs $960. Find the original price.
+year8_financial_diagnostic.html,,VM-FIN-041,A jacket costs $260. Find its price after a 5% discount.
+year8_financial_diagnostic.html,,VM-FIN-042,A service costs $260 before 10% GST. Find the total.
+year8_financial_diagnostic.html,,VM-FIN-047,A shop buys an item for $280 and sells it for $420. Find the profit as a percentage of cost.
+year8_financial_diagnostic.html,,VM-FIN-048,After a 20% discount a bicycle costs $1120. Find the original price.
+year8_equations_hub.html,,VM-EQ-181,Solve 3x + 3 = 12.
+year8_equations_hub.html,,VM-EQ-182,Solve 5x − 3 = 2x + 6.
+year8_equations_hub.html,,VM-EQ-183,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 3."
+year8_equations_hub.html,,VM-EQ-184,A rectangle has width w and length w + 3 cm. Its perimeter is 18 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-185,Solve 3x + 4 = 16.
+year8_equations_hub.html,,VM-EQ-186,Solve 5x − 4 = 2x + 8.
+year8_equations_hub.html,,VM-EQ-187,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 4."
+year8_equations_hub.html,,VM-EQ-188,A rectangle has width w and length w + 4 cm. Its perimeter is 24 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-189,Solve 3x + 5 = 20.
+year8_equations_hub.html,,VM-EQ-190,Solve 5x − 5 = 2x + 10.
+year8_equations_hub.html,,VM-EQ-191,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 5."
+year8_equations_hub.html,,VM-EQ-192,A rectangle has width w and length w + 5 cm. Its perimeter is 30 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-193,Solve 3x + 6 = 24.
+year8_equations_hub.html,,VM-EQ-194,Solve 5x − 6 = 2x + 12.
+year8_equations_hub.html,,VM-EQ-195,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 6."
+year8_equations_hub.html,,VM-EQ-196,A rectangle has width w and length w + 6 cm. Its perimeter is 36 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-197,Solve 3x + 7 = 28.
+year8_equations_hub.html,,VM-EQ-198,Solve 5x − 7 = 2x + 14.
+year8_equations_hub.html,,VM-EQ-199,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 7."
+year8_equations_hub.html,,VM-EQ-200,A rectangle has width w and length w + 7 cm. Its perimeter is 42 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-201,Solve 3x + 8 = 32.
+year8_equations_hub.html,,VM-EQ-202,Solve 5x − 8 = 2x + 16.
+year8_equations_hub.html,,VM-EQ-203,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 8."
+year8_equations_hub.html,,VM-EQ-204,A rectangle has width w and length w + 8 cm. Its perimeter is 48 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-205,Solve 3x + 9 = 36.
+year8_equations_hub.html,,VM-EQ-206,Solve 5x − 9 = 2x + 18.
+year8_equations_hub.html,,VM-EQ-207,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 9."
+year8_equations_hub.html,,VM-EQ-208,A rectangle has width w and length w + 9 cm. Its perimeter is 54 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-209,Solve 3x + 10 = 40.
+year8_equations_hub.html,,VM-EQ-210,Solve 5x − 10 = 2x + 20.
+year8_equations_hub.html,,VM-EQ-211,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 10."
+year8_equations_hub.html,,VM-EQ-212,A rectangle has width w and length w + 10 cm. Its perimeter is 60 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-213,Solve 3x + 11 = 44.
+year8_equations_hub.html,,VM-EQ-214,Solve 5x − 11 = 2x + 22.
+year8_equations_hub.html,,VM-EQ-215,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 11."
+year8_equations_hub.html,,VM-EQ-216,A rectangle has width w and length w + 11 cm. Its perimeter is 66 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-217,Solve 3x + 12 = 48.
+year8_equations_hub.html,,VM-EQ-218,Solve 5x − 12 = 2x + 24.
+year8_equations_hub.html,,VM-EQ-219,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 12."
+year8_equations_hub.html,,VM-EQ-220,A rectangle has width w and length w + 12 cm. Its perimeter is 72 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-221,Solve 3x + 13 = 52.
+year8_equations_hub.html,,VM-EQ-222,Solve 5x − 13 = 2x + 26.
+year8_equations_hub.html,,VM-EQ-223,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 13."
+year8_equations_hub.html,,VM-EQ-224,A rectangle has width w and length w + 13 cm. Its perimeter is 78 cm. Find its width.
+year8_equations_hub.html,,VM-EQ-225,Solve 3x + 14 = 56.
+year8_equations_hub.html,,VM-EQ-226,Solve 5x − 14 = 2x + 28.
+year8_equations_hub.html,,VM-EQ-227,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 14."
+year8_equations_hub.html,,VM-EQ-228,A rectangle has width w and length w + 14 cm. Its perimeter is 84 cm. Find its width.
+year8_equations_diagnostic.html,,VM-EQ-181,Solve 3x + 3 = 12.
+year8_equations_diagnostic.html,,VM-EQ-182,Solve 5x − 3 = 2x + 6.
+year8_equations_diagnostic.html,,VM-EQ-187,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 4."
+year8_equations_diagnostic.html,,VM-EQ-188,A rectangle has width w and length w + 4 cm. Its perimeter is 24 cm. Find its width.
+year8_equations_diagnostic.html,,VM-EQ-189,Solve 3x + 5 = 20.
+year8_equations_diagnostic.html,,VM-EQ-190,Solve 5x − 5 = 2x + 10.
+year8_equations_diagnostic.html,,VM-EQ-195,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 6."
+year8_equations_diagnostic.html,,VM-EQ-196,A rectangle has width w and length w + 6 cm. Its perimeter is 36 cm. Find its width.
+year8_equations_diagnostic.html,,VM-EQ-197,Solve 3x + 7 = 28.
+year8_equations_diagnostic.html,,VM-EQ-198,Solve 5x − 7 = 2x + 14.
+year8_equations_diagnostic.html,,VM-EQ-203,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 8."
+year8_equations_diagnostic.html,,VM-EQ-204,A rectangle has width w and length w + 8 cm. Its perimeter is 48 cm. Find its width.
+year8_equations_diagnostic.html,,VM-EQ-205,Solve 3x + 9 = 36.
+year8_equations_diagnostic.html,,VM-EQ-206,Solve 5x − 9 = 2x + 18.
+year8_equations_diagnostic.html,,VM-EQ-211,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 10."
+year8_equations_diagnostic.html,,VM-EQ-212,A rectangle has width w and length w + 10 cm. Its perimeter is 60 cm. Find its width.
+year8_equations_diagnostic.html,,VM-EQ-213,Solve 3x + 11 = 44.
+year8_equations_diagnostic.html,,VM-EQ-214,Solve 5x − 11 = 2x + 22.
+year8_equations_diagnostic.html,,VM-EQ-219,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 12."
+year8_equations_diagnostic.html,,VM-EQ-220,A rectangle has width w and length w + 12 cm. Its perimeter is 72 cm. Find its width.
+year8_equations_diagnostic.html,,VM-EQ-221,Solve 3x + 13 = 52.
+year8_equations_diagnostic.html,,VM-EQ-222,Solve 5x − 13 = 2x + 26.
+year8_equations_diagnostic.html,,VM-EQ-227,"Solve <span class=""frac""><span>x + 2</span><span>3</span></span> = 14."
+year8_equations_diagnostic.html,,VM-EQ-228,A rectangle has width w and length w + 14 cm. Its perimeter is 84 cm. Find its width.
+year8_circles_hub.html,,VM-CIR-001,A circle has radius 3 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-002,Find the exact area of a circle with diameter 6 cm.
+year8_circles_hub.html,,VM-CIR-003,"Find the perimeter of a semicircle of radius 3 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-004,A circular pond of radius 3 m sits inside a circular garden of radius 5 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-005,A circle has radius 4 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-006,Find the exact area of a circle with diameter 8 cm.
+year8_circles_hub.html,,VM-CIR-007,"Find the perimeter of a semicircle of radius 4 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-008,A circular pond of radius 4 m sits inside a circular garden of radius 6 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-009,A circle has radius 5 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-010,Find the exact area of a circle with diameter 10 cm.
+year8_circles_hub.html,,VM-CIR-011,"Find the perimeter of a semicircle of radius 5 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-012,A circular pond of radius 5 m sits inside a circular garden of radius 7 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-013,A circle has radius 6 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-014,Find the exact area of a circle with diameter 12 cm.
+year8_circles_hub.html,,VM-CIR-015,"Find the perimeter of a semicircle of radius 6 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-016,A circular pond of radius 6 m sits inside a circular garden of radius 8 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-017,A circle has radius 7 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-018,Find the exact area of a circle with diameter 14 cm.
+year8_circles_hub.html,,VM-CIR-019,"Find the perimeter of a semicircle of radius 7 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-020,A circular pond of radius 7 m sits inside a circular garden of radius 9 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-021,A circle has radius 8 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-022,Find the exact area of a circle with diameter 16 cm.
+year8_circles_hub.html,,VM-CIR-023,"Find the perimeter of a semicircle of radius 8 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-024,A circular pond of radius 8 m sits inside a circular garden of radius 10 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-025,A circle has radius 9 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-026,Find the exact area of a circle with diameter 18 cm.
+year8_circles_hub.html,,VM-CIR-027,"Find the perimeter of a semicircle of radius 9 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-028,A circular pond of radius 9 m sits inside a circular garden of radius 11 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-029,A circle has radius 10 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-030,Find the exact area of a circle with diameter 20 cm.
+year8_circles_hub.html,,VM-CIR-031,"Find the perimeter of a semicircle of radius 10 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-032,A circular pond of radius 10 m sits inside a circular garden of radius 12 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-033,A circle has radius 11 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-034,Find the exact area of a circle with diameter 22 cm.
+year8_circles_hub.html,,VM-CIR-035,"Find the perimeter of a semicircle of radius 11 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-036,A circular pond of radius 11 m sits inside a circular garden of radius 13 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-037,A circle has radius 12 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-038,Find the exact area of a circle with diameter 24 cm.
+year8_circles_hub.html,,VM-CIR-039,"Find the perimeter of a semicircle of radius 12 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-040,A circular pond of radius 12 m sits inside a circular garden of radius 14 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-041,A circle has radius 13 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-042,Find the exact area of a circle with diameter 26 cm.
+year8_circles_hub.html,,VM-CIR-043,"Find the perimeter of a semicircle of radius 13 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-044,A circular pond of radius 13 m sits inside a circular garden of radius 15 m. Find the area outside the pond but inside the garden.
+year8_circles_hub.html,,VM-CIR-045,A circle has radius 14 cm. Find its circumference exactly.
+year8_circles_hub.html,,VM-CIR-046,Find the exact area of a circle with diameter 28 cm.
+year8_circles_hub.html,,VM-CIR-047,"Find the perimeter of a semicircle of radius 14 cm, including its straight edge."
+year8_circles_hub.html,,VM-CIR-048,A circular pond of radius 14 m sits inside a circular garden of radius 16 m. Find the area outside the pond but inside the garden.
+year8_circles_diagnostic.html,,VM-CIR-001,A circle has radius 3 cm. Find its circumference exactly.
+year8_circles_diagnostic.html,,VM-CIR-002,Find the exact area of a circle with diameter 6 cm.
+year8_circles_diagnostic.html,,VM-CIR-007,"Find the perimeter of a semicircle of radius 4 cm, including its straight edge."
+year8_circles_diagnostic.html,,VM-CIR-008,A circular pond of radius 4 m sits inside a circular garden of radius 6 m. Find the area outside the pond but inside the garden.
+year8_circles_diagnostic.html,,VM-CIR-009,A circle has radius 5 cm. Find its circumference exactly.
+year8_circles_diagnostic.html,,VM-CIR-010,Find the exact area of a circle with diameter 10 cm.
+year8_circles_diagnostic.html,,VM-CIR-015,"Find the perimeter of a semicircle of radius 6 cm, including its straight edge."
+year8_circles_diagnostic.html,,VM-CIR-016,A circular pond of radius 6 m sits inside a circular garden of radius 8 m. Find the area outside the pond but inside the garden.
+year8_circles_diagnostic.html,,VM-CIR-017,A circle has radius 7 cm. Find its circumference exactly.
+year8_circles_diagnostic.html,,VM-CIR-018,Find the exact area of a circle with diameter 14 cm.
+year8_circles_diagnostic.html,,VM-CIR-023,"Find the perimeter of a semicircle of radius 8 cm, including its straight edge."
+year8_circles_diagnostic.html,,VM-CIR-024,A circular pond of radius 8 m sits inside a circular garden of radius 10 m. Find the area outside the pond but inside the garden.
+year8_circles_diagnostic.html,,VM-CIR-025,A circle has radius 9 cm. Find its circumference exactly.
+year8_circles_diagnostic.html,,VM-CIR-026,Find the exact area of a circle with diameter 18 cm.
+year8_circles_diagnostic.html,,VM-CIR-031,"Find the perimeter of a semicircle of radius 10 cm, including its straight edge."
+year8_circles_diagnostic.html,,VM-CIR-032,A circular pond of radius 10 m sits inside a circular garden of radius 12 m. Find the area outside the pond but inside the garden.
+year8_circles_diagnostic.html,,VM-CIR-033,A circle has radius 11 cm. Find its circumference exactly.
+year8_circles_diagnostic.html,,VM-CIR-034,Find the exact area of a circle with diameter 22 cm.
+year8_circles_diagnostic.html,,VM-CIR-039,"Find the perimeter of a semicircle of radius 12 cm, including its straight edge."
+year8_circles_diagnostic.html,,VM-CIR-040,A circular pond of radius 12 m sits inside a circular garden of radius 14 m. Find the area outside the pond but inside the garden.
+year8_circles_diagnostic.html,,VM-CIR-041,A circle has radius 13 cm. Find its circumference exactly.
+year8_circles_diagnostic.html,,VM-CIR-042,Find the exact area of a circle with diameter 26 cm.
+year8_circles_diagnostic.html,,VM-CIR-047,"Find the perimeter of a semicircle of radius 14 cm, including its straight edge."
+year8_circles_diagnostic.html,,VM-CIR-048,A circular pond of radius 14 m sits inside a circular garden of radius 16 m. Find the area outside the pond but inside the garden.
+year8_quadrilaterals_hub.html,,VM-PGF-265,Two parallel lines are crossed by a transversal. One corresponding angle is 73°. Find the other.
+year8_quadrilaterals_hub.html,,VM-PGF-266,Co-interior angles on parallel lines are 3x° and (x+20)°. Find x.
+year8_quadrilaterals_hub.html,,VM-PGF-267,An exterior angle of a triangle is 128°. One remote interior angle is 47°. Find the other.
+year8_quadrilaterals_hub.html,,VM-PGF-268,An isosceles triangle has a vertex angle of 38°. Find each base angle.
+year8_quadrilaterals_hub.html,,VM-PGF-269,"Two triangles have corresponding sides 5, 7 and 9 cm. Explain why they are congruent."
+year8_quadrilaterals_hub.html,,VM-PGF-270,"Two triangles have equal angles of 40°, 60° and 80°. Must they be congruent?"
+year8_quadrilaterals_hub.html,,VM-PGF-271,A regular polygon has exterior angles of 24°. How many sides?
+year8_quadrilaterals_hub.html,,VM-PGF-272,"A pentagon has four angles of 100°, 110°, 120° and 95°. Find the fifth."
+year8_quadrilaterals_hub.html,,VM-PGF-273,A parallelogram has adjacent angles in ratio 2:3. Find both.
+year8_quadrilaterals_hub.html,,VM-PGF-274,"In the diagram, find x."
+year8_algebra_hub.html,,VM-ALG-245,"Simplify <span class=""frac""><span>6x+12</span><span>3</span></span>."
+year8_algebra_hub.html,,VM-ALG-246,Factorise 12ab−18a.
+year8_algebra_hub.html,,VM-ALG-247,Evaluate 2a²−3b when a=−4 and b=5.
+year8_fdp_hub.html,,VM-FDP-237,Express 0.333… as a fraction.
+year8_fdp_hub.html,,VM-FDP-238,"Calculate <span class=""frac""><span>3</span><span>4</span></span> ÷ <span class=""frac""><span>5</span><span>8</span></span>."
+year8_linear_hub.html,,VM-LR-237,"A line passes through (0,−3) and (4,5). Find its equation."
+year8_linear_hub.html,,VM-LR-238,A tile pattern has 7 tiles at step 1 and adds 4 each step. When does it have 55 tiles?
+year8_rates_ratios_hub.html,,VM-RR-237,A map scale is 1:25 000. Two points are 6.4 cm apart. Find actual distance in km.
+year8_rates_ratios_hub.html,,VM-RR-238,Compare 750 g for $6.30 and 1.2 kg for $9.60.
+year8_indices_hub.html,,VM-IND-033,Simplify (3x²)³.
+year8_indices_hub.html,,VM-IND-034,Explain why 7⁰=1.
+year8_measurement_hub.html,,VM-ME-221,A cylinder has radius 5 cm and height 20 cm. Find its capacity to nearest mL.
+year8_measurement_hub.html,,VM-ME-222,A 12 m by 8 m rectangle has a 3 m by 4 m corner removed. Find remaining area.
+year8_pythagoras_hub.html,,VM-PYT-033,A square has side 7 cm. Find its diagonal exactly.
+year8_pythagoras_hub.html,,VM-PYT-034,"Can sides 8, 15 and 18 cm form a right triangle?"
+year8_data_hub.html,,VM-DA-241,"Data: 2, 3, 3, 4, 5, 6, 20. Describe the skew."
+year8_data_hub.html,,VM-DA-242,"Stem 2 has leaves 1, 4, 4; stem 3 has leaves 0, 5. Key: 2|1=21. Find median and range."
+year8_probability_hub.html,,VM-PRO-241,A fair coin and fair six-sided die are used. Find P(head and even).
+year8_probability_hub.html,,VM-PRO-242,"Of 30 students, 18 play sport, 12 play music and 7 do both. How many do neither?"
+year8_probability_hub.html,,VM-PRO-243,"A bag has 5 red, 3 blue and 2 green counters. Find P(not blue)."
+year8_number_hub.html,,VM-NUM-049,"Order −0.6, <span class=""frac""><span>-2</span><span>3</span></span>, 0 and −0.65 from least to greatest."
+year8_financial_hub.html,,VM-FIN-049,A jacket costs $84 after a 30% discount. Find original price.
+year8_equations_hub.html,,VM-EQ-229,"Solve <span class=""frac""><span>x+3</span><span>4</span></span> = 5."
+year8_circles_hub.html,,VM-CIR-049,A semicircle has diameter 12 cm. Find its perimeter exactly.
+year8_rates_ratios_hub.html,,VM-RR-239,"Red and blue beads are in ratio 3:5. After adding 6 red beads, the ratio is 1:1. How many beads were there originally?"
+year8_rates_ratios_hub.html,,VM-RR-240,A cyclist rides 12 km at 12 km/h and returns at 6 km/h. Find the average speed for the round trip.
+year8_rates_ratios_hub.html,,VM-RR-241,A map uses scale 1:25000. A rectangular park measures 4 cm by 2 cm on the map. Find its real area in square kilometres.
+year8_indices_hub.html,,VM-IND-035,Explain why 2³+2³ is not 2⁶.
+year8_indices_hub.html,,VM-IND-036,Find the positive integer n if 3ⁿ × 9 = 243.
+year8_indices_hub.html,,VM-IND-037,"Without evaluating both powers fully, compare 4⁵ and 2¹¹."
+year8_fdp_hub.html,,VM-FDP-239,A price rises by 20% and then falls by 20%. Is it back to its original value?
+year8_fdp_hub.html,,VM-FDP-240,Two thirds of a tank is full. One quarter of the water is used. What fraction of the whole tank remains?
+year8_fdp_hub.html,,VM-FDP-241,"Which is larger, 0.37 or 37.1%? Explain."
+year8_algebra_hub.html,,VM-ALG-248,A student claims 3(x−4)+2x = 5x−4. Explain the error and correct it.
+year8_algebra_hub.html,,VM-ALG-249,Explain why the sum of three consecutive integers is divisible by 3.
+year8_algebra_hub.html,,VM-ALG-250,"A rectangle has area 12x²+18x and width 6x, with x positive. Find its length."
+year8_number_hub.html,,VM-NUM-050,Give a rational number strictly between −0.4 and −0.3.
+year8_number_hub.html,,VM-NUM-051,"A submarine is 18 m below sea level. It rises 7 m, dives 12 m, then rises to 3 m below sea level. How far does it rise in the final move?"
+year8_number_hub.html,,VM-NUM-052,Find the smallest positive integer divisible by both 18 and 24.
+year8_data_hub.html,,VM-DA-243,"Five scores are 4, 5, 6, 7 and 28. Which is more representative, mean or median? Explain."
+year8_data_hub.html,,VM-DA-244,"Six values have mean 9. Five are 4, 7, 8, 10 and 12. Find the sixth."
+year8_data_hub.html,,VM-DA-245,A bar chart starts its vertical axis at 95 and shows values 96 and 98. Explain why it may mislead.
+year8_equations_hub.html,,VM-EQ-230,A father is three times his child's age. In 8 years he will be twice the child's age. Find their current ages.
+year8_equations_hub.html,,VM-EQ-231,A student solves 4(x−2)=20 by writing x−2=20−4. Correct the method.
+year8_equations_hub.html,,VM-EQ-232,A rectangle is 3 cm longer than twice its width. Its perimeter is 42 cm. Find its dimensions.
+year8_financial_hub.html,,VM-FIN-050,A sale price of $84 includes a 30% discount. Find the original price.
+year8_financial_hub.html,,VM-FIN-051,"A shop buys an item for $80, marks it up 50%, then discounts the marked price by 20%. Find the profit percentage on cost."
+year8_financial_hub.html,,VM-FIN-052,An invoice totals $242 including 10% GST. Find the GST component.
+year8_circles_hub.html,,VM-CIR-050,A running track consists of two straight 60 m sections and two semicircles of diameter 20 m. Find its exact perimeter.
+year8_circles_hub.html,,VM-CIR-051,A circle is inscribed in a square of side 10 cm. Find the area of the square outside the circle.
+year8_circles_hub.html,,VM-CIR-052,A circle's radius triples. How do its circumference and area change?
+year8_linear_hub.html,,VM-LR-239,A tank contains 30 L at time zero and loses 5 L each minute. When is it empty?
+year8_linear_hub.html,,VM-LR-240,Plan A costs $12 plus $3 per visit. Plan B costs $5 per visit. When do they cost the same?
+year8_linear_hub.html,,VM-LR-241,"A line passes through (2,7) and (5,16). Does it pass through the origin?"
+year8_measurement_hub.html,,VM-ME-223,A rectangular tank has base 50 cm by 40 cm. Adding 12 L raises the water by how much?
+year8_measurement_hub.html,,VM-ME-224,A rectangle has perimeter 24 cm and whole-number side lengths. What dimensions maximise area?
+year8_measurement_hub.html,,VM-ME-225,A cylinder of radius 3 cm and height 10 cm has a cylindrical hole of radius 1 cm through its full height. Find the remaining volume exactly.
+year8_probability_hub.html,,VM-PRO-244,"Two fair coins are tossed. Given that at least one is heads, what is the probability both are heads?"
+year8_probability_hub.html,,VM-PRO-245,"In a class of 30, 18 play soccer, 12 swim and 5 do both. How many do neither?"
+year8_probability_hub.html,,VM-PRO-246,A spinner lands on blue 18 times in 60 spins. Estimate the number of blue results in the next 150 spins.
+year8_pythagoras_hub.html,,VM-PYT-035,A 13 m ladder reaches 12 m up a vertical wall. Its foot moves 4 m farther from the wall. How high does it now reach?
+year8_pythagoras_hub.html,,VM-PYT-036,"A triangle has sides 8, 15 and 17 cm. Explain whether it is right-angled."
+year8_pythagoras_hub.html,,VM-PYT-037,A square has diagonal 10 cm. Find its exact area.
+year8_quadrilaterals_hub.html,,VM-PGF-275,"The exterior angles of a convex pentagon are 60°, 70°, 80°, 90° and x°. Find x."
+year8_quadrilaterals_hub.html,,VM-PGF-276,"Can a triangle have side lengths 4 cm, 6 cm and 11 cm? Explain."
+year8_quadrilaterals_hub.html,,VM-PGF-277,A parallelogram has one right angle. Explain why it must be a rectangle.
+year8_indices_hub.html,,VM-IND-038,Evaluate 2³.
+year8_indices_diagnostic.html,,VM-IND-038,Evaluate 2³.
+year8_indices_hub.html,,VM-IND-039,"Simplify x<sup>6</sup> ÷ x<sup>2</sup>, x ≠ 0."
+year8_indices_diagnostic.html,,VM-IND-039,"Simplify x<sup>6</sup> ÷ x<sup>2</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-040,Simplify (2a²)³.
+year8_indices_diagnostic.html,,VM-IND-040,Simplify (2a²)³.
+year8_indices_hub.html,,VM-IND-041,Find the positive square root of 81.
+year8_indices_diagnostic.html,,VM-IND-041,Find the positive square root of 81.
+year8_indices_hub.html,,VM-IND-042,Evaluate 3³.
+year8_indices_diagnostic.html,,VM-IND-042,Evaluate 3³.
+year8_indices_hub.html,,VM-IND-043,"Simplify x<sup>7</sup> ÷ x<sup>3</sup>, x ≠ 0."
+year8_indices_diagnostic.html,,VM-IND-043,"Simplify x<sup>7</sup> ÷ x<sup>3</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-044,Simplify (3a²)³.
+year8_indices_diagnostic.html,,VM-IND-044,Simplify (3a²)³.
+year8_indices_hub.html,,VM-IND-045,Find the positive square root of 100.
+year8_indices_diagnostic.html,,VM-IND-045,Find the positive square root of 100.
+year8_indices_hub.html,,VM-IND-046,Evaluate 4³.
+year8_indices_diagnostic.html,,VM-IND-046,Evaluate 4³.
+year8_indices_hub.html,,VM-IND-047,"Simplify x<sup>8</sup> ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_diagnostic.html,,VM-IND-047,"Simplify x<sup>8</sup> ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-048,Simplify (4a²)³.
+year8_indices_diagnostic.html,,VM-IND-048,Simplify (4a²)³.
+year8_indices_hub.html,,VM-IND-049,Find the positive square root of 121.
+year8_indices_diagnostic.html,,VM-IND-049,Find the positive square root of 121.
+year8_indices_hub.html,,VM-IND-050,Evaluate 5³.
+year8_indices_diagnostic.html,,VM-IND-050,Evaluate 5³.
+year8_indices_hub.html,,VM-IND-051,"Simplify x<sup>9</sup> ÷ x<sup>5</sup>, x ≠ 0."
+year8_indices_diagnostic.html,,VM-IND-051,"Simplify x<sup>9</sup> ÷ x<sup>5</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-052,Simplify (5a²)³.
+year8_indices_diagnostic.html,,VM-IND-052,Simplify (5a²)³.
+year8_indices_hub.html,,VM-IND-053,Find the positive square root of 144.
+year8_indices_diagnostic.html,,VM-IND-053,Find the positive square root of 144.
+year8_measurement_hub.html,,VM-ME-226,Convert 2500 mL to litres.
+year8_measurement_diagnostic.html,,VM-ME-226,Convert 2500 mL to litres.
+year8_measurement_hub.html,,VM-ME-227,A cylinder has radius 2 cm and height 7 cm. Find its exact volume.
+year8_measurement_diagnostic.html,,VM-ME-227,A cylinder has radius 2 cm and height 7 cm. Find its exact volume.
+year8_measurement_hub.html,,VM-ME-228,A 10 cm by 8 cm rectangle has a 2 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_diagnostic.html,,VM-ME-228,A 10 cm by 8 cm rectangle has a 2 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-229,A tank holds 6 L. Its base area is 600 cm². Find the water depth in cm.
+year8_measurement_diagnostic.html,,VM-ME-229,A tank holds 6 L. Its base area is 600 cm². Find the water depth in cm.
+year8_measurement_hub.html,,VM-ME-230,Convert 3750 mL to litres.
+year8_measurement_diagnostic.html,,VM-ME-230,Convert 3750 mL to litres.
+year8_measurement_hub.html,,VM-ME-231,A cylinder has radius 3 cm and height 7 cm. Find its exact volume.
+year8_measurement_diagnostic.html,,VM-ME-231,A cylinder has radius 3 cm and height 7 cm. Find its exact volume.
+year8_measurement_hub.html,,VM-ME-232,A 11 cm by 8 cm rectangle has a 3 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_diagnostic.html,,VM-ME-232,A 11 cm by 8 cm rectangle has a 3 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-233,A tank holds 9 L. Its base area is 600 cm². Find the water depth in cm.
+year8_measurement_diagnostic.html,,VM-ME-233,A tank holds 9 L. Its base area is 600 cm². Find the water depth in cm.
+year8_measurement_hub.html,,VM-ME-234,Convert 5000 mL to litres.
+year8_measurement_diagnostic.html,,VM-ME-234,Convert 5000 mL to litres.
+year8_measurement_hub.html,,VM-ME-235,A cylinder has radius 4 cm and height 7 cm. Find its exact volume.
+year8_measurement_diagnostic.html,,VM-ME-235,A cylinder has radius 4 cm and height 7 cm. Find its exact volume.
+year8_measurement_hub.html,,VM-ME-236,A 12 cm by 8 cm rectangle has a 4 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_diagnostic.html,,VM-ME-236,A 12 cm by 8 cm rectangle has a 4 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-237,A tank holds 12 L. Its base area is 600 cm². Find the water depth in cm.
+year8_measurement_diagnostic.html,,VM-ME-237,A tank holds 12 L. Its base area is 600 cm². Find the water depth in cm.
+year8_measurement_hub.html,,VM-ME-238,Convert 6250 mL to litres.
+year8_measurement_diagnostic.html,,VM-ME-238,Convert 6250 mL to litres.
+year8_measurement_hub.html,,VM-ME-239,A cylinder has radius 5 cm and height 7 cm. Find its exact volume.
+year8_measurement_diagnostic.html,,VM-ME-239,A cylinder has radius 5 cm and height 7 cm. Find its exact volume.
+year8_measurement_hub.html,,VM-ME-240,A 13 cm by 8 cm rectangle has a 5 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_diagnostic.html,,VM-ME-240,A 13 cm by 8 cm rectangle has a 5 cm by 3 cm corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-241,A tank holds 15 L. Its base area is 600 cm². Find the water depth in cm.
+year8_measurement_diagnostic.html,,VM-ME-241,A tank holds 15 L. Its base area is 600 cm². Find the water depth in cm.
+year8_pythagoras_hub.html,,VM-PYT-038,A right triangle has perpendicular sides 6 cm and 8 cm. Find its hypotenuse.
+year8_pythagoras_diagnostic.html,,VM-PYT-038,A right triangle has perpendicular sides 6 cm and 8 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-039,A right triangle has hypotenuse 26 m and one leg 10 m. Find the other leg.
+year8_pythagoras_diagnostic.html,,VM-PYT-039,A right triangle has hypotenuse 26 m and one leg 10 m. Find the other leg.
+year8_pythagoras_hub.html,,VM-PYT-040,A rectangular courtyard measures 16 m by 30 m. Find the diagonal.
+year8_pythagoras_diagnostic.html,,VM-PYT-040,A rectangular courtyard measures 16 m by 30 m. Find the diagonal.
+year8_pythagoras_hub.html,,VM-PYT-041,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_pythagoras_diagnostic.html,,VM-PYT-041,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_pythagoras_hub.html,,VM-PYT-042,A right triangle has perpendicular sides 9 cm and 12 cm. Find its hypotenuse.
+year8_pythagoras_diagnostic.html,,VM-PYT-042,A right triangle has perpendicular sides 9 cm and 12 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-043,A right triangle has hypotenuse 39 m and one leg 15 m. Find the other leg.
+year8_pythagoras_diagnostic.html,,VM-PYT-043,A right triangle has hypotenuse 39 m and one leg 15 m. Find the other leg.
+year8_pythagoras_hub.html,,VM-PYT-044,A rectangular courtyard measures 24 m by 45 m. Find the diagonal.
+year8_pythagoras_diagnostic.html,,VM-PYT-044,A rectangular courtyard measures 24 m by 45 m. Find the diagonal.
+year8_pythagoras_hub.html,,VM-PYT-045,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_pythagoras_diagnostic.html,,VM-PYT-045,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_pythagoras_hub.html,,VM-PYT-046,A right triangle has perpendicular sides 12 cm and 16 cm. Find its hypotenuse.
+year8_pythagoras_diagnostic.html,,VM-PYT-046,A right triangle has perpendicular sides 12 cm and 16 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-047,A right triangle has hypotenuse 52 m and one leg 20 m. Find the other leg.
+year8_pythagoras_diagnostic.html,,VM-PYT-047,A right triangle has hypotenuse 52 m and one leg 20 m. Find the other leg.
+year8_pythagoras_hub.html,,VM-PYT-048,A rectangular courtyard measures 32 m by 60 m. Find the diagonal.
+year8_pythagoras_diagnostic.html,,VM-PYT-048,A rectangular courtyard measures 32 m by 60 m. Find the diagonal.
+year8_pythagoras_hub.html,,VM-PYT-049,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_pythagoras_diagnostic.html,,VM-PYT-049,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_pythagoras_hub.html,,VM-PYT-050,A right triangle has perpendicular sides 15 cm and 20 cm. Find its hypotenuse.
+year8_pythagoras_diagnostic.html,,VM-PYT-050,A right triangle has perpendicular sides 15 cm and 20 cm. Find its hypotenuse.
+year8_pythagoras_hub.html,,VM-PYT-051,A right triangle has hypotenuse 65 m and one leg 25 m. Find the other leg.
+year8_pythagoras_diagnostic.html,,VM-PYT-051,A right triangle has hypotenuse 65 m and one leg 25 m. Find the other leg.
+year8_pythagoras_hub.html,,VM-PYT-052,A rectangular courtyard measures 40 m by 75 m. Find the diagonal.
+year8_pythagoras_diagnostic.html,,VM-PYT-052,A rectangular courtyard measures 40 m by 75 m. Find the diagonal.
+year8_pythagoras_hub.html,,VM-PYT-053,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_pythagoras_diagnostic.html,,VM-PYT-053,Which set of lengths forms a right triangle? (All lengths in cm.)
+year8_data_hub.html,,VM-DA-246,"Find the mean of 2, 4, 6, 8."
+year8_data_diagnostic.html,,VM-DA-246,"Find the mean of 2, 4, 6, 8."
+year8_data_hub.html,,VM-DA-247,"Find the median of 11, 2, 5, 3, 7."
+year8_data_diagnostic.html,,VM-DA-247,"Find the median of 11, 2, 5, 3, 7."
+year8_data_hub.html,,VM-DA-248,A set of temperatures has minimum −2°C and maximum 12°C. Find the range.
+year8_data_diagnostic.html,,VM-DA-248,A set of temperatures has minimum −2°C and maximum 12°C. Find the range.
+year8_data_hub.html,,VM-DA-249,"Five scores have mean 12. Four scores are 9, 10, 12, 13. Find the fifth."
+year8_data_diagnostic.html,,VM-DA-249,"Five scores have mean 12. Four scores are 9, 10, 12, 13. Find the fifth."
+year8_data_hub.html,,VM-DA-250,"Find the mean of 3, 5, 7, 9."
+year8_data_diagnostic.html,,VM-DA-250,"Find the mean of 3, 5, 7, 9."
+year8_data_hub.html,,VM-DA-251,"Find the median of 12, 3, 6, 4, 8."
+year8_data_diagnostic.html,,VM-DA-251,"Find the median of 12, 3, 6, 4, 8."
+year8_data_hub.html,,VM-DA-252,A set of temperatures has minimum −3°C and maximum 13°C. Find the range.
+year8_data_diagnostic.html,,VM-DA-252,A set of temperatures has minimum −3°C and maximum 13°C. Find the range.
+year8_data_hub.html,,VM-DA-253,"Five scores have mean 13. Four scores are 10, 11, 13, 14. Find the fifth."
+year8_data_diagnostic.html,,VM-DA-253,"Five scores have mean 13. Four scores are 10, 11, 13, 14. Find the fifth."
+year8_data_hub.html,,VM-DA-254,"Find the mean of 4, 6, 8, 10."
+year8_data_diagnostic.html,,VM-DA-254,"Find the mean of 4, 6, 8, 10."
+year8_data_hub.html,,VM-DA-255,"Find the median of 13, 4, 7, 5, 9."
+year8_data_diagnostic.html,,VM-DA-255,"Find the median of 13, 4, 7, 5, 9."
+year8_data_hub.html,,VM-DA-256,A set of temperatures has minimum −4°C and maximum 14°C. Find the range.
+year8_data_diagnostic.html,,VM-DA-256,A set of temperatures has minimum −4°C and maximum 14°C. Find the range.
+year8_data_hub.html,,VM-DA-257,"Five scores have mean 14. Four scores are 11, 12, 14, 15. Find the fifth."
+year8_data_diagnostic.html,,VM-DA-257,"Five scores have mean 14. Four scores are 11, 12, 14, 15. Find the fifth."
+year8_data_hub.html,,VM-DA-258,"Find the mean of 5, 7, 9, 11."
+year8_data_diagnostic.html,,VM-DA-258,"Find the mean of 5, 7, 9, 11."
+year8_data_hub.html,,VM-DA-259,"Find the median of 14, 5, 8, 6, 10."
+year8_data_diagnostic.html,,VM-DA-259,"Find the median of 14, 5, 8, 6, 10."
+year8_data_hub.html,,VM-DA-260,A set of temperatures has minimum −5°C and maximum 15°C. Find the range.
+year8_data_diagnostic.html,,VM-DA-260,A set of temperatures has minimum −5°C and maximum 15°C. Find the range.
+year8_data_hub.html,,VM-DA-261,"Five scores have mean 15. Four scores are 12, 13, 15, 16. Find the fifth."
+year8_data_diagnostic.html,,VM-DA-261,"Five scores have mean 15. Four scores are 12, 13, 15, 16. Find the fifth."
+year8_probability_hub.html,,VM-PRO-247,A bag contains 2 red and 5 blue counters. One is chosen at random. Find P(red).
+year8_probability_diagnostic.html,,VM-PRO-247,A bag contains 2 red and 5 blue counters. One is chosen at random. Find P(red).
+year8_probability_hub.html,,VM-PRO-248,"A fair spinner has 6 equal sectors, one green. Estimate green results in 120 spins."
+year8_probability_diagnostic.html,,VM-PRO-248,"A fair spinner has 6 equal sectors, one green. Estimate green results in 120 spins."
+year8_probability_hub.html,,VM-PRO-249,The probability of rain is 20%. Find the probability of no rain.
+year8_probability_diagnostic.html,,VM-PRO-249,The probability of rain is 20%. Find the probability of no rain.
+year8_probability_hub.html,,VM-PRO-250,"Of 40 students, 10 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_probability_diagnostic.html,,VM-PRO-250,"Of 40 students, 10 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_probability_hub.html,,VM-PRO-251,A bag contains 3 red and 6 blue counters. One is chosen at random. Find P(red).
+year8_probability_diagnostic.html,,VM-PRO-251,A bag contains 3 red and 6 blue counters. One is chosen at random. Find P(red).
+year8_probability_hub.html,,VM-PRO-252,"A fair spinner has 7 equal sectors, one green. Estimate green results in 140 spins."
+year8_probability_diagnostic.html,,VM-PRO-252,"A fair spinner has 7 equal sectors, one green. Estimate green results in 140 spins."
+year8_probability_hub.html,,VM-PRO-253,The probability of rain is 30%. Find the probability of no rain.
+year8_probability_diagnostic.html,,VM-PRO-253,The probability of rain is 30%. Find the probability of no rain.
+year8_probability_hub.html,,VM-PRO-254,"Of 50 students, 15 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_probability_diagnostic.html,,VM-PRO-254,"Of 50 students, 15 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_probability_hub.html,,VM-PRO-255,A bag contains 4 red and 7 blue counters. One is chosen at random. Find P(red).
+year8_probability_diagnostic.html,,VM-PRO-255,A bag contains 4 red and 7 blue counters. One is chosen at random. Find P(red).
+year8_probability_hub.html,,VM-PRO-256,"A fair spinner has 8 equal sectors, one green. Estimate green results in 160 spins."
+year8_probability_diagnostic.html,,VM-PRO-256,"A fair spinner has 8 equal sectors, one green. Estimate green results in 160 spins."
+year8_probability_hub.html,,VM-PRO-257,The probability of rain is 40%. Find the probability of no rain.
+year8_probability_diagnostic.html,,VM-PRO-257,The probability of rain is 40%. Find the probability of no rain.
+year8_probability_hub.html,,VM-PRO-258,"Of 60 students, 20 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_probability_diagnostic.html,,VM-PRO-258,"Of 60 students, 20 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_probability_hub.html,,VM-PRO-259,A bag contains 5 red and 8 blue counters. One is chosen at random. Find P(red).
+year8_probability_diagnostic.html,,VM-PRO-259,A bag contains 5 red and 8 blue counters. One is chosen at random. Find P(red).
+year8_probability_hub.html,,VM-PRO-260,"A fair spinner has 9 equal sectors, one green. Estimate green results in 180 spins."
+year8_probability_diagnostic.html,,VM-PRO-260,"A fair spinner has 9 equal sectors, one green. Estimate green results in 180 spins."
+year8_probability_hub.html,,VM-PRO-261,The probability of rain is 50%. Find the probability of no rain.
+year8_probability_diagnostic.html,,VM-PRO-261,The probability of rain is 50%. Find the probability of no rain.
+year8_probability_hub.html,,VM-PRO-262,"Of 70 students, 25 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_probability_diagnostic.html,,VM-PRO-262,"Of 70 students, 25 play chess, 12 play tennis and 4 play both. How many play neither?"
+year8_number_hub.html,,VM-NUM-053,"Which is greater, −0.7 or −¾? Explain."
+year8_number_hub.html,,VM-NUM-054,Find two consecutive integers whose sum is −17.
+year8_fdp_hub.html,,VM-FDP-242,"A tank is ⅔ full. After using ¼ of the water present, what fraction of the tank is full?"
+year8_fdp_hub.html,,VM-FDP-243,Explain why increasing a quantity by 20% then decreasing it by 20% does not restore it.
+year8_financial_hub.html,,VM-FIN-053,A shop buys an item for $80 and marks it up by 25%. It then discounts the marked price by 10%. Find the profit.
+year8_financial_hub.html,,VM-FIN-054,Two stores offer $30 off $150 and 18% off $150. Which is cheaper and by how much?
+year8_algebra_hub.html,,VM-ALG-251,A rectangle has sides x + 3 and 2x − 1. Write its perimeter in simplest form.
+year8_algebra_hub.html,,VM-ALG-252,Explain why 3(x + 2) − (x − 4) is not equal to 2x + 2.
+year8_equations_hub.html,,VM-EQ-233,A rectangle has perimeter 54 cm. Its length is twice its width plus 3 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-234,Find x if 4(x − 2) = 2(x + 5). Verify your answer.
+year8_indices_hub.html,,VM-IND-054,Find n if 2<sup>n</sup> × 8 = 64.
+year8_indices_hub.html,,VM-IND-055,"Which is larger, 3<sup>4</sup> or 4<sup>3</sup>? Explain."
+year8_rates_ratios_hub.html,,VM-RR-242,A map uses a scale of 1 : 25 000. A walking route measures 7.2 cm. How long does it take at 4.5 km/h?
+year8_rates_ratios_hub.html,,VM-RR-243,A mixture has red and blue paint in ratio 3 : 5. Adding 4 L of red makes the amounts equal. Find the original total.
+year8_linear_hub.html,,VM-LR-242,A taxi charges $6 plus $2 per kilometre. Another charges $10 plus $1 per kilometre. When are costs equal?
+year8_linear_hub.html,,VM-LR-243,"A line passes through (2, 7) and (5, 16). Find its equation."
+year8_quadrilaterals_hub.html,,VM-PGF-278,"The angles of a triangle are x, 2x and 3x. Classify the triangle by its angles."
+year8_quadrilaterals_hub.html,,VM-PGF-279,A regular polygon has exterior angles of 24°. How many sides does it have?
+year8_circles_hub.html,,VM-CIR-053,A circular garden of radius 4 m is surrounded by a path 1 m wide. Find the exact area of the path.
+year8_circles_hub.html,,VM-CIR-054,Two circles have radii in ratio 2 : 3. Find the ratio of their areas.
+year8_measurement_hub.html,,VM-ME-242,A rectangular tank measures 50 cm by 40 cm by 30 cm. It is 80% full. Find the water volume in litres.
+year8_measurement_hub.html,,VM-ME-243,A cylinder has radius 3 cm. Its volume is 90π cm³. Find its height.
+year8_pythagoras_hub.html,,VM-PYT-054,A rectangular courtyard is 9 m by 12 m. Compare the diagonal route with walking along two sides.
+year8_pythagoras_hub.html,,VM-PYT-055,A ladder 13 m long reaches 12 m up a wall. Its base moves 3 m further from the wall. Find the new height exactly.
+year8_data_hub.html,,VM-DA-262,"Five values have mean 12. Four are 8, 10, 13 and 15. Find the missing value."
+year8_data_hub.html,,VM-DA-263,"For 2, 3, 3, 4, 28, which better represents a typical value: mean or median?"
+year8_probability_hub.html,,VM-PRO-263,"Of 30 students, 18 play soccer, 12 play tennis and 5 play both. Find the probability a randomly selected student plays neither."
+year8_probability_hub.html,,VM-PRO-264,Two fair coins are tossed. A student says the chance of one head is ⅓ because there are three possible head counts. Explain the error.
+year8_algebra_hub.html,,VM-ALG-253,Expand and simplify 4(x − 2) − 6(x + 1).
+year8_algebra_hub.html,,VM-ALG-254,"Simplify <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>2</span></span>x + <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>4</span></span>x."
+year8_algebra_hub.html,,VM-ALG-255,Expand and simplify 5(x − 2) − 7(x + 1).
+year8_algebra_hub.html,,VM-ALG-256,"Simplify <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>2</span></span>x + <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>5</span></span>x."
+year8_algebra_hub.html,,VM-ALG-257,Expand and simplify 6(x − 2) − 8(x + 1).
+year8_algebra_hub.html,,VM-ALG-258,"Simplify <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>2</span></span>x + <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>6</span></span>x."
+year8_algebra_hub.html,,VM-ALG-259,Expand and simplify 7(x − 2) − 9(x + 1).
+year8_algebra_hub.html,,VM-ALG-260,"Simplify <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>2</span></span>x + <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>7</span></span>x."
+year8_circles_hub.html,,VM-CIR-055,A semicircular window has diameter 8 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-056,A circular pond of radius 4 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-057,A semicircular window has diameter 10 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-058,A circular pond of radius 5 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-059,A semicircular window has diameter 12 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-060,A circular pond of radius 6 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-061,A semicircular window has diameter 14 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-062,A circular pond of radius 7 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-063,A semicircular window has diameter 16 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-064,A circular pond of radius 8 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-065,A semicircular window has diameter 18 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-066,A circular pond of radius 9 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-067,A semicircular window has diameter 20 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-068,A circular pond of radius 10 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-069,A semicircular window has diameter 22 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-070,A circular pond of radius 11 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-071,A semicircular window has diameter 24 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-072,A circular pond of radius 12 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-073,A semicircular window has diameter 26 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-074,A circular pond of radius 13 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-075,A semicircular window has diameter 28 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-076,A circular pond of radius 14 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-077,A semicircular window has diameter 30 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-078,A circular pond of radius 15 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_circles_hub.html,,VM-CIR-079,A semicircular window has diameter 32 cm. Find its perimeter exactly.
+year8_circles_hub.html,,VM-CIR-080,A circular pond of radius 16 m is surrounded by a 2 m wide path. Find the path area exactly.
+year8_data_hub.html,,VM-DA-264,"A survey gives scores 1, 2 and 3 with frequencies 4, 2 and 4. Find the mean and median."
+year8_data_hub.html,,VM-DA-265,"Group A has values 4, 6, 8. Group B has values 2, 6, 10. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-266,"A survey gives scores 1, 2 and 3 with frequencies 5, 2 and 5. Find the mean and median."
+year8_data_hub.html,,VM-DA-267,"Group A has values 5, 7, 9. Group B has values 3, 7, 11. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-268,"A survey gives scores 1, 2 and 3 with frequencies 6, 2 and 6. Find the mean and median."
+year8_data_hub.html,,VM-DA-269,"Group A has values 6, 8, 10. Group B has values 4, 8, 12. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-270,"A survey gives scores 1, 2 and 3 with frequencies 7, 2 and 7. Find the mean and median."
+year8_data_hub.html,,VM-DA-271,"Group A has values 7, 9, 11. Group B has values 5, 9, 13. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-272,"A survey gives scores 1, 2 and 3 with frequencies 8, 2 and 8. Find the mean and median."
+year8_data_hub.html,,VM-DA-273,"Group A has values 8, 10, 12. Group B has values 6, 10, 14. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-274,"A survey gives scores 1, 2 and 3 with frequencies 9, 2 and 9. Find the mean and median."
+year8_data_hub.html,,VM-DA-275,"Group A has values 9, 11, 13. Group B has values 7, 11, 15. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-276,"A survey gives scores 1, 2 and 3 with frequencies 10, 2 and 10. Find the mean and median."
+year8_data_hub.html,,VM-DA-277,"Group A has values 10, 12, 14. Group B has values 8, 12, 16. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-278,"A survey gives scores 1, 2 and 3 with frequencies 11, 2 and 11. Find the mean and median."
+year8_data_hub.html,,VM-DA-279,"Group A has values 11, 13, 15. Group B has values 9, 13, 17. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-280,"A survey gives scores 1, 2 and 3 with frequencies 12, 2 and 12. Find the mean and median."
+year8_data_hub.html,,VM-DA-281,"Group A has values 12, 14, 16. Group B has values 10, 14, 18. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-282,"A survey gives scores 1, 2 and 3 with frequencies 13, 2 and 13. Find the mean and median."
+year8_data_hub.html,,VM-DA-283,"Group A has values 13, 15, 17. Group B has values 11, 15, 19. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-284,"A survey gives scores 1, 2 and 3 with frequencies 14, 2 and 14. Find the mean and median."
+year8_data_hub.html,,VM-DA-285,"Group A has values 14, 16, 18. Group B has values 12, 16, 20. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-286,"A survey gives scores 1, 2 and 3 with frequencies 15, 2 and 15. Find the mean and median."
+year8_data_hub.html,,VM-DA-287,"Group A has values 15, 17, 19. Group B has values 13, 17, 21. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-288,"A survey gives scores 1, 2 and 3 with frequencies 16, 2 and 16. Find the mean and median."
+year8_data_hub.html,,VM-DA-289,"Group A has values 16, 18, 20. Group B has values 14, 18, 22. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-290,"A survey gives scores 1, 2 and 3 with frequencies 17, 2 and 17. Find the mean and median."
+year8_data_hub.html,,VM-DA-291,"Group A has values 17, 19, 21. Group B has values 15, 19, 23. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-292,"A survey gives scores 1, 2 and 3 with frequencies 18, 2 and 18. Find the mean and median."
+year8_data_hub.html,,VM-DA-293,"Group A has values 18, 20, 22. Group B has values 16, 20, 24. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-294,"A survey gives scores 1, 2 and 3 with frequencies 19, 2 and 19. Find the mean and median."
+year8_data_hub.html,,VM-DA-295,"Group A has values 19, 21, 23. Group B has values 17, 21, 25. Compare their means and ranges."
+year8_data_hub.html,,VM-DA-296,"A survey gives scores 1, 2 and 3 with frequencies 20, 2 and 20. Find the mean and median."
+year8_equations_hub.html,,VM-EQ-235,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>4</span></span>(x + 6) = 4."
+year8_equations_hub.html,,VM-EQ-236,A rectangle is 4 cm longer than it is wide. Its perimeter is 32 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-237,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>5</span></span>(x + 7) = 4."
+year8_equations_hub.html,,VM-EQ-238,A rectangle is 5 cm longer than it is wide. Its perimeter is 38 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-239,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>6</span></span>(x + 8) = 4."
+year8_equations_hub.html,,VM-EQ-240,A rectangle is 6 cm longer than it is wide. Its perimeter is 44 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-241,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>7</span></span>(x + 9) = 4."
+year8_equations_hub.html,,VM-EQ-242,A rectangle is 7 cm longer than it is wide. Its perimeter is 50 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-243,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>8</span></span>(x + 10) = 4."
+year8_equations_hub.html,,VM-EQ-244,A rectangle is 8 cm longer than it is wide. Its perimeter is 56 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-245,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>9</span></span>(x + 11) = 4."
+year8_equations_hub.html,,VM-EQ-246,A rectangle is 9 cm longer than it is wide. Its perimeter is 62 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-247,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>10</span></span>(x + 12) = 4."
+year8_equations_hub.html,,VM-EQ-248,A rectangle is 10 cm longer than it is wide. Its perimeter is 68 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-249,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>11</span></span>(x + 13) = 4."
+year8_equations_hub.html,,VM-EQ-250,A rectangle is 11 cm longer than it is wide. Its perimeter is 74 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-251,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>12</span></span>(x + 14) = 4."
+year8_equations_hub.html,,VM-EQ-252,A rectangle is 12 cm longer than it is wide. Its perimeter is 80 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-253,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>13</span></span>(x + 15) = 4."
+year8_equations_hub.html,,VM-EQ-254,A rectangle is 13 cm longer than it is wide. Its perimeter is 86 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-255,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>14</span></span>(x + 16) = 4."
+year8_equations_hub.html,,VM-EQ-256,A rectangle is 14 cm longer than it is wide. Its perimeter is 92 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-257,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>15</span></span>(x + 17) = 4."
+year8_equations_hub.html,,VM-EQ-258,A rectangle is 15 cm longer than it is wide. Its perimeter is 98 cm. Find its dimensions.
+year8_equations_hub.html,,VM-EQ-259,"Solve <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">1</span><span>16</span></span>(x + 18) = 4."
+year8_equations_hub.html,,VM-EQ-260,A rectangle is 16 cm longer than it is wide. Its perimeter is 104 cm. Find its dimensions.
+year8_fdp_hub.html,,VM-FDP-244,"A recipe uses 2 cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-245,A quantity increases from 40 to 48. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-246,"A recipe uses <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">5</span><span>2</span></span> cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-247,A quantity increases from 50 to 60. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-248,"A recipe uses 3 cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-249,A quantity increases from 60 to 72. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-250,"A recipe uses <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">7</span><span>2</span></span> cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-251,A quantity increases from 70 to 84. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-252,"A recipe uses 4 cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-253,A quantity increases from 80 to 96. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-254,"A recipe uses <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">9</span><span>2</span></span> cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-255,A quantity increases from 90 to 108. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-256,"A recipe uses 5 cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-257,A quantity increases from 100 to 120. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-258,"A recipe uses <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">11</span><span>2</span></span> cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_fdp_hub.html,,VM-FDP-259,A quantity increases from 110 to 132. Find the percentage increase.
+year8_fdp_hub.html,,VM-FDP-260,"A recipe uses 6 cups for one batch. How many cups are needed for <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">3</span><span>4</span></span> of a batch?"
+year8_financial_hub.html,,VM-FIN-055,"A jacket costs $80. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-056,A shop buys an item for $40 and sells it for $52. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-057,"A jacket costs $100. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-058,A shop buys an item for $50 and sells it for $65. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-059,"A jacket costs $120. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-060,A shop buys an item for $60 and sells it for $78. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-061,"A jacket costs $140. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-062,A shop buys an item for $70 and sells it for $91. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-063,"A jacket costs $160. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-064,A shop buys an item for $80 and sells it for $104. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-065,"A jacket costs $180. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-066,A shop buys an item for $90 and sells it for $117. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-067,"A jacket costs $200. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-068,A shop buys an item for $100 and sells it for $130. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-069,"A jacket costs $220. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-070,A shop buys an item for $110 and sells it for $143. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-071,"A jacket costs $240. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-072,A shop buys an item for $120 and sells it for $156. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-073,"A jacket costs $260. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-074,A shop buys an item for $130 and sells it for $169. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-075,"A jacket costs $280. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-076,A shop buys an item for $140 and sells it for $182. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-077,"A jacket costs $300. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-078,A shop buys an item for $150 and sells it for $195. Find its profit percentage.
+year8_financial_hub.html,,VM-FIN-079,"A jacket costs $320. It is reduced by 25%, then by 20% of the reduced price. Find the final price."
+year8_financial_hub.html,,VM-FIN-080,A shop buys an item for $160 and sells it for $208. Find its profit percentage.
+year8_indices_hub.html,,VM-IND-056,"Simplify (x<sup>4</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-057,A cube has volume 64 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-058,"Simplify (x<sup>5</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-059,A cube has volume 125 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-060,"Simplify (x<sup>6</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-061,A cube has volume 216 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-062,"Simplify (x<sup>7</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-063,A cube has volume 343 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-064,"Simplify (x<sup>8</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-065,A cube has volume 512 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-066,"Simplify (x<sup>9</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-067,A cube has volume 729 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-068,"Simplify (x<sup>10</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-069,A cube has volume 1000 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-070,"Simplify (x<sup>11</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-071,A cube has volume 1331 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-072,"Simplify (x<sup>12</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-073,A cube has volume 1728 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-074,"Simplify (x<sup>13</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-075,A cube has volume 2197 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-076,"Simplify (x<sup>14</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-077,A cube has volume 2744 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-078,"Simplify (x<sup>15</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-079,A cube has volume 3375 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-080,"Simplify (x<sup>16</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-081,A cube has volume 4096 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-082,"Simplify (x<sup>17</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-083,A cube has volume 4913 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-084,"Simplify (x<sup>18</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-085,A cube has volume 5832 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-086,"Simplify (x<sup>19</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_indices_hub.html,,VM-IND-087,A cube has volume 6859 cm³. Find its edge length and surface area.
+year8_indices_hub.html,,VM-IND-088,"Simplify (x<sup>20</sup> × x<sup>2</sup>)² ÷ x<sup>4</sup>, x ≠ 0."
+year8_linear_hub.html,,VM-LR-244,A taxi costs $4 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $24.
+year8_linear_hub.html,,VM-LR-245,Two plans cost A = 4+3x and B = 16+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-246,A taxi costs $5 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $25.
+year8_linear_hub.html,,VM-LR-247,Two plans cost A = 5+3x and B = 17+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-248,A taxi costs $6 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $26.
+year8_linear_hub.html,,VM-LR-249,Two plans cost A = 6+3x and B = 18+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-250,A taxi costs $7 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $27.
+year8_linear_hub.html,,VM-LR-251,Two plans cost A = 7+3x and B = 19+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-252,A taxi costs $8 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $28.
+year8_linear_hub.html,,VM-LR-253,Two plans cost A = 8+3x and B = 20+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-254,A taxi costs $9 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $29.
+year8_linear_hub.html,,VM-LR-255,Two plans cost A = 9+3x and B = 21+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-256,A taxi costs $10 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $30.
+year8_linear_hub.html,,VM-LR-257,Two plans cost A = 10+3x and B = 22+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-258,A taxi costs $11 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $31.
+year8_linear_hub.html,,VM-LR-259,Two plans cost A = 11+3x and B = 23+x. At what x are costs equal?
+year8_linear_hub.html,,VM-LR-260,A taxi costs $12 plus $2 per kilometre. Write a rule for cost C after d km and find d when C = $32.
+year8_measurement_hub.html,,VM-ME-244,A rectangular tank measures 40 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-245,A 14 m by 8 m rectangle has a 4 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-246,A rectangular tank measures 50 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-247,A 15 m by 8 m rectangle has a 5 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-248,A rectangular tank measures 60 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-249,A 16 m by 8 m rectangle has a 6 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-250,A rectangular tank measures 70 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-251,A 17 m by 8 m rectangle has a 7 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-252,A rectangular tank measures 80 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-253,A 18 m by 8 m rectangle has a 8 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-254,A rectangular tank measures 90 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-255,A 19 m by 8 m rectangle has a 9 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-256,A rectangular tank measures 100 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-257,A 20 m by 8 m rectangle has a 10 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-258,A rectangular tank measures 110 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-259,A 21 m by 8 m rectangle has a 11 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-260,A rectangular tank measures 120 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-261,A 22 m by 8 m rectangle has a 12 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-262,A rectangular tank measures 130 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-263,A 23 m by 8 m rectangle has a 13 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-264,A rectangular tank measures 140 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-265,A 24 m by 8 m rectangle has a 14 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-266,A rectangular tank measures 150 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_measurement_hub.html,,VM-ME-267,A 25 m by 8 m rectangle has a 15 m by 3 m corner removed. Find the remaining area.
+year8_measurement_hub.html,,VM-ME-268,A rectangular tank measures 160 cm by 20 cm by 30 cm. Find its capacity in litres.
+year8_number_hub.html,,VM-NUM-055,"A diver starts at −4 m, descends 6 m, then rises 6 m. Find the final position."
+year8_number_hub.html,,VM-NUM-056,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">4</span><span>5</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">6</span><span>7</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-057,"A diver starts at −5 m, descends 7 m, then rises 7 m. Find the final position."
+year8_number_hub.html,,VM-NUM-058,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">5</span><span>6</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">7</span><span>8</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-059,"A diver starts at −6 m, descends 8 m, then rises 8 m. Find the final position."
+year8_number_hub.html,,VM-NUM-060,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">6</span><span>7</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">8</span><span>9</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-061,"A diver starts at −7 m, descends 9 m, then rises 9 m. Find the final position."
+year8_number_hub.html,,VM-NUM-062,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">7</span><span>8</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">9</span><span>10</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-063,"A diver starts at −8 m, descends 10 m, then rises 10 m. Find the final position."
+year8_number_hub.html,,VM-NUM-064,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">8</span><span>9</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">10</span><span>11</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-065,"A diver starts at −9 m, descends 11 m, then rises 11 m. Find the final position."
+year8_number_hub.html,,VM-NUM-066,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">9</span><span>10</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">11</span><span>12</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-067,"A diver starts at −10 m, descends 12 m, then rises 12 m. Find the final position."
+year8_number_hub.html,,VM-NUM-068,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">10</span><span>11</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">12</span><span>13</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-069,"A diver starts at −11 m, descends 13 m, then rises 13 m. Find the final position."
+year8_number_hub.html,,VM-NUM-070,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">11</span><span>12</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">13</span><span>14</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-071,"A diver starts at −12 m, descends 14 m, then rises 14 m. Find the final position."
+year8_number_hub.html,,VM-NUM-072,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">12</span><span>13</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">14</span><span>15</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-073,"A diver starts at −13 m, descends 15 m, then rises 15 m. Find the final position."
+year8_number_hub.html,,VM-NUM-074,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">13</span><span>14</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">15</span><span>16</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-075,"A diver starts at −14 m, descends 16 m, then rises 16 m. Find the final position."
+year8_number_hub.html,,VM-NUM-076,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">14</span><span>15</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">16</span><span>17</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-077,"A diver starts at −15 m, descends 17 m, then rises 17 m. Find the final position."
+year8_number_hub.html,,VM-NUM-078,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">15</span><span>16</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">17</span><span>18</span></span>? Justify."
+year8_number_hub.html,,VM-NUM-079,"A diver starts at −16 m, descends 18 m, then rises 18 m. Find the final position."
+year8_number_hub.html,,VM-NUM-080,"Which is greater: <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">16</span><span>17</span></span> or <span style=""display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center""><span style=""border-bottom:1px solid"">18</span><span>19</span></span>? Justify."
+year8_probability_hub.html,,VM-PRO-265,"A bag holds 4 red, 6 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-266,"A spinner has 4 equal sectors, two shaded. Predict the number of shaded results in 60 spins."
+year8_probability_hub.html,,VM-PRO-267,"A bag holds 5 red, 7 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-268,"A spinner has 5 equal sectors, two shaded. Predict the number of shaded results in 75 spins."
+year8_probability_hub.html,,VM-PRO-269,"A bag holds 6 red, 8 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-270,"A spinner has 6 equal sectors, two shaded. Predict the number of shaded results in 90 spins."
+year8_probability_hub.html,,VM-PRO-271,"A bag holds 7 red, 9 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-272,"A spinner has 7 equal sectors, two shaded. Predict the number of shaded results in 105 spins."
+year8_probability_hub.html,,VM-PRO-273,"A bag holds 8 red, 10 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-274,"A spinner has 8 equal sectors, two shaded. Predict the number of shaded results in 120 spins."
+year8_probability_hub.html,,VM-PRO-275,"A bag holds 9 red, 11 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-276,"A spinner has 9 equal sectors, two shaded. Predict the number of shaded results in 135 spins."
+year8_probability_hub.html,,VM-PRO-277,"A bag holds 10 red, 12 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-278,"A spinner has 10 equal sectors, two shaded. Predict the number of shaded results in 150 spins."
+year8_probability_hub.html,,VM-PRO-279,"A bag holds 11 red, 13 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-280,"A spinner has 11 equal sectors, two shaded. Predict the number of shaded results in 165 spins."
+year8_probability_hub.html,,VM-PRO-281,"A bag holds 12 red, 14 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-282,"A spinner has 12 equal sectors, two shaded. Predict the number of shaded results in 180 spins."
+year8_probability_hub.html,,VM-PRO-283,"A bag holds 13 red, 15 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-284,"A spinner has 13 equal sectors, two shaded. Predict the number of shaded results in 195 spins."
+year8_probability_hub.html,,VM-PRO-285,"A bag holds 14 red, 16 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-286,"A spinner has 14 equal sectors, two shaded. Predict the number of shaded results in 210 spins."
+year8_probability_hub.html,,VM-PRO-287,"A bag holds 15 red, 17 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-288,"A spinner has 15 equal sectors, two shaded. Predict the number of shaded results in 225 spins."
+year8_probability_hub.html,,VM-PRO-289,"A bag holds 16 red, 18 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-290,"A spinner has 16 equal sectors, two shaded. Predict the number of shaded results in 240 spins."
+year8_probability_hub.html,,VM-PRO-291,"A bag holds 17 red, 19 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-292,"A spinner has 17 equal sectors, two shaded. Predict the number of shaded results in 255 spins."
+year8_probability_hub.html,,VM-PRO-293,"A bag holds 18 red, 20 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-294,"A spinner has 18 equal sectors, two shaded. Predict the number of shaded results in 270 spins."
+year8_probability_hub.html,,VM-PRO-295,"A bag holds 19 red, 21 blue and 2 green counters. Find the probability of not selecting blue."
+year8_probability_hub.html,,VM-PRO-296,"A spinner has 19 equal sectors, two shaded. Predict the number of shaded results in 285 spins."
+year8_pythagoras_hub.html,,VM-PYT-056,A rectangular garden is 12 m by 16 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-057,"A triangle has sides 12, 16 and 21 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-058,A rectangular garden is 15 m by 20 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-059,"A triangle has sides 15, 20 and 26 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-060,A rectangular garden is 18 m by 24 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-061,"A triangle has sides 18, 24 and 31 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-062,A rectangular garden is 21 m by 28 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-063,"A triangle has sides 21, 28 and 36 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-064,A rectangular garden is 24 m by 32 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-065,"A triangle has sides 24, 32 and 41 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-066,A rectangular garden is 27 m by 36 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-067,"A triangle has sides 27, 36 and 46 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-068,A rectangular garden is 30 m by 40 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-069,"A triangle has sides 30, 40 and 51 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-070,A rectangular garden is 33 m by 44 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-071,"A triangle has sides 33, 44 and 56 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-072,A rectangular garden is 36 m by 48 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-073,"A triangle has sides 36, 48 and 61 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-074,A rectangular garden is 39 m by 52 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-075,"A triangle has sides 39, 52 and 66 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-076,A rectangular garden is 42 m by 56 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-077,"A triangle has sides 42, 56 and 71 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-078,A rectangular garden is 45 m by 60 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-079,"A triangle has sides 45, 60 and 76 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-080,A rectangular garden is 48 m by 64 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-081,"A triangle has sides 48, 64 and 81 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-082,A rectangular garden is 51 m by 68 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-083,"A triangle has sides 51, 68 and 86 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-084,A rectangular garden is 54 m by 72 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-085,"A triangle has sides 54, 72 and 91 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-086,A rectangular garden is 57 m by 76 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_pythagoras_hub.html,,VM-PYT-087,"A triangle has sides 57, 76 and 96 cm. Is it right-angled?"
+year8_pythagoras_hub.html,,VM-PYT-088,A rectangular garden is 60 m by 80 m. How much shorter is the diagonal than walking along two adjacent sides?
+year8_quadrilaterals_hub.html,,VM-PGF-280,An isosceles triangle has vertex angle 8°. Find each base angle.
+year8_quadrilaterals_hub.html,,VM-PGF-281,Two co-interior angles between parallel lines are x and x + 8 degrees. Find x.
+year8_quadrilaterals_hub.html,,VM-PGF-282,An isosceles triangle has vertex angle 10°. Find each base angle.
+year8_quadrilaterals_hub.html,,VM-PGF-283,Two co-interior angles between parallel lines are x and x + 10 degrees. Find x.
+year8_quadrilaterals_hub.html,,VM-PGF-284,An isosceles triangle has vertex angle 12°. Find each base angle.
+year8_quadrilaterals_hub.html,,VM-PGF-285,Two co-interior angles between parallel lines are x and x + 12 degrees. Find x.
+year8_quadrilaterals_hub.html,,VM-PGF-286,An isosceles triangle has vertex angle 14°. Find each base angle.
+year8_quadrilaterals_hub.html,,VM-PGF-287,Two co-interior angles between parallel lines are x and x + 14 degrees. Find x.
+year8_quadrilaterals_hub.html,,VM-PGF-288,An isosceles triangle has vertex angle 16°. Find each base angle.
+year8_rates_ratios_hub.html,,VM-RR-244,"A map scale is 1 : 4,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-245,Juice and water are mixed in ratio 2 : 4. There are 12 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-246,"A map scale is 1 : 5,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-247,Juice and water are mixed in ratio 2 : 5. There are 15 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-248,"A map scale is 1 : 6,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-249,Juice and water are mixed in ratio 2 : 6. There are 18 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-250,"A map scale is 1 : 7,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-251,Juice and water are mixed in ratio 2 : 7. There are 21 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-252,"A map scale is 1 : 8,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-253,Juice and water are mixed in ratio 2 : 8. There are 24 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-254,"A map scale is 1 : 9,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-255,Juice and water are mixed in ratio 2 : 9. There are 27 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-256,"A map scale is 1 : 10,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-257,Juice and water are mixed in ratio 2 : 10. There are 30 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-258,"A map scale is 1 : 11,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_rates_ratios_hub.html,,VM-RR-259,Juice and water are mixed in ratio 2 : 11. There are 33 L of water. Find total mixture volume.
+year8_rates_ratios_hub.html,,VM-RR-260,"A map scale is 1 : 12,000. A route measures 6 cm on the map. Find actual distance in metres."
+year8_number_hub.html,,VM-NUM-081,Find the highest common factor of 42 and 70.
+year8_fdp_hub.html,,VM-FDP-261,A circular garden has area 7π m². Explain when 7π and 22.0 m² are each useful.
+year8_algebra_hub.html,,VM-ALG-261,"In P = 4s, explain why s is a variable when comparing squares of different sizes. Give two examples."
+year8_data_hub.html,,VM-DA-297,A fictional school surveys every student: 120 prefer a later start and 80 prefer the current start. A separate voluntary poll has 18 of 20 favouring a later start. Which evidence should guide a school-wide decision and why?
+year8_probability_hub.html,,VM-PRO-297,"A spinner has 8 equal sectors: 3 pink, 2 blue and 3 green. Calculate each colour probability and verify their sum."
+year8_probability_hub.html,,VM-PRO-298,"Use the dice simulator on this page for 20 rolls, then repeat with 200 rolls. Record the relative frequency of rolling a six in each run. Compare with the theoretical probability."
+year8_number_hub.html,,VM-NUM-082,A submarine is at −18 m relative to sea level and a drone is at +12 m. Describe the direction and magnitude of each position.
+year8_number_hub.html,,VM-NUM-083,Write 5 × (−4) as repeated addition and evaluate it.
+year8_number_hub.html,,VM-NUM-084,"Calculate −18 + 7 − (−9) by hand, then check with a calculator."
+year8_number_hub.html,,VM-NUM-085,Evaluate −4 + 3 × (−6 + 2) by hand and verify using a calculator.
+year8_fdp_hub.html,,VM-FDP-262,"Simplify <span class=""frac""><span>18</span><span>24</span></span> using the HCF, then compare it with <span class=""frac""><span>5</span><span>6</span></span> using denominator 12."
+year8_fdp_hub.html,,VM-FDP-263,Use a calculator to approximate √7 to two decimal places using ≈. Mark it on a number line from 2 to 3.
+year8_fdp_hub.html,,VM-FDP-264,"Define a rational number. Explain why <span class=""frac""><span>7</span><span>11</span></span>, 35%, 0.24 and 0.<span style=""text-decoration:overline"">6</span> are rational."
+year8_fdp_hub.html,,VM-FDP-265,"Convert <span class=""frac""><span>9</span><span>4</span></span> to a mixed number, decimal and percentage. Convert 2.25 and 225% back to fractions. Also express <span class=""frac""><span>2</span><span>9</span></span> as a recurring decimal."
+year8_fdp_hub.html,,VM-FDP-266,"On a number line from −2 to 2, plot −1<span class=""frac""><span>1</span><span>2</span></span>, −0.8, <span class=""frac""><span>1</span><span>4</span></span>, 60%, and 0.<span style=""text-decoration:overline"">6</span>. List in ascending order."
+year8_fdp_hub.html,,VM-FDP-267,"Draw fraction bars to show <span class=""frac""><span>1</span><span>2</span></span> + <span class=""frac""><span>1</span><span>3</span></span> and <span class=""frac""><span>5</span><span>6</span></span> − <span class=""frac""><span>2</span><span>6</span></span>. A 3 m ribbon loses 1<span class=""frac""><span>3</span><span>4</span></span> m. Find the remainder by hand and check with a calculator."
+year8_fdp_hub.html,,VM-FDP-268,Compare 12 × 0.4 and 12 ÷ 0.4 with 12. Explain the general effect for positive numbers.
+year8_fdp_hub.html,,VM-FDP-269,"Sketch a tenths grid to represent 0.3 × 0.4 and a strip to show 0.8 ÷ 0.2. Estimate, then use a calculator to find the cost of 3.8 kg at $4.95 per kg."
+year8_fdp_hub.html,,VM-FDP-270,"A recipe uses 1<span class=""frac""><span>1</span><span>2</span></span> cups per batch. Draw a bar model for 2<span class=""frac""><span>1</span><span>2</span></span> batches and find the total. How many half-cup portions can you make? Check both calculations digitally."
+year8_fdp_hub.html,,VM-FDP-271,"Express 45 cm as a fraction, decimal and percentage of 1.2 m."
+year8_financial_hub.html,,VM-FIN-081,"A shop buys a lamp for $80 and sells it for $100 before GST. Find profit as a percentage of cost and selling price, and the GST-inclusive price. Another lamp costing $80 sells for $60; find its loss percentage on cost."
+year8_financial_hub.html,,VM-FIN-082,A jacket costs $84 after a 30% discount. Use the unitary method to find its original price.
+year8_rates_ratios_hub.html,,VM-RR-261,"Draw a distance-from-home graph through (0,0), (2,12), (3,12), (5,0), with time in hours and distance in km. Describe each segment and calculate each speed."
+year8_algebra_hub.html,,VM-ALG-262,Explain why (a+b)+c=a+(b+c) and ab=ba. Is a−b=b−a always true? Explain the purpose of brackets.
+year8_algebra_hub.html,,VM-ALG-263,List the positive integer-coefficient monomial factors of 6x². Factorise 6x²+9x−3xy and verify by expansion.
+year8_indices_hub.html,,VM-IND-089,"Explain and apply divisibility tests for 2, 3, 4, 5, 6 and 10 to 2340."
+year8_indices_hub.html,,VM-IND-090,"Explain the inverse relationship between cubing and cube roots. Estimate ∛50 between consecutive integers, then use a calculator to give two decimal places."
+year8_indices_hub.html,,VM-IND-091,"Expand 2³ × 2², 2⁵ ÷ 2² and (2³)² as repeated factors. Explain why 2⁰=1."
+year8_equations_hub.html,,VM-EQ-261,Solve 3x²=15 exactly and to two decimal places. Explain both signs. A square has area 15 cm²; find its side length.
+year8_linear_hub.html,,VM-LR-261,"Use a graphing application to plot y=2x+1 and y=7−x. Describe the slopes, locate their intersection, verify it in both equations and explain why each line has infinitely many points."
+year8_circles_hub.html,,VM-CIR-081,Measure the circumference and diameter of three circular objects using string and a ruler. Calculate each circumference divided by diameter. Explain the expected result and derive a circumference formula.
+year8_circles_hub.html,,VM-CIR-082,Derive the arc length formula by comparing a central angle with a full turn. Find the perimeter of a 120° sector of radius 9 cm exactly and to two decimal places.
+year8_pythagoras_hub.html,,VM-PYT-089,"Sketch a square of side a+b containing four identical right triangles with legs a,b and a central square of side c. Compare areas to derive the theorem. Test whether 9,12,15 is a Pythagorean triad."
+year8_measurement_hub.html,,VM-ME-269,"Explain how cutting and rearranging a parallelogram gives a rectangle, and how two identical triangles or trapeziums can form a parallelogram. Find the area of a trapezium with parallel sides 7 and 11 cm and height 4 cm."
+year8_circles_hub.html,,VM-CIR-083,Explain how rearranging many thin circular sectors approximates a rectangle of length πr and height r. Derive circle area and find the area of a 90° sector of radius 8 cm.
+year8_measurement_hub.html,,VM-ME-270,"Sketch top, front, back and side views of a rectangular prism 6 cm wide, 4 cm deep and 3 cm high. Describe horizontal cross-sections and compare with a cone. Explain the volume formula."
+year8_measurement_hub.html,,VM-ME-271,"Convert 2.5 ML to kL and L, and 3 m³ to L. Choose a sensible capacity unit for a drinking glass and explain."
+year8_quadrilaterals_hub.html,,VM-PGF-289,Two lines cut by a transversal have a pair of co-interior angles measuring 112° and 68°. Justify whether the lines are parallel. Find the angle vertically opposite the 112° angle.
+year8_quadrilaterals_hub.html,,VM-PGF-290,Draw a triangle ABC and a line through A parallel to BC. Use alternate angles to prove the triangle angle sum. Deduce the exterior angle theorem and the angle sum of a convex quadrilateral.
+year8_data_hub.html,,VM-DA-298,"Define a statistical variable and classify travel mode, satisfaction rating (low/medium/high), number of siblings and height."
+year8_data_hub.html,,VM-DA-299,"A survey of 40 students records 20 walking, 10 cycling and 10 travelling by bus. Design an infographic with source, title, labels and scale. Explain why a bar chart starting at 9 could mislead."
+year8_data_hub.html,,VM-DA-300,"For 2,2,3,3,4,20 identify modes, gaps and a possible outlier. Describe skew and compare mean and median before and after removing 20. Choose a typical value."
+year8_probability_hub.html,,VM-PRO-299,A fair die is rolled. List the outcomes for A = rolling above 4 and its complement. Draw a two-region diagram and verify the probabilities sum to 1.
