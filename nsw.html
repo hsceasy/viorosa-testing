@@ -709,11 +709,40 @@ body{background:#fffcf7} main{padding-top:22px} .brand-nav{display:flex;align-it
     }
   }
 
-  // Set the default tabs.
-  showTab("s4", "diagnostic");
-  showTab("s4", "y7");
-  showTab("s5", "escape");
-  showTab("s5", "y9");
+  // Restore and persist navigation in the URL, including browser Back/Forward.
+  const renderStage = showStage, renderHome = showHome, renderTab = showTab;
+  let nav = {};
+  function restoreNavigation() {
+    const p = new URLSearchParams(location.search);
+    const stage = p.get('stage');
+    nav = stage === '4' ? {stage:'4', year:p.get('year') === '8' ? '8' : '7'} :
+      stage === '5' ? {stage:'5', tab:p.get('tab') === 'escape' ? 'escape' : 'learning', year:p.get('year') === '10' ? '10' : '9'} : {};
+    renderTab('s4','diagnostic'); renderTab('s4','y'+(nav.stage === '4' ? nav.year : '7'));
+    renderTab('s5',nav.stage === '5' && nav.tab === 'learning' ? 'diagnostic' : 'escape');
+    renderTab('s5','y'+(nav.stage === '5' ? nav.year : '9'));
+    if(nav.stage) renderStage(nav.stage); else renderHome();
+  }
+  function saveNavigation() {
+    const url = new URL(location.href);
+    for(const key of ['stage','tab','year']) url.searchParams.delete(key);
+    for(const [key,value] of Object.entries(nav)) url.searchParams.set(key,value);
+    if(url.href !== location.href) history.pushState(null,'',url);
+    restoreNavigation();
+  }
+  showStage = function(stage) {
+    nav = String(stage) === '4' ? {stage:'4',year:'7'} : {stage:'5',tab:'learning',year:'9'};
+    saveNavigation();
+  };
+  showHome = function() { nav = {}; saveNavigation(); };
+  showTab = function(group,selected) {
+    if(group === 's4' && /^y[78]$/.test(selected)) nav = {stage:'4',year:selected.slice(1)};
+    else if(group === 's5' && /^y(9|10)$/.test(selected)) nav = {stage:'5',tab:'learning',year:selected.slice(1)};
+    else if(group === 's5' && ['escape','diagnostic'].includes(selected)) nav = {stage:'5',tab:selected === 'escape' ? 'escape' : 'learning',year:nav.stage === '5' ? nav.year : '9'};
+    else { renderTab(group,selected); return; }
+    saveNavigation();
+  };
+  window.addEventListener('popstate',restoreNavigation);
+  restoreNavigation();
 </script>
 </body>
 </html>
