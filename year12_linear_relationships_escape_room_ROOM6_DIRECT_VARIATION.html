@@ -1,0 +1,137 @@
+<!doctype html><html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Business Breakout | Year 12 Linear Relationships</title><style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;color:#28354a;background:radial-gradient(circle at 10% 10%,#ffe8f1,transparent 35%),radial-gradient(circle at 90% 15%,#d9f6f0,transparent 35%),#f5f5ff}main{max-width:1050px;margin:auto;padding:30px 16px 65px}header{text-align:center}h1{font-size:clamp(2rem,5vw,3.4rem);margin:8px 0}.sub{color:#617087;line-height:1.6}.eyebrow{font-weight:800;letter-spacing:.14em;color:#516782;text-transform:uppercase;font-size:.8rem}.status{display:flex;gap:15px;align-items:center;margin:25px 0}.pill{background:white;border-radius:30px;padding:10px 15px;font-weight:800;white-space:nowrap}.track{flex:1;height:12px;background:#e0e2ef;border-radius:20px;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#0b858a,#9672c7);width:0}.game{background:white;border-radius:26px;overflow:hidden;box-shadow:0 16px 45px #28354a1c}.scene{background:linear-gradient(120deg,#c6f1e9,#d4e6ff 60%,#f9dced);padding:25px}.scene h2{margin:0}.props{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}.prop{font:inherit;font-weight:800;color:#26344d;border:2px solid white;border-radius:16px;background:#ffffffb8;padding:15px 8px;cursor:pointer;min-height:108px}.prop span{display:block;font-size:2.2rem;margin-bottom:8px}.prop:hover{background:white}.prop.done{background:#d8f6e8;border-color:#6cbaa0}.prop.done:after{content:' ✓';color:#087e76}.panel{padding:24px}.notice{background:#f3efff;border-radius:13px;padding:16px;line-height:1.6}.challenge{display:none}.challenge.active{display:block}.graph{max-width:690px;margin:15px 0;border:1px solid #e2e6ee;border-radius:15px;padding:8px}.graph svg{width:100%;height:auto;display:block}.question{font-size:1.1rem;font-weight:650;line-height:1.65}.controls{display:flex;flex-wrap:wrap;gap:10px}input{font:inherit;min-width:180px;flex:1;border:2px solid #cbd4e2;border-radius:12px;padding:12px}button.action{border:0;border-radius:12px;background:#087e85;color:white;font:inherit;font-weight:800;padding:12px 18px;cursor:pointer}button.alt{background:#7856af}button:disabled{opacity:.45;cursor:default}.hint{display:none;background:#f3efff;border-left:4px solid #9573c8;padding:13px;margin-top:12px;border-radius:8px}.feedback{min-height:24px;font-weight:750;color:#087e76;margin-top:12px}.bottom{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:18px}.end{display:none;text-align:center;background:white;padding:50px;border-radius:24px}.foot{text-align:center;color:#617087;margin-top:22px;font-size:.85rem}@media(max-width:650px){.props{grid-template-columns:repeat(2,1fr)}.scene,.panel{padding:16px}.status{gap:6px}.pill{font-size:.8rem;padding:9px}.prop{min-height:90px}}
+ .choices{display:grid;gap:10px;margin-top:16px}.choice{display:block;padding:13px 15px;border:2px solid #e1e4f1;border-radius:12px;background:#f9f8ff;font-weight:500;cursor:pointer}.choice input{min-width:auto;flex:none;margin-right:10px;accent-color:#7954b0}.choice:has(input:checked){border-color:#7954b0;background:#f0eaff} .resource{padding:24px;text-align:center;background:#f8fbff;border-radius:12px}.resource table{border-collapse:collapse;margin:16px auto;font-size:1.15rem;min-width:220px}.resource th,.resource td{border:1px solid #b9c8da;padding:12px 24px}.resource th{background:#dff3f0}.working{font-size:1.2rem;font-weight:650;line-height:2.3;margin-top:14px;white-space:pre-wrap}.equation{font-size:2rem;font-weight:800;color:#6548a1} </style><link rel="stylesheet" href="viorosa-theme.css">
+</head><body><nav class="viorosa-nav" aria-label="Viorosa Maths navigation"><a class="viorosa-wordmark" href="index.html">viorosa<small>M A T H S</small></a><div class="viorosa-nav-links"><a href="nsw.html">NSW curriculum</a><a href="stage-6.html">Stage 6</a></div></nav><main><header><div class="eyebrow">🔐 Year 12 Mathematics · Algebraic Relationships</div><h1>The Business Breakout</h1><p class="sub">Start with gradients and intercepts from graphs, tables and equations. Then apply linear relationships to business decisions across six rooms.</p></header><div class="status"><span class="pill" id="roomNumber">Room 1 / 6</span><div class="track"><div class="fill" id="fill"></div></div><span class="pill" id="total">0 / 27 clues</span></div><section class="game" id="game"><div class="scene"><h2 id="title"></h2><p id="story"></p><div class="props" id="props"></div></div><div class="panel"><div class="notice" id="intro">👆 Click an object to investigate its graph, table or equation. Solve every clue to unlock the next room. Some clues need a number, others a coordinate or a choice.</div><div class="challenge" id="challenge"><button class="action alt" id="back">← Back to room</button><h3 id="clueTitle"></h3><div class="graph" id="graph"></div><p class="question" id="question"></p><div class="controls"><input id="answer" placeholder="Your numerical answer" aria-label="Numerical answer"><button class="action" id="check">Check</button><button class="action alt" id="hintButton">Hint</button></div><div class="hint" id="hint"></div><div class="feedback" id="feedback" role="status"></div></div><div class="bottom"><span id="roomProgress"></span><button class="action" id="next" disabled>Next room →</button></div></div></section><section class="end" id="end"><div style="font-size:4rem">🏆</div><h2>Boardroom unlocked!</h2><p>You solved all 27 business maths challenges.</p><button class="action" onclick="window.print()">Print completion</button> <button class="action alt" id="restart">Play again</button></section><div class="foot">Fictional business scenarios · Progress saves automatically in this browser</div></main><script>
+const R=[
+{title:'🧩 The Linear Skills Lab',story:'Start with the essentials: gradient and intercept from graphs, tables and equations.',tasks:[
+['📈','Read a graph',[[2,1,'y = 2x + 1']],5,12,0,'x','y','What is the gradient of the line?',2,'Count the rise for a run of 1. The line rises 2 units each step.'],
+['📍','Find the intercept',[[-1,4,'y = −x + 4']],5,6,-2,'x','y','What is the y-intercept of the line?',4,'Look at where the line crosses the vertical y-axis.'],
+['📋','Read a table',[[3,2,'y = 3x + 2']],5,18,0,'x','y','Use the table to find the gradient.',3,'For each increase of 1 in x, how much does y increase?',{type:'table',rows:[[0,2],[1,5],[2,8],[3,11],[4,14]]}],
+['✏️','Rearrange an equation',[[-2,5,'y = −2x + 5']],5,6,-6,'x','y','Rearrange 2x + y = 5 into y = mx + b. What is the gradient m?',-2,'Subtract 2x from both sides: y = −2x + 5.',{type:'equation',text:'2x + y = 5'}]]},
+{title:'👕 The T-Shirt Studio',story:'Analyse the profit graph to plan a student enterprise.',tasks:[
+['📈','Profit growth',[[8,-240,'Profit']],80,480,-320,'Shirts sold','Profit ($)','How much does profit increase per additional shirt, in dollars?',8,'Read the gradient.'],
+['📉','Initial loss',[[8,-240,'Profit']],80,480,-320,'Shirts sold','Profit ($)','What is profit at zero shirts sold? Include a negative sign.',-240,'The intercept is below the horizontal axis.'],
+['🛍️','Break-even',[[8,-240,'Profit']],80,480,-320,'Shirts sold','Profit ($)','How many shirts must be sold for profit to reach zero?',30,'Find the horizontal intercept.'],
+['🏷️','Profit target',[[8,-240,'Profit']],80,480,-320,'Shirts sold','Profit ($)','How many shirts must be sold to earn $160 profit?',50,'Solve 8x − 240 = 160.']]},
+{title:'🚚 The Delivery Fleet',story:'Compare two providers with different fixed fees and distance charges.',tasks:[
+['🚚','Provider A',[[2,30,'A']],50,160,0,'Distance (km)','Charge ($)','What is Provider A’s fixed booking fee, in dollars?',30,'Read the vertical intercept.'],
+['📦','Provider B',[[3,10,'B']],50,160,0,'Distance (km)','Charge ($)','What does Provider B charge per kilometre, in dollars?',3,'Read the gradient.'],
+['⚖️','Equal charges',[[2,30,'A'],[3,10,'B']],50,160,0,'Distance (km)','Charge ($)','At what distance in kilometres are the charges equal?',20,'Find the intersection.'],
+['💰','Best value',[[2,30,'A'],[3,10,'B']],50,160,0,'Distance (km)','Charge ($)','For a 40 km trip, how many dollars cheaper is the less expensive provider?',20,'Compare both graph heights at 40 km.']]},
+{title:'🎟️ The Concert Promoter',story:'Use a ticket-sales graph and a spreadsheet to advise a concert promoter.',tasks:[
+['📈','Calculate the gradient',[[15,0,'Ticket revenue']],10,150,0,'Tickets sold','Revenue ($)','Calculate the gradient of the line using two points on the graph. Enter the numerical value.',15,'Choose two clear points on the line and compare how much revenue changes as ticket sales increase.'],
+['💬','Interpret the gradient',[[15,0,'Ticket revenue']],10,150,0,'Tickets sold','Revenue ($)','What does the gradient mean in this business context? Choose the best interpretation.',2,'Think about what the vertical axis measures for each extra unit on the horizontal axis.',{type:'choice',options:['The concert has a fixed cost of $15.','The promoter sells 15 extra tickets each hour.','Each additional ticket sold increases revenue by $15.','The promoter makes $15 profit on every ticket.']}],
+['💻','Spreadsheet formula',[[15,0,'Ticket revenue']],10,150,0,'Tickets sold','Revenue ($)','The spreadsheet shows tickets sold in B2 and ticket price in C2. Which Excel formula should be entered in D2 to calculate revenue?',1,'Revenue is found by multiplying the number of tickets by the price per ticket.',{type:'sheet',headers:['A','B','C','D'],rows:[['1','Tickets sold','Price per ticket','Revenue'],['2','40','15','?']],options:['=B2+C2','=B2*C2','=B2/C2','=C2-B2']}],
+['🧮','Spreadsheet result',[[15,0,'Ticket revenue']],10,150,0,'Tickets sold','Revenue ($)','Using the spreadsheet, what value will appear in D2 when the correct formula is entered?',600,'Use the values shown in row 2 and the operation from the previous clue.',{type:'sheet',headers:['A','B','C','D'],rows:[['1','Tickets sold','Price per ticket','Revenue'],['2','40','15','?']]}]]},
+{title:'🧩 The Systems Control Room',story:'Six simultaneous-equation challenges: find the intersection, choose a method, solve both ways and spot an elimination error.',tasks:[
+['📍','Point of intersection',[[1,2,'Line A'],[-1,8,'Line B']],6,10,0,'x','y','Two lines are shown. What is their point of intersection?',0,'Read the x- and y-coordinates of the point where the two lines meet.',{type:'point',answer:'(3,5)'}],
+['🔁','Choose the method',[],0,0,0,'','','For the system below, which method would be more efficient?',0,'One equation already has a variable isolated.',{type:'method',text:['y = 2x + 1','3x + y = 16'],options:['Substitution','Elimination']}],
+['➖','Choose the method',[],0,0,0,'','','For the system below, which method would be more efficient?',1,'Look for matching coefficients that make one variable disappear when the equations are combined.',{type:'method',text:['3x + 2y = 16','5x − 2y = 8'],options:['Substitution','Elimination']}],
+['📝','Solve by substitution',[],0,0,0,'','','Use substitution to solve the simultaneous equations. Enter the ordered pair (x,y).',0,'Replace y in the second equation using the expression from the first.',{type:'point',text:['y = x + 2','2x + y = 11'],answer:'(3,5)'}],
+['🧮','Solve by elimination',[],0,0,0,'','','Use elimination to solve the simultaneous equations. Enter the ordered pair (x,y).',0,'Add the two equations to eliminate y.',{type:'point',text:['2x + 3y = 13','3x − 3y = 2'],answer:'(3,7/3)'}],
+['🔍','Spot the error',[],0,0,0,'','','A student is solving by elimination. In which numbered line does their working first become incorrect?',3,'Check the subtraction carefully, including the coefficient of y.',{type:'working',lines:['①  2x + 3y = 13','②  4x + 3y = 21','③  (4x + 3y) − (2x + 3y) = 21 − 13','④  2x + 6y = 8','⑤  x + 3y = 4'],options:['Line 1','Line 2','Line 3','Line 4','Line 5']}]
+]},
+{title:'⚡ The Variation Vault',story:'The final lock is powered by direct variation. Find constants, build equations and solve real-world problems — no graphs!',tasks:[
+['🔑','Find the constant',[],0,0,0,'','','The amount earned, E dollars, varies directly with the number of hours worked, h. If 4 hours earns $92, what is the constant of variation?',23,'Direct variation means E = kh. Use the known pair to determine k.',{type:'equation',text:'E ∝ h   and   E = $92 when h = 4'}],
+['🧾','Write the equation',[],0,0,0,'','','A printing company charges an amount C that varies directly with the number of posters p. Printing 8 posters costs $36. Which equation models the cost?',1,'First determine the cost of one poster, then write C in terms of p.',{type:'method',text:['C ∝ p','8 posters cost $36'],options:['C = 36p','C = 4.5p','C = 8p + 36','C = 36/p']}],
+['📦','Calculate the delivery fee',[],0,0,0,'','','A courier fee F varies directly with distance d. A 12 km delivery costs $30. How much does a 28 km delivery cost, in dollars?',70,'Find the charge per kilometre before using the new distance.',{type:'equation',text:'F ∝ d   and   F = $30 when d = 12 km'}],
+['⏱️','Work backwards',[],0,0,0,'','','A machine produces a number of parts P that varies directly with the time t in minutes. It makes 150 parts in 6 minutes. How many minutes are needed to make 400 parts?',16,'Use the original information to find the production rate, then work backwards.',{type:'equation',text:'P ∝ t   and   P = 150 when t = 6'}],
+['🕵️','Spot the variation',[],0,0,0,'','','Which situation represents direct variation?',2,'In a direct variation relationship, doubling one quantity doubles the other, and there is no fixed starting amount.',{type:'method',text:['Choose the relationship that varies directly.'],options:['A taxi fare with a $6 booking fee plus $2 per km','A savings account starting at $100 and adding $20 weekly','The total cost of identical $7 tickets with no booking fee','A delivery charge of $15 regardless of distance']}]
+]}];
+const key='year12_business_breakout_v6';const totalClues=R.reduce((sum,r)=>sum+r.tasks.length,0);let S;try{S=JSON.parse(localStorage.getItem(key)||localStorage.getItem('year12_business_breakout_v5'))}catch(e){}if(!S||!Array.isArray(S.done)||S.done.length!==6||S.done.some((a,i)=>a.length!==R[i].tasks.length))S={room:0,done:R.map(r=>r.tasks.map(()=>false))};let chosen=-1;const el=id=>document.getElementById(id),save=()=>localStorage.setItem(key,JSON.stringify(S)),solved=()=>S.done.flat().filter(Boolean).length;
+function plot(t){
+ const [icon,name,lines,xmax,ymax,ymin,xlabel,ylabel]=t;
+ const W=760,H=510,L=100,T=52,B=80,Rm=34,gw=W-L-Rm,gh=H-T-B;
+ const px=x=>L+x/xmax*gw,py=y=>T+(ymax-y)/(ymax-ymin)*gh;
+ const isProfit=xlabel==='Shirts sold';
+ const isDelivery=xlabel==='Distance (km)';const isConcert=xlabel==='Tickets sold';
+ const stepsX=isProfit?8:10,stepsY=isDelivery?16:10;
+ let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Clearly scaled graph of ${lines.map(l=>l[2]).join(' and ')} against ${xlabel}">`;
+ s+=`<rect x="${L}" y="${T}" width="${gw}" height="${gh}" rx="2" fill="#fff"/>`;
+ for(let i=0;i<=stepsX;i++){
+  let x=i*xmax/stepsX;
+  s+=`<line x1="${px(x)}" y1="${T}" x2="${px(x)}" y2="${H-B}" stroke="#e0e7ef" stroke-width="1.3"/>`;
+  s+=`<text x="${px(x)}" y="${H-B+26}" text-anchor="middle" font-size="16" font-weight="600" fill="#34465e">${+x.toFixed(2)}</text>`;
+ }
+ for(let i=0;i<=stepsY;i++){
+  let y=ymin+i*(ymax-ymin)/stepsY;
+  s+=`<line x1="${L}" y1="${py(y)}" x2="${W-Rm}" y2="${py(y)}" stroke="${Math.abs(y)<.001?'#8a98a9':'#e0e7ef'}" stroke-width="${Math.abs(y)<.001?2.5:1.3}"/>`;
+  s+=`<text x="${L-14}" y="${py(y)+6}" text-anchor="end" font-size="16" font-weight="600" fill="#34465e">${+y.toFixed(2)}</text>`;
+ }
+ s+=`<path d="M${L},${T}V${H-B}H${W-Rm}" fill="none" stroke="#26344d" stroke-width="2.5"/>`;
+ s+=`<text x="${(L+W-Rm)/2}" y="${H-20}" text-anchor="middle" font-size="20" font-weight="750" fill="#26344d">${xlabel}</text>`;
+ s+=`<text transform="translate(27 ${(T+H-B)/2}) rotate(-90)" text-anchor="middle" font-size="20" font-weight="750" fill="#26344d">${ylabel}</text>`;
+ lines.forEach(([m,b,label],i)=>{
+  let bounds=m===0?[0,xmax]:[(ymin-b)/m,(ymax-b)/m].sort((a,b)=>a-b);
+  let start=Math.max(0,bounds[0]),end=Math.min(xmax,bounds[1]),color=i?'#7954b0':'#087e85';
+  if(end>=start)s+=`<line x1="${px(start)}" y1="${py(m*start+b)}" x2="${px(end)}" y2="${py(m*end+b)}" stroke="${color}" stroke-width="5" stroke-linecap="round"/>`;
+  s+=`<line x1="${W-240}" y1="${20+i*24}" x2="${W-206}" y2="${20+i*24}" stroke="${color}" stroke-width="5"/><text x="${W-198}" y="${26+i*24}" font-size="17" font-weight="700" fill="#26344d">${label}</text>`;
+  if(isProfit||isDelivery||isConcert){
+   (isConcert?[0,2,4,6,8,10]:isDelivery?[0,10,20,30,40,50]:[0,10,20,30,40,50,60,70,80]).forEach(x=>{
+    let y=m*x+b;
+    if(y>=ymin&&y<=ymax){
+     s+=`<circle cx="${px(x)}" cy="${py(y)}" r="5.5" fill="white" stroke="${color}" stroke-width="3"/>`;
+    }
+   });
+  }
+ });
+ return s+'</svg>'+(isProfit?'<p style="margin:8px 0 0;color:#526278;font-size:.93rem"><strong>Reading tip:</strong> Each horizontal grid step represents 10 shirts; each vertical grid step represents $80. The white circles mark exact points on the line.</p>':isConcert?'<p style="margin:8px 0 0;color:#526278;font-size:.93rem"><strong>Reading tip:</strong> Each grid step is 1 ticket horizontally and $15 vertically. Use any two points to work out the gradient.</p>':isDelivery?'<p style="margin:8px 0 0;color:#526278;font-size:.93rem"><strong>Reading tip:</strong> Each horizontal grid step is 5 km and each vertical grid step is $10. The white circles mark exact values at 10 km intervals.</p>':'');
+}
+function openClue(i){
+ chosen=i;const t=R[S.room].tasks[i],spec=t[11]||{},g=el('graph'),q=el('question');
+ el('intro').style.display='none';el('challenge').classList.add('active');
+ el('clueTitle').textContent=`Clue ${i+1}: ${t[1]}`;
+ const equations=lines=>'<div class="resource"><div class="equation">'+lines.map(x=>'<div>'+x+'</div>').join('')+'</div></div>';
+ if(spec.type==='sheet'){
+  g.innerHTML='<div class="resource"><strong>Concert ticket spreadsheet</strong><table><thead><tr>'+spec.headers.map(h=>'<th>'+h+'</th>').join('')+'</tr></thead><tbody>'+spec.rows.map(r=>'<tr>'+r.map(v=>'<td>'+v+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+ }else if(spec.type==='table'){
+  g.innerHTML='<div class="resource"><strong>Table of values</strong><table><thead><tr><th>x</th><th>y</th></tr></thead><tbody>'+spec.rows.map(r=>'<tr><td>'+r[0]+'</td><td>'+r[1]+'</td></tr>').join('')+'</tbody></table></div>';
+ }else if(spec.type==='equation')g.innerHTML=equations([spec.text]);
+ else if(spec.type==='method'||(spec.type==='point'&&spec.text))g.innerHTML=equations(spec.text);
+ else if(spec.type==='working')g.innerHTML='<div class="resource" style="text-align:left"><strong>Student working</strong><div class="working">'+spec.lines.map(x=>'<div>'+x+'</div>').join('')+'</div></div>';
+ else g.innerHTML=plot(t);
+ q.textContent=t[8];
+ if(spec.options){
+  const opts=document.createElement('div');opts.className='choices';
+  spec.options.forEach((o,j)=>{
+   const label=document.createElement('label');label.className='choice';
+   const input=document.createElement('input');input.type='radio';input.name='explain';input.value=j;
+   label.append(input,document.createTextNode(' '+o));opts.append(label);
+  });
+  q.append(opts);
+ }
+ el('hint').textContent=t[10];el('hint').style.display='none';
+ el('answer').value='';el('answer').style.display=spec.options?'none':'';
+ el('answer').placeholder=spec.type==='point'?'Enter (x,y)':'Your numerical answer';
+ el('answer').disabled=S.done[S.room][i];el('check').disabled=S.done[S.room][i];
+ el('feedback').textContent=S.done[S.room][i]?'✓ Already solved!':'';
+}
+function render(){if(S.room===6){el('game').style.display='none';el('end').style.display='block';el('fill').style.width='100%';el('roomNumber').textContent='Complete!';el('total').textContent=''+totalClues+' / '+totalClues+' clues';return}let r=R[S.room];el('title').textContent=r.title;el('story').textContent=r.story;el('roomNumber').textContent=`Room ${S.room+1} / 6`;el('total').textContent=`${solved()} / ${totalClues} clues`;el('fill').style.width=solved()/totalClues*100+'%';el('props').innerHTML='';r.tasks.forEach((t,i)=>{let b=document.createElement('button');b.className='prop'+(S.done[S.room][i]?' done':'');b.innerHTML=`<span>${t[0]}</span>${t[1]}`;b.onclick=()=>openClue(i);el('props').appendChild(b)});el('roomProgress').textContent=`${S.done[S.room].filter(Boolean).length} of ${r.tasks.length} solved`;el('next').disabled=!S.done[S.room].every(Boolean);el('next').textContent=S.room===5?'Unlock exit →':'Next room →';el('challenge').classList.remove('active');el('intro').style.display='block'}
+el('back').onclick=()=>{chosen=-1;render()};el('hintButton').onclick=()=>{el('hint').style.display=el('hint').style.display==='none'?'block':'none'};el('check').onclick=()=>{
+ if(chosen<0)return;
+ const t=R[S.room].tasks[chosen],spec=t[11]||{},selected=document.querySelector('input[name="explain"]:checked');
+ const raw=spec.options?(selected?selected.value:''):el('answer').value.trim();
+ let correct=false;
+ if(spec.type==='point'){
+  const parseCoord=str=>str.replace(/[()]/g,'').split(',').map(part=>{const v=part.trim().split('/').map(Number);return v.length===2&&v[1]!==0?v[0]/v[1]:v.length===1?v[0]:NaN;});
+  const given=parseCoord(raw),expected=parseCoord(spec.answer);
+  correct=given.length===2&&expected.length===2&&given.every((v,i)=>Number.isFinite(v)&&Math.abs(v-expected[i])<0.0001);
+ }else if(raw!==''){
+  const val=Number(raw.replace(/[$, ]/g,''));
+  correct=Number.isFinite(val)&&Math.abs(val-t[9])<.00001;
+ }
+ if(correct){
+  S.done[S.room][chosen]=true;save();el('feedback').style.color='#087e76';
+  el('feedback').textContent='✓ Correct! Clue unlocked.';
+  el('check').disabled=true;el('answer').disabled=true;
+  el('props').children[chosen].classList.add('done');
+  el('roomProgress').textContent=`${S.done[S.room].filter(Boolean).length} of ${R[S.room].tasks.length} solved`;
+  el('next').disabled=!S.done[S.room].every(Boolean);
+  el('total').textContent=`${solved()} / ${totalClues} clues`;
+  el('fill').style.width=solved()/totalClues*100+'%';
+ }else{
+  el('feedback').style.color='#b23e64';
+  el('feedback').textContent='Not quite. Check your working and try again.';
+ }
+};el('answer').onkeydown=e=>{if(e.key==='Enter')el('check').click()};el('next').onclick=()=>{if(!S.done[S.room].every(Boolean))return;S.room++;chosen=-1;save();render();window.scrollTo({top:0,behavior:'smooth'})};el('restart').onclick=()=>{if(confirm('Erase saved progress and start again?')){S={room:0,done:R.map(r=>r.tasks.map(()=>false))};save();el('game').style.display='block';el('end').style.display='none';render()}};render();
+</script></body></html>
