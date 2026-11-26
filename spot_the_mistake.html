@@ -1,0 +1,786 @@
+
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spot the Mistake | Viorosa Maths</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:#50404b;
+  background:
+    radial-gradient(circle at top left,#ffe2ee,transparent 45%),
+    radial-gradient(circle at top right,#e9eee3,transparent 45%),
+    #f0e6f5;
+}
+main{max-width:850px;margin:auto;padding:28px 16px 65px}
+h1{font-size:clamp(2rem,6vw,3rem);margin:10px 0}
+h2{margin:0 0 12px}
+p{line-height:1.65}
+.muted{color:#776b72}
+.top{text-align:center;margin:30px 0}
+.tag{
+  display:inline-block;
+  background:#f0e6f5;
+  color:#a64e65;
+  padding:8px 14px;
+  border-radius:30px;
+  font-size:.8rem;
+  font-weight:800;
+}
+.panel{
+  background:white;
+  border:1px solid #f0e6f5;
+  border-radius:23px;
+  padding:clamp(20px,4vw,34px);
+  margin:20px 0;
+  box-shadow:0 12px 30px #40306013;
+}
+.working{
+  background:#f0e6f5;
+  border-left:5px solid #a64e65;
+  padding:20px;
+  border-radius:12px;
+  margin:22px 0;
+}
+.working div{
+  margin:9px 0;
+  line-height:1.6;
+  overflow-wrap:anywhere;
+}
+button,.link{
+  background:#a64e65;
+  color:white;
+  border:0;
+  border-radius:12px;
+  padding:13px 19px;
+  font:inherit;
+  font-weight:750;
+  cursor:pointer;
+  margin:5px 6px 5px 0;
+  text-decoration:none;
+  display:inline-block;
+}
+button:hover,.link:hover{filter:brightness(.92)}
+button.secondary{
+  background:#f0e6f5;
+  color:#a64e65;
+}
+button.pink{background:#b64f85}
+button:focus-visible,select:focus-visible{
+  outline:3px solid #e8a949;
+  outline-offset:3px;
+}
+select{
+  padding:12px;
+  border:1px solid #a64e65;
+  border-radius:10px;
+  font:inherit;
+  background:white;
+  max-width:100%;
+}
+.notice{
+  background:#e9eee3;
+  border-radius:12px;
+  padding:16px;
+  line-height:1.6;
+  margin-top:16px;
+}
+.solution{
+  background:#e9eee3;
+  border-left:5px solid #319b84;
+  padding:18px;
+  border-radius:12px;
+  line-height:1.75;
+  margin-top:18px;
+}
+.hidden{display:none!important}
+.small{font-size:.9rem}
+footer{text-align:center;color:#776b72;margin-top:35px}
+@media(max-width:550px){
+  button{width:100%;margin:5px 0}
+}
+</style>
+<style>body{background:#fffcf7;} </style>
+<link rel="stylesheet" href="viorosa-theme.css">
+</head>
+<body><nav class="viorosa-nav" aria-label="Viorosa Maths navigation"><a class="viorosa-wordmark" href="index.html">viorosa<small>M A T H S</small></a><div class="viorosa-nav-links"><a href="nsw.html">NSW curriculum</a><a href="stage-6.html">Stage 6</a></div></nav>
+<main>
+
+<a class="link" href="index.html">← Viorosa Maths Home</a>
+
+<header class="top">
+  <span class="tag">STAGE 6 · MATHEMATICS STANDARD</span>
+  <h1>🔎 Spot the Mistake</h1>
+  <p class="muted">
+    One new HSC-style error-analysis challenge every day.
+    Find the mistake, explain why it is wrong,
+    and show the correct mathematics.
+  </p>
+  <p><strong>Suggested time: 5–7 minutes</strong></p>
+</header>
+
+<section class="panel">
+  <h2>📅 Daily Challenge</h2>
+  <p id="dateLabel" class="muted"></p>
+  <p id="dayLabel"></p>
+  <button id="todayBtn" onclick="showToday()">
+    Today's Challenge
+  </button>
+  <button class="secondary" onclick="showYesterday()">
+    Yesterday's Solution
+  </button>
+  <button class="pink" onclick="toggleTeacher()">
+    👩‍🏫 Teacher Preview
+  </button>
+</section>
+
+<section id="teacherPanel" class="panel hidden">
+  <h2>👩‍🏫 Teacher Preview</h2>
+  <p class="muted">
+    Preview any of the 90 challenges and their solutions.
+    This feature is not password-protected.
+  </p>
+  <label for="daySelect"><strong>Select a challenge:</strong></label>
+  <select id="daySelect" onchange="previewDay()"></select>
+  <button class="secondary" onclick="showToday()">
+    Return to Today
+  </button>
+</section>
+
+<section id="questionPanel" class="panel">
+  <span class="tag" id="topicLabel"></span>
+  <h2 id="questionTitle" style="margin-top:15px"></h2>
+
+  <p id="context"></p>
+
+  <div class="working">
+    <strong>📝 A student's working:</strong>
+    <div id="workingLines"></div>
+  </div>
+
+  <p><strong>Your challenge:</strong></p>
+  <p id="challenge"></p>
+
+  <button class="secondary" onclick="toggleHint()">
+    💡 Show / Hide Hint
+  </button>
+
+  <div id="hintBox" class="notice hidden"></div>
+
+  <div id="solutionArea"></div>
+</section>
+
+<footer>
+  <strong>Viorosa Maths</strong> · Making Maths Make Sense
+  <p class="small">
+    Original practice questions, not official HSC examination questions.
+  </p>
+</footer>
+
+</main>
+
+<script>
+"use strict";
+
+/*
+  Daily challenge settings
+  Start date: 19 November 2026, Sydney time.
+  Questions repeat after 90 days.
+*/
+const START = "2026-11-19";
+const TOTAL = 90;
+
+const $ = id => document.getElementById(id);
+const money = n => "$" + Number(n).toFixed(2);
+const dp = (n,p=2) => Number(n).toFixed(p);
+
+function makeQuestion(day){
+  const type=(day-1)%15;
+  const v=Math.floor((day-1)/15);
+  const q={
+    day,
+    topic:"",
+    context:"",
+    working:[],
+    challenge:
+      "Identify the first mistake, explain why it is incorrect, " +
+      "and calculate the correct answer.",
+    hint:"",
+    solution:"",
+    skill:""
+  };
+
+  switch(type){
+
+  case 0:{
+    const P=4000+v*500;
+    const r=3+v;
+    const n=2+v%3;
+    const rate=r/100;
+    const wrong=P*(1+n*rate);
+    const correct=P*Math.pow(1+rate,n);
+
+    q.topic="Compound Interest";
+    q.context=
+      `An investment of ${money(P)} earns ${r}% `+
+      `compound interest per annum for ${n} years.`;
+    q.working=[
+      "A = P(1 + r)ⁿ",
+      `A = ${P}(1 + ${rate})^${n}`,
+      `A = ${P}(1 + ${n} × ${rate})`,
+      `A = ${money(wrong)}`
+    ];
+    q.hint=
+      "Compare repeated multiplication with simple interest.";
+    q.solution=
+      "The student has treated compound interest as simple interest. "+
+      `The growth factor must be raised to the power ${n}. `+
+      `A = ${P}(1 + ${rate})^${n} = ${money(correct)}.`;
+    q.skill="Compound growth and exponential calculations.";
+    break;
+  }
+
+  case 1:{
+    const P=800+v*100;
+    const discount=10+v*2;
+    const gst=10;
+    const wrong=P*(1-(discount+gst)/100);
+    const correct=P*(1-discount/100)*1.1;
+
+    q.topic="Discounts and GST";
+    q.context=
+      `An item costs ${money(P)}. A ${discount}% discount `+
+      "is applied, followed by 10% GST on the discounted price.";
+    q.working=[
+      `Final price = ${P} × (1 − (${discount} + 10)/100)`,
+      `Final price = ${money(wrong)}`
+    ];
+    q.hint=
+      "Does GST increase or decrease the price? "+
+      "Which price is GST applied to?";
+    q.solution=
+      "The student has subtracted GST instead of adding it. "+
+      "The two percentages must also be applied in sequence. "+
+      `Final price = ${P} × ${dp(1-discount/100)} × 1.10 `+
+      `= ${money(correct)}.`;
+    q.skill="Successive percentage changes.";
+    break;
+  }
+
+  case 2:{
+    const P=12000+v*2000;
+    const r=12+v;
+    const n=3;
+    const correct=P*Math.pow(1-r/100,n);
+    const wrong=P*(1-n*r/100);
+
+    q.topic="Depreciation";
+    q.context=
+      `A vehicle is purchased for ${money(P)} and depreciates `+
+      `by ${r}% each year for ${n} years.`;
+    q.working=[
+      `Value lost = ${n} × ${r}% = ${n*r}%`,
+      `Final value = ${P} × (1 − ${n*r}/100)`,
+      `Final value = ${money(wrong)}`
+    ];
+    q.hint=
+      "The percentage decrease is applied to the new value each year.";
+    q.solution=
+      "The student has used straight-line depreciation rather than "+
+      "reducing-balance depreciation. "+
+      `Correct value = ${P}(1 − ${r/100})^${n} `+
+      `= ${money(correct)}.`;
+    q.skill="Reducing-balance depreciation.";
+    break;
+  }
+
+  case 3:{
+    const P=2500+v*500;
+    const r=4+v;
+    const months=18+v*6;
+    const correct=P*r/100*months/12;
+    const wrong=P*r/100*months;
+
+    q.topic="Simple Interest";
+    q.context=
+      `${money(P)} is invested at ${r}% simple interest `+
+      `per annum for ${months} months.`;
+    q.working=[
+      "I = Prt",
+      `I = ${P} × ${r/100} × ${months}`,
+      `I = ${money(wrong)}`
+    ];
+    q.hint=
+      "Check the units of time in the interest formula.";
+    q.solution=
+      "The rate is annual, but the student has used months "+
+      "without converting to years. "+
+      `t = ${months}/12 = ${dp(months/12)} years. `+
+      `I = ${P} × ${r/100} × (${months}/12) `+
+      `= ${money(correct)}.`;
+    q.skill="Simple interest and time conversions.";
+    break;
+  }
+
+  case 4:{
+    const x1=1+v;
+    const x2=x1+4;
+    const y1=3+v;
+    const y2=y1+12;
+    const wrong=(x2-x1)/(y2-y1);
+    const correct=(y2-y1)/(x2-x1);
+
+    q.topic="Linear Relationships";
+    q.context=
+      `A line passes through A(${x1}, ${y1}) `+
+      `and B(${x2}, ${y2}). Find its gradient.`;
+    q.working=[
+      "m = change in x / change in y",
+      `m = (${x2} − ${x1}) / (${y2} − ${y1})`,
+      `m = ${dp(wrong)}`
+    ];
+    q.hint="Which variable belongs in the numerator?";
+    q.solution=
+      "The gradient formula has been reversed. "+
+      "Gradient = change in y divided by change in x. "+
+      `m = (${y2} − ${y1}) / (${x2} − ${x1}) = ${correct}.`;
+    q.skill="Gradient from two points.";
+    break;
+  }
+
+  case 5:{
+    const fixed=5+v*2;
+    const rate=2+v;
+    const km=12+v*3;
+    const wrong=rate*km;
+    const correct=fixed+rate*km;
+
+    q.topic="Linear Modelling";
+    q.context=
+      `A taxi charges a ${money(fixed)} booking fee `+
+      `plus ${money(rate)} per kilometre. `+
+      `A passenger travels ${km} km.`;
+    q.working=[
+      "Cost = rate × distance",
+      `C = ${rate} × ${km}`,
+      `C = ${money(wrong)}`
+    ];
+    q.hint="What does the booking fee represent in a linear model?";
+    q.solution=
+      "The student has omitted the fixed booking fee. "+
+      `C = ${fixed} + ${rate} × ${km} = ${money(correct)}.`;
+    q.skill="Interpreting the intercept in a linear model.";
+    break;
+  }
+
+  case 6:{
+    const angle=30+v*5;
+    const hyp=10+v*2;
+    const rad=angle*Math.PI/180;
+    const wrong=hyp*Math.cos(rad);
+    const correct=hyp*Math.sin(rad);
+
+    q.topic="Right-Angled Trigonometry";
+    q.context=
+      `In a right-angled triangle, the hypotenuse is ${hyp} m `+
+      `and an acute angle is ${angle}°. `+
+      "Find the side opposite this angle.";
+    q.working=[
+      "cos θ = opposite / hypotenuse",
+      `x = ${hyp} cos(${angle}°)`,
+      `x = ${dp(wrong)} m`
+    ];
+    q.hint="Which trigonometric ratio uses opposite and hypotenuse?";
+    q.solution=
+      "The student has used cosine instead of sine. "+
+      "sin θ = opposite / hypotenuse. "+
+      `x = ${hyp} sin(${angle}°) = ${dp(correct)} m.`;
+    q.skill="Choosing the correct trigonometric ratio.";
+    break;
+  }
+
+  case 7:{
+    const A=35+v*4;
+    const B=65+v*3;
+    const a=8+v;
+    const radA=A*Math.PI/180;
+    const radB=B*Math.PI/180;
+    const wrong=a*Math.sin(radA)/Math.sin(radB);
+    const correct=a*Math.sin(radB)/Math.sin(radA);
+
+    q.topic="Sine Rule";
+    q.context=
+      `In triangle ABC, angle A = ${A}°, `+
+      `angle B = ${B}°, and side a = ${a} cm. `+
+      "Find side b.";
+    q.working=[
+      "a / sin A = b / sin B",
+      `b = ${a} × sin(${A}°) / sin(${B}°)`,
+      `b = ${dp(wrong)} cm`
+    ];
+    q.hint=
+      "Match each side to its opposite angle, then rearrange carefully.";
+    q.solution=
+      "The student has inverted the sine ratio when rearranging. "+
+      `b = ${a} × sin(${B}°) / sin(${A}°) `+
+      `= ${dp(correct)} cm.`;
+    q.skill="Rearranging the sine rule.";
+    break;
+  }
+
+  case 8:{
+    const red=3+v;
+    const blue=5+v;
+    const total=red+blue;
+    const wrong=Math.pow(red/total,2);
+    const correct=(red/total)*((red-1)/(total-1));
+
+    q.topic="Probability Without Replacement";
+    q.context=
+      `A bag contains ${red} red and ${blue} blue counters. `+
+      "Two counters are selected without replacement. "+
+      "Find the probability that both are red.";
+    q.working=[
+      `P(red then red) = ${red}/${total} × ${red}/${total}`,
+      `P = ${dp(wrong,4)}`
+    ];
+    q.hint="What changes after the first red counter is removed?";
+    q.solution=
+      "The student has assumed replacement. "+
+      "After the first red counter is removed, "+
+      `there are ${red-1} red counters out of ${total-1}. `+
+      `P = (${red}/${total}) × (${red-1}/${total-1}) `+
+      `= ${dp(correct,4)}.`;
+    q.skill="Dependent probability events.";
+    break;
+  }
+
+  case 9:{
+    const total=100+v*20;
+    const A=40+v*5;
+    const B=35+v*4;
+    const both=15+v*2;
+    const wrong=(A+B)/total;
+    const correct=(A+B-both)/total;
+
+    q.topic="Venn Diagrams and Probability";
+    q.context=
+      `In a survey of ${total} students, ${A} study Biology, `+
+      `${B} study Chemistry and ${both} study both. `+
+      "Find the probability that a randomly selected student "+
+      "studies at least one of these subjects.";
+    q.working=[
+      "P(A or B) = P(A) + P(B)",
+      `P = (${A} + ${B}) / ${total}`,
+      `P = ${dp(wrong,3)}`
+    ];
+    q.hint="Have any students been counted twice?";
+    q.solution=
+      "The students studying both subjects have been counted twice. "+
+      `P(A ∪ B) = (${A} + ${B} − ${both})/${total} `+
+      `= ${dp(correct,3)}.`;
+    q.skill="Addition rule for overlapping events.";
+    break;
+  }
+
+  case 10:{
+    const values=[4+v,6+v,8+v,10+v,12+v];
+    const sum=values.reduce((a,b)=>a+b,0);
+    const wrong=sum/4;
+    const correct=sum/5;
+
+    q.topic="Statistical Analysis — Mean";
+    q.context=
+      "The following five observations are recorded: "+
+      values.join(", ")+". Find the mean.";
+    q.working=[
+      `Sum = ${values.join(" + ")} = ${sum}`,
+      `Mean = ${sum} / 4`,
+      `Mean = ${dp(wrong)}`
+    ];
+    q.hint="How many observations are in the data set?";
+    q.solution=
+      "The student has divided by four instead of five. "+
+      `Mean = ${sum}/5 = ${dp(correct)}.`;
+    q.skill="Calculating and interpreting the mean.";
+    break;
+  }
+
+  case 11:{
+    const values=[3+v,7+v,9+v,11+v,20+v,25+v];
+    const wrong=values[2];
+    const correct=(values[2]+values[3])/2;
+
+    q.topic="Statistical Analysis — Median";
+    q.context=
+      "The following six values are already in ascending order: "+
+      values.join(", ")+". Find the median.";
+    q.working=[
+      "The median is the middle value.",
+      `Median = ${wrong}`
+    ];
+    q.hint=
+      "What happens when a data set contains an even number of values?";
+    q.solution=
+      "There are six observations, so there is no single middle value. "+
+      `Median = (${values[2]} + ${values[3]}) / 2 `+
+      `= ${correct}.`;
+    q.skill="Finding the median of an even-sized data set.";
+    break;
+  }
+
+  case 12:{
+    const scale=2+v;
+    const area=15+v*5;
+    const wrong=area*scale;
+    const correct=area*scale*scale;
+
+    q.topic="Similarity and Area";
+    q.context=
+      `A rectangle has an area of ${area} cm². `+
+      `All its side lengths are enlarged by a scale factor of ${scale}. `+
+      "Find the area of the enlarged rectangle.";
+    q.working=[
+      "New area = original area × scale factor",
+      `New area = ${area} × ${scale}`,
+      `New area = ${wrong} cm²`
+    ];
+    q.hint=
+      "If both length and width are multiplied, "+
+      "how does that affect the area?";
+    q.solution=
+      "The student has used the linear scale factor for area. "+
+      "The area scale factor is the square of the length scale factor. "+
+      `New area = ${area} × ${scale}² = ${correct} cm².`;
+    q.skill="Area scale factors in similar shapes.";
+    break;
+  }
+
+  case 13:{
+    const AB=4+v;
+    const BC=5+v;
+    const AC=12+v;
+    const CD=3+v;
+    const BD=10+v;
+    const wrong=AC+CD;
+    const correct=AB+BC+CD;
+
+    q.topic="Networks — Shortest Paths";
+    q.context=
+      "A network contains the following two-way connections: "+
+      `A–B = ${AB} km, B–C = ${BC} km, `+
+      `A–C = ${AC} km, C–D = ${CD} km, `+
+      `and B–D = ${BD} km. `+
+      "Find the shortest route from A to D.";
+    q.working=[
+      "Choose the direct connection from A to C.",
+      `A → C → D = ${AC} + ${CD}`,
+      `Total = ${wrong} km`
+    ];
+    q.hint=
+      "Compare several complete routes, "+
+      "not just the route with the fewest edges.";
+    q.solution=
+      "The student has assumed that fewer edges means "+
+      "a shorter distance. "+
+      `A → B → C → D = ${AB} + ${BC} + ${CD} `+
+      `= ${correct} km. `+
+      `A → B → D = ${AB+BD} km, `+
+      `and A → C → D = ${wrong} km. `+
+      "The shortest route is A → B → C → D.";
+    q.skill="Comparing weighted network paths.";
+    break;
+  }
+
+  case 14:{
+    const distance=120+v*30;
+    const minutes=90+v*15;
+    const wrong=distance/minutes;
+    const correct=distance/(minutes/60);
+
+    q.topic="Rates and Unit Conversion";
+    q.context=
+      `A vehicle travels ${distance} km in ${minutes} minutes. `+
+      "Calculate its average speed in km/h.";
+    q.working=[
+      "Average speed = distance / time",
+      `Speed = ${distance} / ${minutes}`,
+      `Speed = ${dp(wrong,2)} km/h`
+    ];
+    q.hint=
+      "Check that the time unit matches the requested speed unit.";
+    q.solution=
+      "The student has used minutes as though they were hours. "+
+      `Time = ${minutes}/60 = ${dp(minutes/60)} hours. `+
+      `Speed = ${distance} / (${minutes}/60) `+
+      `= ${dp(correct,2)} km/h.`;
+    q.skill="Average speed and time conversions.";
+    break;
+  }
+
+  }
+
+  return q;
+}
+
+/* Build the full 90-day bank */
+const BANK=Array.from(
+  {length:TOTAL},
+  (_,i)=>makeQuestion(i+1)
+);
+
+/* Sydney calendar dates */
+function sydneyDate(){
+  const parts=new Intl.DateTimeFormat("en-CA",{
+    timeZone:"Australia/Sydney",
+    year:"numeric",
+    month:"2-digit",
+    day:"2-digit"
+  }).formatToParts(new Date());
+
+  const get=type=>parts.find(p=>p.type===type).value;
+  return `${get("year")}-${get("month")}-${get("day")}`;
+}
+
+function dayNumber(dateString){
+  const [y,m,d]=dateString.split("-").map(Number);
+  const [sy,sm,sd]=START.split("-").map(Number);
+
+  const now=Date.UTC(y,m-1,d);
+  const start=Date.UTC(sy,sm-1,sd);
+
+  const elapsed=Math.floor((now-start)/86400000);
+  return ((elapsed%TOTAL)+TOTAL)%TOTAL+1;
+}
+
+let currentDay=dayNumber(sydneyDate());
+let viewingDay=currentDay;
+let teacherMode=false;
+let showingYesterday=false;
+
+function render(day,allowSolution=false){
+  const q=BANK[day-1];
+  viewingDay=day;
+
+  $("topicLabel").textContent=q.topic;
+  $("questionTitle").textContent=
+    "Challenge "+String(day).padStart(2,"0");
+  $("context").textContent=q.context;
+  $("challenge").textContent=q.challenge;
+
+  $("workingLines").replaceChildren();
+
+  q.working.forEach(line=>{
+    const div=document.createElement("div");
+    div.textContent=line;
+    $("workingLines").appendChild(div);
+  });
+
+  $("hintBox").textContent=q.hint;
+  $("hintBox").classList.add("hidden");
+
+  $("solutionArea").replaceChildren();
+
+  if(allowSolution || teacherMode){
+    const box=document.createElement("div");
+    box.className="solution";
+
+    const heading=document.createElement("h3");
+    heading.textContent="✅ Worked Solution";
+
+    const explanation=document.createElement("p");
+    explanation.textContent=q.solution;
+
+    const skill=document.createElement("p");
+    const strong=document.createElement("strong");
+    strong.textContent="HSC skill: ";
+    skill.append(strong,document.createTextNode(q.skill));
+
+    box.append(heading,explanation,skill);
+    $("solutionArea").appendChild(box);
+  }else{
+    const box=document.createElement("div");
+    box.className="notice";
+    box.textContent=
+      "🔒 The worked solution will be revealed tomorrow. "+
+      "Record your working so you can check it next lesson.";
+    $("solutionArea").appendChild(box);
+  }
+
+  $("daySelect").value=String(day);
+}
+
+function showToday(){
+  teacherMode=false;
+  showingYesterday=false;
+  currentDay=dayNumber(sydneyDate());
+  render(currentDay,false);
+  $("dayLabel").textContent=
+    "Today's challenge · Day "+currentDay+" of 90";
+  $("questionPanel").scrollIntoView({behavior:"smooth"});
+}
+
+function showYesterday(){
+  teacherMode=false;
+  showingYesterday=true;
+  currentDay=dayNumber(sydneyDate());
+  const yesterday=((currentDay+88)%90)+1;
+  render(yesterday,true);
+  $("dayLabel").textContent=
+    "Yesterday's challenge · Day "+yesterday+" of 90";
+  $("questionPanel").scrollIntoView({behavior:"smooth"});
+}
+
+function toggleTeacher(){
+  const panel=$("teacherPanel");
+  panel.classList.toggle("hidden");
+
+  if(!panel.classList.contains("hidden")){
+    teacherMode=true;
+    render(viewingDay,true);
+    $("dayLabel").textContent=
+      "Teacher Preview · Day "+viewingDay+" of 90";
+    panel.scrollIntoView({behavior:"smooth"});
+  }else{
+    showToday();
+  }
+}
+
+function previewDay(){
+  teacherMode=true;
+  const day=Number($("daySelect").value);
+  render(day,true);
+  $("dayLabel").textContent=
+    "Teacher Preview · Day "+day+" of 90";
+}
+
+function toggleHint(){
+  $("hintBox").classList.toggle("hidden");
+}
+
+function initialise(){
+  for(let i=1;i<=TOTAL;i++){
+    const option=document.createElement("option");
+    option.value=i;
+    option.textContent="Day "+i+" — "+BANK[i-1].topic;
+    $("daySelect").appendChild(option);
+  }
+
+  const today=sydneyDate();
+  $("dateLabel").textContent=
+    "Sydney date: "+today;
+
+  currentDay=dayNumber(today);
+  render(currentDay,false);
+  $("dayLabel").textContent=
+    "Today's challenge · Day "+currentDay+" of 90";
+}
+
+initialise();
+</script>
+</body>
+</html>

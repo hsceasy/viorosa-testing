@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html lang="en-AU"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Stage 6 mathematical reasoning challenges and interactive escape rooms." name="description"/><title>Stage 6 Other Resources | Viorosa Maths</title><style>
+    :root {
+      --ink: #293449;
+      --muted: #617086;
+      --purple: #7655b3;
+      --teal: #087d83;
+      --pink: #ad4f82;
+      --border: #e5e5f0;
+      --shadow: 0 12px 32px rgba(45,55,90,.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 5%, #fce6ef, transparent 35%),
+        radial-gradient(circle at 90% 12%, #dcf6ef, transparent 35%),
+        linear-gradient(140deg, #fcfaff, #eaf2ff);
+      min-height: 100vh;
+    }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    button { font: inherit; }
+
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid #d28d30;
+      outline-offset: 3px;
+    }
+
+    main {
+      width: min(1100px, 100%);
+      margin: auto;
+      padding: 42px 22px 65px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 34px;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      font-size: .77rem;
+      font-weight: 800;
+      color: #58708b;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 7vw, 4.3rem);
+      letter-spacing: -.05em;
+      margin: 8px 0 12px;
+    }
+
+    header p {
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 680px;
+      margin: auto;
+    }
+
+    .stage-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .stage-card {
+      border: 2px solid white;
+      border-radius: 24px;
+      padding: 34px 20px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .stage-card:hover, .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 36px rgba(45,55,90,.14);
+    }
+
+    .stage4 {
+      background: linear-gradient(135deg, #d6f5ed, #cfe5ff);
+    }
+
+    .stage5 {
+      background: linear-gradient(135deg, #fff0d9, #ffe0e9);
+    }
+
+    .stage6 {
+      background: linear-gradient(135deg, #e9dcff, #ffdce9);
+    }
+
+    .stage-card h2 {
+      margin: 0 0 9px;
+      font-size: 1.85rem;
+    }
+
+    .stage-card p {
+      margin: 0 0 20px;
+      color: #526078;
+    }
+
+    .stage-link {
+      display: inline-block;
+      background: white;
+      border-radius: 12px;
+      padding: 10px 15px;
+      font-weight: 800;
+      font-size: .9rem;
+    }
+
+    .feature {
+      margin: 30px 0 38px;
+      padding: 30px;
+      text-align: center;
+      border-radius: 24px;
+      background: linear-gradient(115deg, #e9dcff, #ffe7f0, #dcf6ed);
+      border: 2px solid white;
+      box-shadow: var(--shadow);
+    }
+
+    .feature h2 { margin: 0 0 10px; }
+
+    .feature p {
+      color: #526078;
+      line-height: 1.65;
+      max-width: 680px;
+      margin: 0 auto 20px;
+    }
+
+    .stage-section[hidden],
+    #stage-selection[hidden],
+    .tab-panel[hidden],
+    .sub-panel[hidden] {
+      display: none !important;
+    }
+
+    .back-button {
+      background: white;
+      border: 2px solid #ded1f2;
+      border-radius: 12px;
+      padding: 12px 19px;
+      font-weight: 800;
+      color: var(--purple);
+      cursor: pointer;
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.3rem);
+      text-align: center;
+      margin: 0 0 8px;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      text-align: center;
+      margin: 0 0 28px;
+      line-height: 1.6;
+    }
+
+    .tabs, .sub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 22px 0;
+    }
+
+    .tab, .sub-tab {
+      border: 2px solid #e5def3;
+      background: white;
+      border-radius: 13px;
+      padding: 12px 19px;
+      cursor: pointer;
+      color: #5b5275;
+      font-weight: 800;
+    }
+
+    .tab.active, .sub-tab.active {
+      background: var(--purple);
+      color: white;
+      border-color: var(--purple);
+    }
+
+    .group-title {
+      margin: 30px 0 8px;
+      font-size: 1.4rem;
+    }
+
+    .group-description {
+      color: var(--muted);
+      line-height: 1.6;
+      margin: 0 0 19px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: rgba(255,255,255,.96);
+      border: 2px solid white;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .art {
+      min-height: 105px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: .83rem;
+      letter-spacing: .1em;
+      font-weight: 850;
+      color: #43516d;
+    }
+
+    .mint { background: linear-gradient(135deg, #d1f3e9, #d6eaff); }
+    .lilac { background: linear-gradient(135deg, #e6d8ff, #f6e3ff); }
+    .peach { background: linear-gradient(135deg, #ffe6d3, #ffe0e9); }
+    .rose { background: linear-gradient(135deg, #ffe0eb, #f0dfff); }
+    .blue { background: linear-gradient(135deg, #d9eaff, #e2f5f3); }
+
+    .content {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .tag {
+      align-self: flex-start;
+      background: #e9f6f2;
+      color: #08706e;
+      padding: 6px 11px;
+      border-radius: 999px;
+      font-size: .72rem;
+      font-weight: 800;
+    }
+
+    .tag.purple {
+      background: #f0e8ff;
+      color: #6843a4;
+    }
+
+    .tag.pink {
+      background: #ffe6ef;
+      color: #9c406b;
+    }
+
+    .content h3 {
+      font-size: 1.35rem;
+      margin: 14px 0 10px;
+    }
+
+    .desc {
+      color: var(--muted);
+      line-height: 1.65;
+      margin: 0 0 22px;
+      flex: 1;
+    }
+
+    .button {
+      display: block;
+      padding: 14px 17px;
+      border-radius: 12px;
+      background: var(--teal);
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .button:hover { filter: brightness(.93); }
+    .button.purple { background: var(--purple); }
+    .button.pink { background: var(--pink); }
+
+    .notice {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 25px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .teacher-area {
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .teacher-area .button {
+      display: inline-block;
+      background: var(--purple);
+      padding: 17px 35px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 35px;
+      color: var(--muted);
+      font-size: .88rem;
+      line-height: 1.7;
+    }
+
+    @media(max-width: 760px) {
+      .stage-grid { grid-template-columns: 1fr; }
+    }
+
+    @media(max-width: 650px) {
+      main { padding: 28px 15px 42px; }
+      .grid { grid-template-columns: 1fr; }
+      .feature { padding: 23px 18px; }
+      .content { padding: 21px; }
+      .tab, .sub-tab { flex: 1; }
+    }
+  
+
+.seo-nav{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:0 0 28px}.seo-nav a{display:inline-block;padding:11px 16px;border-radius:12px;background:white;border:1px solid #e5def3;color:#7655b3;text-decoration:none;font-weight:750}.seo-nav a[aria-current="page"]{background:#7655b3;color:white}.seo-nav a:hover{background:#f0e8ff;color:#6843a4}.seo-nav a[aria-current="page"]:hover{background:#7655b3;color:white}.seo-cta{display:block;text-decoration:none;background:linear-gradient(135deg,#e9dcff,#ffdce9);padding:27px;border-radius:20px;border:2px solid white;box-shadow:var(--shadow);color:var(--ink)}.seo-cta h2{margin:0 0 8px}.seo-cta p{margin:0;color:#526078;line-height:1.6}.seo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:26px 0 36px}.seo-cta:hover{transform:translateY(-2px)}@media(max-width:650px){.seo-pair{grid-template-columns:1fr}}</style><style>
+    :root {
+      --ink: #293449;
+      --muted: #617086;
+      --purple: #7655b3;
+      --teal: #087d83;
+      --pink: #ad4f82;
+      --border: #e5e5f0;
+      --shadow: 0 12px 32px rgba(45,55,90,.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 10% 5%, #fce6ef, transparent 35%),
+        radial-gradient(circle at 90% 12%, #dcf6ef, transparent 35%),
+        linear-gradient(140deg, #fcfaff, #eaf2ff);
+      min-height: 100vh;
+    }
+
+    button, a { -webkit-tap-highlight-color: transparent; }
+
+    button { font: inherit; }
+
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid #d28d30;
+      outline-offset: 3px;
+    }
+
+    main {
+      width: min(1100px, 100%);
+      margin: auto;
+      padding: 42px 22px 65px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 34px;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      font-size: .77rem;
+      font-weight: 800;
+      color: #58708b;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 7vw, 4.3rem);
+      letter-spacing: -.05em;
+      margin: 8px 0 12px;
+    }
+
+    header p {
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 680px;
+      margin: auto;
+    }
+
+    .stage-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .stage-card {
+      border: 2px solid white;
+      border-radius: 24px;
+      padding: 34px 20px;
+      text-align: center;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .stage-card:hover, .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 36px rgba(45,55,90,.14);
+    }
+
+    .stage4 {
+      background: linear-gradient(135deg, #d6f5ed, #cfe5ff);
+    }
+
+    .stage5 {
+      background: linear-gradient(135deg, #fff0d9, #ffe0e9);
+    }
+
+    .stage6 {
+      background: linear-gradient(135deg, #e9dcff, #ffdce9);
+    }
+
+    .stage-card h2 {
+      margin: 0 0 9px;
+      font-size: 1.85rem;
+    }
+
+    .stage-card p {
+      margin: 0 0 20px;
+      color: #526078;
+    }
+
+    .stage-link {
+      display: inline-block;
+      background: white;
+      border-radius: 12px;
+      padding: 10px 15px;
+      font-weight: 800;
+      font-size: .9rem;
+    }
+
+    .feature {
+      margin: 30px 0 38px;
+      padding: 30px;
+      text-align: center;
+      border-radius: 24px;
+      background: linear-gradient(115deg, #e9dcff, #ffe7f0, #dcf6ed);
+      border: 2px solid white;
+      box-shadow: var(--shadow);
+    }
+
+    .feature h2 { margin: 0 0 10px; }
+
+    .feature p {
+      color: #526078;
+      line-height: 1.65;
+      max-width: 680px;
+      margin: 0 auto 20px;
+    }
+
+    .stage-section[hidden],
+    #stage-selection[hidden],
+    .tab-panel[hidden],
+    .sub-panel[hidden] {
+      display: none !important;
+    }
+
+    .back-button {
+      background: white;
+      border: 2px solid #ded1f2;
+      border-radius: 12px;
+      padding: 12px 19px;
+      font-weight: 800;
+      color: var(--purple);
+      cursor: pointer;
+      margin-bottom: 25px;
+    }
+
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.3rem);
+      text-align: center;
+      margin: 0 0 8px;
+    }
+
+    .section-subtitle {
+      color: var(--muted);
+      text-align: center;
+      margin: 0 0 28px;
+      line-height: 1.6;
+    }
+
+    .tabs, .sub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin: 22px 0;
+    }
+
+    .tab, .sub-tab {
+      border: 2px solid #e5def3;
+      background: white;
+      border-radius: 13px;
+      padding: 12px 19px;
+      cursor: pointer;
+      color: #5b5275;
+      font-weight: 800;
+    }
+
+    .tab.active, .sub-tab.active {
+      background: var(--purple);
+      color: white;
+      border-color: var(--purple);
+    }
+
+    .group-title {
+      margin: 30px 0 8px;
+      font-size: 1.4rem;
+    }
+
+    .group-description {
+      color: var(--muted);
+      line-height: 1.6;
+      margin: 0 0 19px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: rgba(255,255,255,.96);
+      border: 2px solid white;
+      border-radius: 22px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform .2s, box-shadow .2s;
+    }
+
+    .art {
+      min-height: 105px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: .83rem;
+      letter-spacing: .1em;
+      font-weight: 850;
+      color: #43516d;
+    }
+
+    .mint { background: linear-gradient(135deg, #d1f3e9, #d6eaff); }
+    .lilac { background: linear-gradient(135deg, #e6d8ff, #f6e3ff); }
+    .peach { background: linear-gradient(135deg, #ffe6d3, #ffe0e9); }
+    .rose { background: linear-gradient(135deg, #ffe0eb, #f0dfff); }
+    .blue { background: linear-gradient(135deg, #d9eaff, #e2f5f3); }
+
+    .content {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .tag {
+      align-self: flex-start;
+      background: #e9f6f2;
+      color: #08706e;
+      padding: 6px 11px;
+      border-radius: 999px;
+      font-size: .72rem;
+      font-weight: 800;
+    }
+
+    .tag.purple {
+      background: #f0e8ff;
+      color: #6843a4;
+    }
+
+    .tag.pink {
+      background: #ffe6ef;
+      color: #9c406b;
+    }
+
+    .content h3 {
+      font-size: 1.35rem;
+      margin: 14px 0 10px;
+    }
+
+    .desc {
+      color: var(--muted);
+      line-height: 1.65;
+      margin: 0 0 22px;
+      flex: 1;
+    }
+
+    .button {
+      display: block;
+      padding: 14px 17px;
+      border-radius: 12px;
+      background: var(--teal);
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+      text-align: center;
+    }
+
+    .button:hover { filter: brightness(.93); }
+    .button.purple { background: var(--purple); }
+    .button.pink { background: var(--pink); }
+
+    .notice {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 25px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .teacher-area {
+      text-align: center;
+      margin-top: 36px;
+    }
+
+    .teacher-area .button {
+      display: inline-block;
+      background: var(--purple);
+      padding: 17px 35px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 35px;
+      color: var(--muted);
+      font-size: .88rem;
+      line-height: 1.7;
+    }
+
+    @media(max-width: 760px) {
+      .stage-grid { grid-template-columns: 1fr; }
+    }
+
+    @media(max-width: 650px) {
+      main { padding: 28px 15px 42px; }
+      .grid { grid-template-columns: 1fr; }
+      .feature { padding: 23px 18px; }
+      .content { padding: 21px; }
+      .tab, .sub-tab { flex: 1; }
+    }
+  
+:root{--ink:#50404b;--muted:#776b72;--purple:#80609a;--teal:#a64e65;--pink:#a64e65;--border:#ebddd5;--shadow:0 5px 16px #503c3010}
+body{background:#fffcf7} main{padding-top:22px} .brand-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:36px;gap:16px}.wordmark{font:700 32px Georgia,serif;letter-spacing:-1.5px;color:#a64e65;text-decoration:none}.wordmark span{display:block;font:700 10px system-ui;letter-spacing:3px;text-align:center}.home-link{color:#a64e65;font-weight:650;text-decoration:none;font-size:14px}header{position:relative;text-align:left;padding:24px 180px 24px 0}header p{margin:0;max-width:660px}.eyebrow{color:#a64e65}h1{font-size:clamp(2.4rem,5vw,3.7rem)}.botanical{position:absolute;right:8px;top:-15px;width:150px;pointer-events:none}.botanical svg{width:100%;height:auto}.stage-card,.card,.feature{border:1px solid var(--border);border-radius:20px}.stage4{background:#ffe4d8}.stage5{background:#f9edc9}.stage6{background:#f0e6f5}.feature{background:#fff3e8}.stage-card p,.feature p,.art{color:var(--muted)}.stage-link{color:#87465a}.mint{background:#f9edc9}.lilac{background:#f0e6f5}.peach{background:#ffe4d8}.rose{background:#f8e0ec}.blue{background:#e9eee3}.tag{background:#f9edc9;color:#765c26}.tag.purple{background:#f0e6f5;color:#674b82}.tag.pink{background:#f8e0ec;color:#87465a}.tab,.sub-tab,.back-button{border-color:var(--border);color:#87465a}.stage-card:hover,.card:hover{box-shadow:0 8px 20px #503c3015}.button{font-weight:700}@media(max-width:650px){header{padding:12px 85px 12px 0}.botanical{width:80px;right:0;top:0}.brand-nav{margin-bottom:20px}.wordmark{font-size:27px}}
+
+.seo-nav{justify-content:flex-start}.seo-nav a{border-color:var(--border);color:#87465a}.seo-nav a[aria-current="page"],.seo-nav a[aria-current="page"]:hover{background:#a64e65;color:white}.seo-nav a:hover{background:#ffe4d8;color:#87465a}.seo-cta{background:#ffe4d8;border:1px solid var(--border);box-shadow:var(--shadow)}.seo-cta:nth-child(2){background:#f9edc9}.seo-cta p,.desc{color:var(--muted)}.button,.button.purple,.button.pink{background:#a64e65;color:white}.button:hover,.button.purple:hover,.button.pink:hover{background:#87465a}</style></head><body><main><nav class="brand-nav"><a class="wordmark" href="index.html">viorosa<span>M A T H S</span></a><a class="home-link" href="nsw.html">← Back to NSW curriculum</a></nav><header><div aria-hidden="true" class="botanical"><svg fill="none" viewbox="0 0 250 290" xmlns="http://www.w3.org/2000/svg"><g stroke="#88947D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"><path d="M239 276C190 232 136 162 101 66M239 276C194 239 188 164 182 119"></path><path d="M165 189Q130 181 112 154M193 225Q218 194 220 174M143 151Q156 121 148 104M184 162Q207 150 216 130"></path><g fill="#C5CEB7" fill-opacity=".72"><path d="M112 154Q100 128 77 126Q79 153 112 154Z"></path><path d="M220 174Q242 155 235 136Q213 147 220 174Z"></path><path d="M148 104Q137 79 151 66Q166 88 148 104Z"></path><path d="M216 130Q236 110 227 94Q205 108 216 130Z"></path><path d="M185 216Q155 211 141 189Q172 187 185 216Z"></path></g></g><g stroke="#B87878" stroke-linejoin="round" stroke-width="1.35" transform="translate(101 64) rotate(-17)"><path d="M-14 17L-8 29L0 23L9 29L15 15Z" fill="#C5CEB7"></path><path d="M0 23C-20 24-34 9-31-7C-29-21-15-26-5-20C4-32 23-24 25-13C41-5 28 19 0 23Z" fill="#F1C4B7"></path><path d="M-27-9Q-13-15-2 2Q-17 8-11 19Q-31 10-27-9Z" fill="#F6D4C8"></path><path d="M25-13Q9-17 0-5Q15-5 19 8Q30 2 25-13Z" fill="#EAB0A8"></path><path d="M-13-17Q2-27 15-15Q21-6 8 4Q-4 12-14 3Q-23-8-13-17Z" fill="#F8DCD0"></path><path d="M-10-10Q4-18 10-9Q15-1 3 1Q-6 1-3-6Q1-10 5-6M-11 19Q1 8 19 8"></path></g><g stroke="#9380AC" stroke-linejoin="round" stroke-width="1.25" transform="translate(182 119) rotate(12)"><path d="M0 0C-21-5-28-24-15-31C-4-36 3-18 0 0Z" fill="#D9CBE9"></path><path d="M0 0C-3-21 7-35 19-27C30-19 15-4 0 0Z" fill="#E4D7F0"></path><path d="M0 0C-15-16-35-11-32 3C-28 17-9 11 0 0Z" fill="#CBB7E0"></path><path d="M0 0C14-16 34-10 31 4C27 17 10 11 0 0Z" fill="#D4BFE6"></path><path d="M0 0C-15 7-16 25 0 28C16 26 16 7 0 0Z" fill="#E6D9F1"></path><path d="M0 3L-9 17M0 3L8 17M-3 0L-20 2M3 0L19 2" opacity=".65"></path><circle fill="#E4C477" r="4" stroke="#B59B65"></circle></g></svg></div><div class="eyebrow">Free NSW Mathematics Resources</div><h1>Other Resources</h1><p>Explore mathematical reasoning challenges and interactive escape rooms.</p></header><nav aria-label="Main navigation" class="seo-nav"><a href="stage-6.html">Stage 6</a><a href="hsc-exam-preparation.html">HSC Exam Preparation</a><a href="year-11-mathematics-standard.html">Year 11 Standard</a><a href="year-12-mathematics-standard-2.html">Year 12 Standard 2</a><a aria-current="page" href="stage-6-other.html">Other</a></nav><section><h2 class="section-title">Other Resources</h2><div class="grid"><article class="card">
+<div class="art rose">
+            DAILY MATHEMATICAL REASONING
+          </div>
+<div class="content">
+<span class="tag pink">DAILY CHALLENGE</span>
+<h3>Spot the Mistake</h3>
+<p class="desc">
+              Find errors in mathematical working,
+              explain the mistake and compare your
+              reasoning with a worked solution.
+            </p>
+<a class="button pink" href="spot_the_mistake.html">
+              Start Spot the Mistake
+            </a>
+</div>
+</article><article class="card">
+<div class="art lilac">
+            LINEAR RELATIONSHIPS
+          </div>
+<div class="content">
+<h3>The Business Breakout</h3>
+<p class="desc">
+              Solve challenges involving gradients,
+              linear models, simultaneous equations
+              and business applications.
+            </p>
+<a class="button purple" href="year12_linear_relationships_escape_room_ROOM6_DIRECT_VARIATION.html">
+              Play The Business Breakout
+            </a>
+</div>
+</article><article class="card">
+<div class="art mint">
+            PROBABILITY
+          </div>
+<div class="content">
+<h3>The Casino Lockdown</h3>
+<p class="desc">
+              Solve probability challenges involving
+              dice, cards, trees, Venn diagrams and tables.
+            </p>
+<a class="button" href="the_casino_lockdown.html">
+              Play The Casino Lockdown
+            </a>
+</div>
+</article><article class="card">
+<div class="art blue">
+            TRIGONOMETRY
+          </div>
+<div class="content">
+<h3>The Island Signal</h3>
+<p class="desc">
+              Solve trigonometry, bearings and navigation
+              problems to restore the island's signal.
+            </p>
+<a class="button" href="the_island_signal.html">
+              Play The Island Signal
+            </a>
+</div>
+</article></div></section><footer>Viorosa Maths · Free NSW Mathematics Resources<div>Years 7–12 · Interactive revision and practice</div></footer></main></body></html>
