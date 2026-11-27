@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "VM-ALG-001",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Write 2 × x × x using algebraic notation.",
+    "answer": "2x<sup>2</sup>",
+    "solution": "Write the numerical factor first. Two factors of x give x<sup>2</sup>.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-002",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "Write an expression for 3 less than 2 times x.",
+    "answer": "2x − 3",
+    "solution": "Multiply x by 2, then subtract 3.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-003",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of x and the constant in −2x + 3.",
+    "answer": "−2; 3",
+    "solution": "The signed multiplier is −2; the term without a variable is 3.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-004",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Write and simplify the expression represented by these tiles. <svg role=\"img\" aria-label=\"Algebra tiles: long rectangles represent x and small squares represent one\" viewBox=\"0 0 320 100\" width=\"320\"><rect x=\"8\" y=\"8\" width=\"42\" height=\"60\" rx=\"3\" fill=\"#c7dac0\" stroke=\"#526b55\"/><text x=\"29\" y=\"43\" text-anchor=\"middle\">x</text><rect x=\"57\" y=\"8\" width=\"42\" height=\"60\" rx=\"3\" fill=\"#c7dac0\" stroke=\"#526b55\"/><text x=\"78\" y=\"43\" text-anchor=\"middle\">x</text><rect x=\"106\" y=\"8\" width=\"42\" height=\"60\" rx=\"3\" fill=\"#c7dac0\" stroke=\"#526b55\"/><text x=\"127\" y=\"43\" text-anchor=\"middle\">x</text><rect x=\"8\" y=\"74\" width=\"24\" height=\"24\" fill=\"#f5c8d7\" stroke=\"#8c5269\"/><text x=\"20\" y=\"91\" text-anchor=\"middle\" font-size=\"12\">1</text><rect x=\"38\" y=\"74\" width=\"24\" height=\"24\" fill=\"#f5c8d7\" stroke=\"#8c5269\"/><text x=\"50\" y=\"91\" text-anchor=\"middle\" font-size=\"12\">1</text><rect x=\"68\" y=\"74\" width=\"24\" height=\"24\" fill=\"#f5c8d7\" stroke=\"#8c5269\"/><text x=\"80\" y=\"91\" text-anchor=\"middle\" font-size=\"12\">1</text><rect x=\"98\" y=\"74\" width=\"24\" height=\"24\" fill=\"#f5c8d7\" stroke=\"#8c5269\"/><text x=\"110\" y=\"91\" text-anchor=\"middle\" font-size=\"12\">1</text></svg>",
+    "answer": "3x + 4",
+    "solution": "Three x tiles give 3x; four unit tiles give 4. Unlike terms cannot be combined.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-005",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify 2x × 3x.",
+    "answer": "6x<sup>2</sup>",
+    "solution": "Multiply coefficients: 2 × 3 = 6. Multiply the variables.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-006",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>6x<sup>2</sup></span><span>2x</span></span> for x ≠ 0.",
+    "answer": "3x",
+    "solution": "Divide coefficients: 6 ÷ 2 = 3. Cancel one common nonzero variable factor.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-007",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate 2x<sup>2</sup> − 3 when x = −4.",
+    "answer": "29",
+    "solution": "Substitute using brackets: 2 × (−4)<sup>2</sup> − 3 = 32 − 3.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-008",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>2x</span><span>3</span></span> + <span class=\"frac\"><span>3x</span><span>3</span></span>.",
+    "answer": "<span class=\"frac\"><span>5x</span><span>3</span></span>",
+    "solution": "The denominators match, so add the numerators: (2 + 3)x.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-009",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Use the area model to expand 3(x + 4). <svg role=\"img\" aria-label=\"Rectangle of height 3, split into widths x and 4\" viewBox=\"0 0 320 140\" width=\"320\"><rect x=\"40\" y=\"35\" width=\"170\" height=\"85\" fill=\"#c7dac0\" stroke=\"#526b55\"/><rect x=\"210\" y=\"35\" width=\"85\" height=\"85\" fill=\"#f5c8d7\" stroke=\"#8c5269\"/><g text-anchor=\"middle\" fill=\"#493843\"><text x=\"125\" y=\"25\">x</text><text x=\"252\" y=\"25\">4</text><text x=\"20\" y=\"80\">3</text><text x=\"125\" y=\"80\">?</text><text x=\"252\" y=\"80\">?</text></g></svg>",
+    "answer": "3x + 12",
+    "solution": "Multiply each width by the height: 3 × x = 3x and 3 × 4 = 12. Add the areas.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-010",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 6x + 8 fully.",
+    "answer": "2(3x + 4)",
+    "solution": "The highest common factor is 2, since 3 and 4 are consecutive. Divide each term by 2.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-011",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A rectangle has length x + 2 cm and width 3 cm. Write its area as an expanded expression.",
+    "answer": "(3x + 6) cm²",
+    "solution": "Multiply length by width: 3(x + 2) = 3x + 6.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-012",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 2(x + 3) − 3(x − 4).",
+    "answer": "−x + 18",
+    "solution": "Expand to 2x + 6 − 3x + 12. Collect like terms.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-013",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Understanding variables",
+    "prompt": "In 4n + 7, which symbol can take different values? What stays fixed?",
+    "answer": "n varies; 4 and 7 stay fixed.",
+    "solution": "The pronumeral n represents a number; 4 is its fixed coefficient and 7 is a constant.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for understanding variables.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-014",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Expressions into words",
+    "prompt": "Describe 5a − 8 in words.",
+    "answer": "Eight less than five times a.",
+    "solution": "Multiply a by five before subtracting eight.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions into words.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-015",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of y and the constant in −3y + 4.",
+    "answer": "−3; 4",
+    "solution": "The signed multiplier is −3; the term without a variable is 4.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-016",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 3y + 4 − 5y + 3.",
+    "answer": "−2y + 7",
+    "solution": "Combine variable coefficients: 3 − 5 = −2. Combine constants: 4 + 3 = 7.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-017",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify 3y × 4y.",
+    "answer": "12y<sup>2</sup>",
+    "solution": "Multiply coefficients: 3 × 4 = 12. Multiply the variables.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-018",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>12y<sup>2</sup></span><span>3y</span></span> for y ≠ 0.",
+    "answer": "4y",
+    "solution": "Divide coefficients: 12 ÷ 3 = 4. Cancel one common nonzero variable factor.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-019",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Generating number patterns",
+    "prompt": "List the first five terms of 3n + 2 for n = 1, 2, 3, 4, 5.",
+    "answer": "5, 8, 11, 14, 17",
+    "solution": "Substitute each value of n. Each increase of one in n adds three.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for generating number patterns.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-020",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>3y</span><span>3</span></span> + <span class=\"frac\"><span>4y</span><span>3</span></span>.",
+    "answer": "<span class=\"frac\"><span>7y</span><span>3</span></span>",
+    "solution": "The denominators match, so add the numerators: (3 + 4)y.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-021",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −3(y − 4).",
+    "answer": "−3y + 12",
+    "solution": "Multiply each term by −3. The product of two negative numbers is positive.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-022",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 12y + 15 fully.",
+    "answer": "3(4y + 5)",
+    "solution": "The highest common factor is 3, since 4 and 5 are consecutive. Divide each term by 3.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-023",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Practical formulae",
+    "prompt": "Use F = <span class=\"frac\"><span>9</span><span>5</span></span>C + 32 to convert −10°C to Fahrenheit.",
+    "answer": "14°F",
+    "solution": "Multiply −10 by nine fifths to obtain −18, then add 32.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for practical formulae.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-024",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 3(y + 4) − 4(y − 5).",
+    "answer": "−y + 32",
+    "solution": "Expand to 3y + 12 − 4y + 20. Collect like terms.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-025",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Understanding variables",
+    "prompt": "A notebook costs p dollars. What does p represent, and what does 6p represent?",
+    "answer": "p is the price of one notebook; 6p is the price of six.",
+    "solution": "The same unknown unit price is multiplied by the number of notebooks.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for understanding variables.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-026",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Expressions into words",
+    "prompt": "Describe 4(b + 2) in words.",
+    "answer": "Four times the sum of b and two.",
+    "solution": "The brackets require adding two to b before multiplying by four.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions into words.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-027",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of m and the constant in −4m + 5.",
+    "answer": "−4; 5",
+    "solution": "The signed multiplier is −4; the term without a variable is 5.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-028",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Associative property",
+    "prompt": "Regroup (a + 8) + 2 to make mental calculation easier.",
+    "answer": "a + (8 + 2) = a + 10",
+    "solution": "The associative property of addition allows regrouping without changing the order.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for associative property.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-029",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify 4m × 5m.",
+    "answer": "20m<sup>2</sup>",
+    "solution": "Multiply coefficients: 4 × 5 = 20. Multiply the variables.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-030",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>20m<sup>2</sup></span><span>4m</span></span> for m ≠ 0.",
+    "answer": "5m",
+    "solution": "Divide coefficients: 20 ÷ 4 = 5. Cancel one common nonzero variable factor.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-031",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Generating number patterns",
+    "prompt": "Generate the first four terms of 20 − 4n, starting at n = 1.",
+    "answer": "16, 12, 8, 4",
+    "solution": "Subtract 4, 8, 12 and 16 from 20 respectively.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for generating number patterns.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-032",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>4m</span><span>3</span></span> + <span class=\"frac\"><span>5m</span><span>3</span></span>.",
+    "answer": "3m",
+    "solution": "Add the numerators to obtain 9m over 3, then divide by 3 to obtain 3m.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-033",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −4(m − 5).",
+    "answer": "−4m + 20",
+    "solution": "Multiply each term by −4. The product of two negative numbers is positive.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-034",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 20m + 24 fully.",
+    "answer": "4(5m + 6)",
+    "solution": "The highest common factor is 4, since 5 and 6 are consecutive. Divide each term by 4.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-035",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Practical formulae",
+    "prompt": "A delivery fee is D = 6 + 2.5k dollars, where k is kilometres. Find D for k = 8.",
+    "answer": "$26",
+    "solution": "D = 6 + 2.5 × 8 = 6 + 20 = 26.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for practical formulae.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-036",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Combining operations",
+    "prompt": "Simplify 3a × 4 + 2a − 5a.",
+    "answer": "9a",
+    "solution": "Multiply first to get 12a, then combine: (12 + 2 − 5)a = 9a.",
+    "difficulty": "Foundation",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for combining operations.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-037",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Commutative property",
+    "prompt": "Which is always equal to a + b: b + a or b − a? Name the property.",
+    "answer": "b + a; commutative property of addition.",
+    "solution": "Addition can reverse the order of its terms without changing the sum.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for commutative property.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-038",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Expressions into words",
+    "prompt": "Describe <span class=\"frac\"><span>m − 6</span><span>3</span></span> in words.",
+    "answer": "The difference between m and six, divided by three.",
+    "solution": "Subtract six first, then divide the entire difference by three.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions into words.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-039",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of n and the constant in −5n + 6.",
+    "answer": "−5; 6",
+    "solution": "The signed multiplier is −5; the term without a variable is 6.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-040",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 5n + 6 − 7n + 5.",
+    "answer": "−2n + 11",
+    "solution": "Combine variable coefficients: 5 − 7 = −2. Combine constants: 6 + 5 = 11.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-041",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Associative property",
+    "prompt": "Use regrouping to simplify (4x) × 25.",
+    "answer": "100x",
+    "solution": "Regroup and reorder the factors: (4 × 25) × x = 100x. Multiplication is associative and commutative.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for associative property.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-042",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>30n<sup>2</sup></span><span>5n</span></span> for n ≠ 0.",
+    "answer": "6n",
+    "solution": "Divide coefficients: 30 ÷ 5 = 6. Cancel one common nonzero variable factor.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-043",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Generating number patterns",
+    "prompt": "A pattern has rule n² + 1. Find terms 1 to 4. Is the difference constant?",
+    "answer": "2, 5, 10, 17; no.",
+    "solution": "Square each term number and add one. The differences are 3, 5 and 7.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for generating number patterns.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-044",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>5n</span><span>3</span></span> + <span class=\"frac\"><span>6n</span><span>3</span></span>.",
+    "answer": "<span class=\"frac\"><span>11n</span><span>3</span></span>",
+    "solution": "The denominators match, so add the numerators: (5 + 6)n.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-045",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −5(n − 6).",
+    "answer": "−5n + 30",
+    "solution": "Multiply each term by −5. The product of two negative numbers is positive.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-046",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 30n + 35 fully.",
+    "answer": "5(6n + 7)",
+    "solution": "The highest common factor is 5, since 6 and 7 are consecutive. Divide each term by 5.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-047",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Practical formulae",
+    "prompt": "Use P = 2l + 2w to find the perimeter of a rectangle with l = 7.5 cm and w = 4 cm.",
+    "answer": "23 cm",
+    "solution": "P = 2 × 7.5 + 2 × 4 = 15 + 8 = 23 cm.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for practical formulae.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-048",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Combining operations",
+    "prompt": "Simplify <span class=\"frac\"><span>18x</span><span>6</span></span> + 4(x − 2).",
+    "answer": "7x − 8",
+    "solution": "Divide to get 3x; expand to get 4x − 8; combine like terms.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for combining operations.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-049",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Commutative property",
+    "prompt": "Is a − b always equal to b − a? Use a = 9 and b = 4 to justify.",
+    "answer": "No; 5 ≠ −5.",
+    "solution": "9 − 4 = 5, whereas 4 − 9 = −5. Subtraction is not commutative.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for commutative property.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-050",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "Write an expression for 7 less than 6 times p.",
+    "answer": "6p − 7",
+    "solution": "Multiply p by 6, then subtract 7.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-051",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of p and the constant in −6p + 7.",
+    "answer": "−6; 7",
+    "solution": "The signed multiplier is −6; the term without a variable is 7.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-052",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 6p + 7 − 8p + 6.",
+    "answer": "−2p + 13",
+    "solution": "Combine variable coefficients: 6 − 8 = −2. Combine constants: 7 + 6 = 13.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-053",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify 6p × 7p.",
+    "answer": "42p<sup>2</sup>",
+    "solution": "Multiply coefficients: 6 × 7 = 42. Multiply the variables.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-054",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>42p<sup>2</sup></span><span>6p</span></span> for p ≠ 0.",
+    "answer": "7p",
+    "solution": "Divide coefficients: 42 ÷ 6 = 7. Cancel one common nonzero variable factor.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-055",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Generating number patterns",
+    "prompt": "The rule for a pattern is 7n − 3. Find terms 4, 5 and 6.",
+    "answer": "25, 32, 39",
+    "solution": "7 × 4 − 3 = 25; 7 × 5 − 3 = 32; 7 × 6 − 3 = 39.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for generating number patterns.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-056",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>6p</span><span>3</span></span> + <span class=\"frac\"><span>7p</span><span>3</span></span>.",
+    "answer": "<span class=\"frac\"><span>13p</span><span>3</span></span>",
+    "solution": "The denominators match, so add the numerators: (6 + 7)p.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-057",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −6(p − 7).",
+    "answer": "−6p + 42",
+    "solution": "Multiply each term by −6. The product of two negative numbers is positive.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-058",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 42p + 48 fully.",
+    "answer": "6(7p + 8)",
+    "solution": "The highest common factor is 6, since 7 and 8 are consecutive. Divide each term by 6.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-059",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A rectangle has length p + 6 cm and width 7 cm. Write its area as an expanded expression.",
+    "answer": "(7p + 42) cm²",
+    "solution": "Multiply length by width: 7(p + 6) = 7p + 42.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-060",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Mathematical justification",
+    "prompt": "Are 2(x + 3) and 2x + 3 always equal? Give a counterexample.",
+    "answer": "No. At x = 1, the values are 8 and 5.",
+    "solution": "Expansion gives 2x + 6, not 2x + 3. One counterexample disproves the claim.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for mathematical justification.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-061",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Write 7 × x × x using algebraic notation.",
+    "answer": "7x<sup>2</sup>",
+    "solution": "Write the numerical factor first. Two factors of x give x<sup>2</sup>.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-062",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "Write an expression for 8 less than 7 times x.",
+    "answer": "7x − 8",
+    "solution": "Multiply x by 7, then subtract 8.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-063",
+    "section": "Skill practice",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of x and the constant in −7x + 8.",
+    "answer": "−7; 8",
+    "solution": "The signed multiplier is −7; the term without a variable is 8.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-064",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 7x + 8 − 9x + 7.",
+    "answer": "−2x + 15",
+    "solution": "Combine variable coefficients: 7 − 9 = −2. Combine constants: 8 + 7 = 15.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-065",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify 7x × 8x.",
+    "answer": "56x<sup>2</sup>",
+    "solution": "Multiply coefficients: 7 × 8 = 56. Multiply the variables.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-066",
+    "section": "Skill practice",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>56x<sup>2</sup></span><span>7x</span></span> for x ≠ 0.",
+    "answer": "8x",
+    "solution": "Divide coefficients: 56 ÷ 7 = 8. Cancel one common nonzero variable factor.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-067",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate 7x<sup>2</sup> − 8 when x = −9.",
+    "answer": "559",
+    "solution": "Substitute using brackets: 7 × (−9)<sup>2</sup> − 8 = 567 − 8.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-068",
+    "section": "Skill practice",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>7x</span><span>3</span></span> + <span class=\"frac\"><span>8x</span><span>3</span></span>.",
+    "answer": "5x",
+    "solution": "Add the numerators to obtain 15x over 3, then divide by 3 to obtain 5x.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-069",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −7(x − 8).",
+    "answer": "−7x + 56",
+    "solution": "Multiply each term by −7. The product of two negative numbers is positive.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-070",
+    "section": "Skill practice",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 56x + 63 fully.",
+    "answer": "7(8x + 9)",
+    "solution": "The highest common factor is 7, since 8 and 9 are consecutive. Divide each term by 7.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-071",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A rectangle has length x + 7 cm and width 8 cm. Write its area as an expanded expression.",
+    "answer": "(8x + 56) cm²",
+    "solution": "Multiply length by width: 8(x + 7) = 8x + 56.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-072",
+    "section": "Skill practice",
+    "group": "Applications",
+    "skill": "Mathematical justification",
+    "prompt": "Explain why the sum of three consecutive whole numbers is divisible by 3.",
+    "answer": "Their sum is 3(n + 1).",
+    "solution": "Let the numbers be n, n + 1 and n + 2. Their sum is 3n + 3 = 3(n + 1), a multiple of 3.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for mathematical justification.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-073",
+    "section": "Worked examples",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Write 8 × y × y using algebraic notation.",
+    "answer": "8y<sup>2</sup>",
+    "solution": "Write the numerical factor first. Two factors of y give y<sup>2</sup>.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-074",
+    "section": "Worked examples",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "Write an expression for 9 less than 8 times y.",
+    "answer": "8y − 9",
+    "solution": "Multiply y by 8, then subtract 9.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-075",
+    "section": "Worked examples",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of y and the constant in −8y + 9.",
+    "answer": "−8; 9",
+    "solution": "The signed multiplier is −8; the term without a variable is 9.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-076",
+    "section": "Worked examples",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 8y + 9 − 10y + 8.",
+    "answer": "−2y + 17",
+    "solution": "Combine variable coefficients: 8 − 10 = −2. Combine constants: 9 + 8 = 17.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-077",
+    "section": "Worked examples",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify 8y × 9y.",
+    "answer": "72y<sup>2</sup>",
+    "solution": "Multiply coefficients: 8 × 9 = 72. Multiply the variables.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-078",
+    "section": "Worked examples",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>72y<sup>2</sup></span><span>8y</span></span> for y ≠ 0.",
+    "answer": "9y",
+    "solution": "Divide coefficients: 72 ÷ 8 = 9. Cancel one common nonzero variable factor.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-079",
+    "section": "Worked examples",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate 8y<sup>2</sup> − 9 when y = −10.",
+    "answer": "791",
+    "solution": "Substitute using brackets: 8 × (−10)<sup>2</sup> − 9 = 800 − 9.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-080",
+    "section": "Worked examples",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>8y</span><span>3</span></span> + <span class=\"frac\"><span>9y</span><span>3</span></span>.",
+    "answer": "<span class=\"frac\"><span>17y</span><span>3</span></span>",
+    "solution": "The denominators match, so add the numerators: (8 + 9)y.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-081",
+    "section": "Worked examples",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −8(y − 9).",
+    "answer": "−8y + 72",
+    "solution": "Multiply each term by −8. The product of two negative numbers is positive.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-082",
+    "section": "Worked examples",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "The rectangle has total area 5x + 15. Use the model to write it in factorised form. <svg role=\"img\" aria-label=\"Rectangle of height 5, split into widths x and 3\" viewBox=\"0 0 320 140\" width=\"320\"><rect x=\"40\" y=\"35\" width=\"170\" height=\"85\" fill=\"#c7dac0\" stroke=\"#526b55\"/><rect x=\"210\" y=\"35\" width=\"85\" height=\"85\" fill=\"#f5c8d7\" stroke=\"#8c5269\"/><g text-anchor=\"middle\" fill=\"#493843\"><text x=\"125\" y=\"25\">x</text><text x=\"252\" y=\"25\">3</text><text x=\"20\" y=\"80\">5</text><text x=\"125\" y=\"80\">?</text><text x=\"252\" y=\"80\">?</text></g></svg>",
+    "answer": "5(x + 3)",
+    "solution": "The common height is 5 and the total width is x + 3. Multiply height by width.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-083",
+    "section": "Worked examples",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A rectangle has length y + 8 cm and width 9 cm. Write its area as an expanded expression.",
+    "answer": "(9y + 72) cm²",
+    "solution": "Multiply length by width: 9(y + 8) = 9y + 72.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-084",
+    "section": "Worked examples",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 8(y + 9) − 9(y − 10).",
+    "answer": "−y + 162",
+    "solution": "Expand to 8y + 72 − 9y + 90. Collect like terms.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-085",
+    "section": "Worked examples",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Write 9 × m × m using algebraic notation.",
+    "answer": "9m<sup>2</sup>",
+    "solution": "Write the numerical factor first. Two factors of m give m<sup>2</sup>.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-086",
+    "section": "Worked examples",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "Write an expression for 10 less than 9 times m.",
+    "answer": "9m − 10",
+    "solution": "Multiply m by 9, then subtract 10.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-087",
+    "section": "Worked examples",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Identify the coefficient of m and the constant in −9m + 10.",
+    "answer": "−9; 10",
+    "solution": "The signed multiplier is −9; the term without a variable is 10.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-088",
+    "section": "Worked examples",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 9m + 10 − 11m + 9.",
+    "answer": "−2m + 19",
+    "solution": "Combine variable coefficients: 9 − 11 = −2. Combine constants: 10 + 9 = 19.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-089",
+    "section": "Worked examples",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify 9m × 10m.",
+    "answer": "90m<sup>2</sup>",
+    "solution": "Multiply coefficients: 9 × 10 = 90. Multiply the variables.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-090",
+    "section": "Worked examples",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>90m<sup>2</sup></span><span>9m</span></span> for m ≠ 0.",
+    "answer": "10m",
+    "solution": "Divide coefficients: 90 ÷ 9 = 10. Cancel one common nonzero variable factor.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-091",
+    "section": "Worked examples",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate 9m<sup>2</sup> − 10 when m = −11.",
+    "answer": "1079",
+    "solution": "Substitute using brackets: 9 × (−11)<sup>2</sup> − 10 = 1089 − 10.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-092",
+    "section": "Worked examples",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>9m</span><span>3</span></span> + <span class=\"frac\"><span>10m</span><span>3</span></span>.",
+    "answer": "<span class=\"frac\"><span>19m</span><span>3</span></span>",
+    "solution": "The denominators match, so add the numerators: (9 + 10)m.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-093",
+    "section": "Worked examples",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −9(m − 10).",
+    "answer": "−9m + 90",
+    "solution": "Multiply each term by −9. The product of two negative numbers is positive.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-094",
+    "section": "Worked examples",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 90m + 99 fully.",
+    "answer": "9(10m + 11)",
+    "solution": "The highest common factor is 9, since 10 and 11 are consecutive. Divide each term by 9.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-095",
+    "section": "Worked examples",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A rectangle has length m + 9 cm and width 10 cm. Write its area as an expanded expression.",
+    "answer": "(10m + 90) cm²",
+    "solution": "Multiply length by width: 10(m + 9) = 10m + 90.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-096",
+    "section": "Worked examples",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 9(m + 10) − 10(m − 11).",
+    "answer": "−m + 200",
+    "solution": "Expand to 9m + 90 − 10m + 110. Collect like terms.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-097",
+    "section": "Spot the mistake",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Mia writes 5 × a × a as 5a + a. Correct her notation.",
+    "answer": "5a<sup>2</sup>",
+    "solution": "Multiplication is not addition. The two factors of a give a², with numerical factor 5.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-098",
+    "section": "Spot the mistake",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "A student writes 7 − 3n for “7 less than three times n”. Correct the expression.",
+    "answer": "3n − 7",
+    "solution": "Start with three times n, then subtract 7. Subtraction order matters.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-099",
+    "section": "Spot the mistake",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Sam says the coefficient of p in −p + 9 is zero because no number is written. Identify the coefficient and constant.",
+    "answer": "−1; 9",
+    "solution": "−p means −1 × p. The constant is 9 because it contains no variable.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-100",
+    "section": "Spot the mistake",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "A student simplifies 4x + 3y − x to 6xy. Correct the simplification.",
+    "answer": "3x + 3y",
+    "solution": "Only terms with identical variable parts combine. 4x − x = 3x; 3y remains separate.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-101",
+    "section": "Spot the mistake",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Ella writes (−3a)(−4b) = −12ab. Correct her result.",
+    "answer": "12ab",
+    "solution": "Two negative factors give a positive product. Multiply 3 × 4 and retain both variables.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-102",
+    "section": "Spot the mistake",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Noah simplifies <span class=\"frac\"><span>18x²</span><span>6x</span></span> to 3x². Correct his answer for x ≠ 0.",
+    "answer": "3x",
+    "solution": "Divide 18 by 6 and cancel one factor of x. One factor of x remains.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-103",
+    "section": "Spot the mistake",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "When x = −3, a student evaluates x² + 2 as −9 + 2. Correct the result.",
+    "answer": "11",
+    "solution": "Substitute using brackets: (−3)² + 2 = 9 + 2 = 11.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-104",
+    "section": "Spot the mistake",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "A student adds <span class=\"frac\"><span>2x</span><span>5</span></span> + <span class=\"frac\"><span>x</span><span>5</span></span> and obtains <span class=\"frac\"><span>3x</span><span>10</span></span>. Correct the answer.",
+    "answer": "<span class=\"frac\"><span>3x</span><span>5</span></span>",
+    "solution": "The pieces are already fifths. Add their numerators, not their denominators.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-105",
+    "section": "Spot the mistake",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "A student expands 6(a − 4) as 6a − 4. Correct the expansion.",
+    "answer": "6a − 24",
+    "solution": "The outside factor multiplies both terms: 6 × a − 6 × 4.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-106",
+    "section": "Spot the mistake",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "A student factorises 15x + 20 as 5(3x + 20). Correct the factorisation.",
+    "answer": "5(3x + 4)",
+    "solution": "Divide both original terms by 5. Expanding the proposed answer would give 15x + 100.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-107",
+    "section": "Spot the mistake",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A rectangle has length x + 5 cm and width x cm. A student gives its perimeter as 2x + 5 cm. Correct the expression.",
+    "answer": "4x + 10 cm",
+    "solution": "Perimeter includes two lengths and two widths: 2(x + 5) + 2x = 4x + 10.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-108",
+    "section": "Spot the mistake",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "A student simplifies 3(x + 2) − 2(x − 4) to x − 2. Correct the result.",
+    "answer": "x + 14",
+    "solution": "Distribute the negative factor: 3x + 6 − 2x + 8 = x + 14.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-109",
+    "section": "Spot the mistake",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "A student claims 4m² means (4m)². Explain the difference and evaluate both when m = 2.",
+    "answer": "16 and 64",
+    "solution": "In 4m² only m is squared: 4 × 4 = 16. In (4m)² the entire product is squared: 8² = 64.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-110",
+    "section": "Spot the mistake",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "A student translates “twice the sum of t and 6” as 2t + 6. Correct the expression.",
+    "answer": "2(t + 6)",
+    "solution": "The entire sum is doubled, so brackets are required. The equivalent expanded form is 2t + 12.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-111",
+    "section": "Spot the mistake",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "A student says 8a² − 3a + 2 has four terms because a² contains two factors of a. Identify the terms.",
+    "answer": "8a², −3a, 2",
+    "solution": "Terms are separated by addition or subtraction, not multiplication. There are three signed terms.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-112",
+    "section": "Spot the mistake",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "A student simplifies 7b² − 2b + 3b² to 8b². Correct the expression.",
+    "answer": "10b² − 2b",
+    "solution": "b² and b are unlike terms. Combine 7b² + 3b² only.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-113",
+    "section": "Spot the mistake",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "A student writes 2p × 5p² = 10p². Correct the product.",
+    "answer": "10p³",
+    "solution": "Multiply coefficients and count all three factors of p: p × p × p.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-114",
+    "section": "Spot the mistake",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "A student cancels the x in <span class=\"frac\"><span>x + 6</span><span>x</span></span> to obtain 6. Give a counterexample using x = 2.",
+    "answer": "4, not 6",
+    "solution": "Cancellation requires common factors, not terms in a sum. At x = 2 the fraction is 8 ÷ 2 = 4.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-115",
+    "section": "Spot the mistake",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "When a = 2 and b = −4, a student evaluates 3a − b as 6 − 4. Correct the result.",
+    "answer": "10",
+    "solution": "Subtracting a negative gives addition: 3 × 2 − (−4) = 6 + 4 = 10.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-116",
+    "section": "Spot the mistake",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "A student simplifies <span class=\"frac\"><span>x</span><span>2</span></span> + <span class=\"frac\"><span>x</span><span>3</span></span> to <span class=\"frac\"><span>2x</span><span>5</span></span>. Correct the expression.",
+    "answer": "<span class=\"frac\"><span>5x</span><span>6</span></span>",
+    "solution": "Use a common denominator of 6: <span class=\"frac\"><span>3x</span><span>6</span></span> + <span class=\"frac\"><span>2x</span><span>6</span></span> = <span class=\"frac\"><span>5x</span><span>6</span></span>. Adding denominators does not preserve the fractions.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "Extension: algebraic fraction operations"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-117",
+    "section": "Spot the mistake",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "A student expands −4(2y − 3) as −8y − 12. Correct the expansion.",
+    "answer": "−8y + 12",
+    "solution": "Multiply each term by −4. The product of −4 and −3 is positive 12.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-118",
+    "section": "Spot the mistake",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "A student claims 6x(2x + 3) is the fully factorised form of 12x² + 18. Correct the factorisation.",
+    "answer": "6(2x² + 3)",
+    "solution": "The constant 18 has no factor of x. The highest common numerical factor is 6.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-119",
+    "section": "Spot the mistake",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A club charges a $12 joining fee and $5 per visit. A student writes 17v for the cost of v visits. Correct the expression.",
+    "answer": "12 + 5v dollars",
+    "solution": "The joining fee is paid once, not on every visit. Only the $5 visit fee is multiplied by v.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-120",
+    "section": "Spot the mistake",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "A student claims 2(3k + 1) + 4(k − 2) equals 10k + 10. Correct the expression.",
+    "answer": "10k − 6",
+    "solution": "Expand both brackets: 6k + 2 + 4k − 8. Combine like terms to obtain 10k − 6.",
+    "difficulty": "Core",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-121",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Explain why 4x² and (4x)² are not equivalent.",
+    "answer": "4x² versus 16x²",
+    "solution": "In the second expression both 4 and x are squared.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-122",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "A number n is tripled, decreased by 8, then doubled. Write a simplified expression.",
+    "answer": "6n − 16",
+    "solution": "2(3n − 8) = 6n − 16.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-123",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "In −7a + 4b − 9, list the coefficients and constant.",
+    "answer": "−7, 4; constant −9",
+    "solution": "Include the sign attached to each term.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-124",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 8a − 3b − 11a + 5b − 2.",
+    "answer": "−3a + 2b − 2",
+    "solution": "Combine a terms and b terms separately.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-125",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify (−3a) × 4b × (−2a).",
+    "answer": "24a²b",
+    "solution": "The two negatives cancel; 3 × 4 × 2 = 24.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-126",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>−24a²b</span><span>6ab</span></span> for nonzero a and b.",
+    "answer": "−4a",
+    "solution": "Divide coefficients and cancel one a and one b.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-127",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate 2a² − 3b when a = −3 and b = −4.",
+    "answer": "30",
+    "solution": "2 × 9 − 3 × (−4) = 18 + 12.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-128",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>x</span><span>2</span></span> + <span class=\"frac\"><span>x</span><span>3</span></span>.",
+    "answer": "<span class=\"frac\"><span>5x</span><span>6</span></span>",
+    "solution": "Use denominator 6: <span class=\"frac\"><span>3x</span><span>6</span></span> + <span class=\"frac\"><span>2x</span><span>6</span></span>.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "Extension: algebraic fraction operations"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-129",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −4(2x − 5).",
+    "answer": "−8x + 20",
+    "solution": "Multiply both terms by −4.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-130",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 18a − 24b fully.",
+    "answer": "6(3a − 4b)",
+    "solution": "The greatest common numerical factor is 6.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-131",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A rectangle has sides 2x + 3 and x + 1 metres. Write its perimeter.",
+    "answer": "6x + 8 m",
+    "solution": "Double the sum of the sides: 2(3x + 4).",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-132",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 3(2x − 5) − 2(x + 4).",
+    "answer": "4x − 23",
+    "solution": "Expand: 6x − 15 − 2x − 8.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-133",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Write a product using powers: a × b × a × a × b.",
+    "answer": "a³b²",
+    "solution": "Count three a factors and two b factors.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-134",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "Write an expression for half the sum of p and 9.",
+    "answer": "<span class=\"frac\"><span>p + 9</span><span>2</span></span>",
+    "solution": "Add first, then divide the entire sum by 2.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-135",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Which terms in 3x² − 2x + 7x² − 5 are like terms?",
+    "answer": "3x² and 7x²",
+    "solution": "Both have exactly the same variable and power.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-136",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 4x² + 3x − x² − 8x.",
+    "answer": "3x² − 5x",
+    "solution": "Combine only terms with identical powers.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-137",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify −5m × (−m) × 2n.",
+    "answer": "10m²n",
+    "solution": "Multiply coefficients and collect repeated factors.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-138",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>35p³</span><span>−7p</span></span> for p ≠ 0.",
+    "answer": "−5p²",
+    "solution": "35 ÷ (−7) = −5; cancel one p.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-139",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate a² − b² for a = −5 and b = 3.",
+    "answer": "16",
+    "solution": "25 − 9 = 16.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-140",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>3y</span><span>4</span></span> − <span class=\"frac\"><span>y</span><span>6</span></span>.",
+    "answer": "<span class=\"frac\"><span>7y</span><span>12</span></span>",
+    "solution": "Use denominator 12: <span class=\"frac\"><span>9y</span><span>12</span></span> − <span class=\"frac\"><span>2y</span><span>12</span></span>.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "Extension: algebraic fraction operations"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-141",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand 7(2 − 3t).",
+    "answer": "14 − 21t",
+    "solution": "Multiply 7 by each term.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-142",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 12x² + 8x fully.",
+    "answer": "4x(3x + 2)",
+    "solution": "Both terms contain 4x.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-143",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A taxi costs $6 plus $2 per kilometre. Write the cost for d kilometres and for twice that distance.",
+    "answer": "$ (6 + 2d) and $ (6 + 4d)",
+    "solution": "The fixed fee is charged once per journey.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-144",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 5(2a − 1) + 3(4 − a) − 7.",
+    "answer": "7a",
+    "solution": "Expand: 10a − 5 + 12 − 3a − 7 = 7a.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-145",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Explain the difference between −x² and (−x)² using x = 3.",
+    "answer": "−9 and 9",
+    "solution": "The power acts before the leading minus: −(3²) = −9. Squaring −3 gives 9.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-146",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "A number t is reduced by 4, then the result is divided by 3. Write an expression.",
+    "answer": "<span class=\"frac\"><span>t − 4</span><span>3</span></span>",
+    "solution": "Subtract first, so the entire difference is the numerator.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-147",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "In 5ab − b + 2a − 8, identify the coefficient of b alone and the constant.",
+    "answer": "−1; −8",
+    "solution": "The term −b means −1 × b. The constant has no variable.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-148",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 7pq − 3qp + 2p − 5p.",
+    "answer": "4pq − 3p",
+    "solution": "pq and qp are equal products. Combine their coefficients, then combine the p terms.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-149",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify (−2a) × (−3b).",
+    "answer": "6ab",
+    "solution": "Multiply −2 by −3 to obtain 6, then multiply a by b.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-150",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>−18x²y²</span><span>−6xy</span></span> for nonzero x and y.",
+    "answer": "3xy",
+    "solution": "Divide coefficients to get 3; cancel one factor of each variable.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-151",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate 3(a − b)² when a = −2 and b = 1.",
+    "answer": "27",
+    "solution": "a − b = −3. Square to get 9, then multiply by 3.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-152",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>2a</span><span>5</span></span> + <span class=\"frac\"><span>a</span><span>2</span></span>.",
+    "answer": "<span class=\"frac\"><span>9a</span><span>10</span></span>",
+    "solution": "Use denominator 10: <span class=\"frac\"><span>4a</span><span>10</span></span> + <span class=\"frac\"><span>5a</span><span>10</span></span> = <span class=\"frac\"><span>9a</span><span>10</span></span>.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "Extension: algebraic fraction operations"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-153",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand −3(4 − 2m + n).",
+    "answer": "−12 + 6m − 3n",
+    "solution": "Multiply each of the three terms by −3.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-154",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 21ab − 14a fully.",
+    "answer": "7a(3b − 2)",
+    "solution": "The highest common factor is 7a. Divide both terms by 7a.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-155",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "A square has side s + 3 cm. Write its perimeter in expanded form.",
+    "answer": "4s + 12 cm",
+    "solution": "Four equal sides give 4(s + 3) = 4s + 12.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-156",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 2(3x − 4) − (5x − 9).",
+    "answer": "x + 1",
+    "solution": "Expand to 6x − 8 − 5x + 9, then collect terms.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-157",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Write a × a × b × b × b using index notation, then state the coefficient.",
+    "answer": "a²b³; 1",
+    "solution": "Count two a factors and three b factors. The unwritten coefficient is 1.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-158",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "Write the cost of k notebooks at $3 each and two pens at $p each.",
+    "answer": "3k + 2p dollars",
+    "solution": "Multiply each unit price by its quantity and add.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-159",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "List all terms in −2xy + 5x − y + 7, including their signs.",
+    "answer": "−2xy, +5x, −y, +7",
+    "solution": "Addition and subtraction separate terms; retain each sign.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-160",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Simplify 4a² − 2a + 3 − 6a² + 9a − 8.",
+    "answer": "−2a² + 7a − 5",
+    "solution": "Group squared terms, linear terms and constants separately.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-161",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Find the missing monomial: (−4x) × ? = 20x².",
+    "answer": "−5x",
+    "solution": "Divide 20x² by −4x for nonzero x; the resulting identity holds for all x.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-162",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>48a³b</span><span>12a²</span></span> for a ≠ 0.",
+    "answer": "4ab",
+    "solution": "48 ÷ 12 = 4; cancel two a factors.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-163",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate 2x² + xy − y² for x = −2 and y = 3.",
+    "answer": "−7",
+    "solution": "2(4) + (−6) − 9 = −7.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-164",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>5m</span><span>6</span></span> − <span class=\"frac\"><span>m</span><span>4</span></span>.",
+    "answer": "<span class=\"frac\"><span>7m</span><span>12</span></span>",
+    "solution": "Use denominator 12: <span class=\"frac\"><span>10m</span><span>12</span></span> − <span class=\"frac\"><span>3m</span><span>12</span></span>.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "Extension: algebraic fraction operations"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-165",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Find the missing constant c in 5(2x − 3) = 10x + c.",
+    "answer": "c = −15",
+    "solution": "Distribute 5 to −3 as well as 2x.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-166",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "Factorise 16p² − 24pq fully.",
+    "answer": "8p(2p − 3q)",
+    "solution": "The common factor is 8p; the remaining terms share no further common factor.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-167",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "Three identical bags each contain n marbles. Two bags lose 4 marbles each. Write the total remaining.",
+    "answer": "3n − 8",
+    "solution": "Start with 3n; subtract 2 × 4.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-168",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Show that 4(x + 2) − 2(x − 1) is equivalent to 2(x + 5).",
+    "answer": "Both equal 2x + 10",
+    "solution": "The left expands to 4x + 8 − 2x + 2; the right expands to 2x + 10.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-169",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Algebraic language and notation",
+    "prompt": "Explain why 2ab and 2a + b are not equivalent using a = 2, b = 3.",
+    "answer": "12 versus 7",
+    "solution": "The first is a product, 2 × 2 × 3. The second is a sum, 4 + 3.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for algebraic language and notation.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-170",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Writing algebraic expressions",
+    "prompt": "A pattern has 4 tiles per row and 3 extra tiles. Write the number of tiles in r rows and in r + 2 rows.",
+    "answer": "4r + 3; 4r + 11",
+    "solution": "Replace r with r + 2: 4(r + 2) + 3 = 4r + 11.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for writing algebraic expressions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-171",
+    "section": "Challenge questions",
+    "group": "Language",
+    "skill": "Terms, coefficients and constants",
+    "prompt": "Which terms are like terms in 2ab − 3a² + 7ba − 4b²?",
+    "answer": "2ab and 7ba",
+    "solution": "Both have exactly one a and one b. The order of multiplication does not matter.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for terms, coefficients and constants.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-172",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Collecting like terms",
+    "prompt": "Find the missing coefficient k so that kx + 3y − 2x = 5x + 3y for all x.",
+    "answer": "k = 7",
+    "solution": "The x coefficient is k − 2, which must equal 5.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for collecting like terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-173",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Multiplying algebraic terms",
+    "prompt": "Simplify (−2a²)(3b)(−a).",
+    "answer": "6a³b",
+    "solution": "Two negative factors give a positive product; a² × a = a³.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multiplying algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-174",
+    "section": "Challenge questions",
+    "group": "Simplifying",
+    "skill": "Dividing algebraic terms",
+    "prompt": "Simplify <span class=\"frac\"><span>−30r²s</span><span>5rs</span></span> for nonzero r and s.",
+    "answer": "−6r",
+    "solution": "Divide −30 by 5 and cancel rs.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for dividing algebraic terms.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-175",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Substitution",
+    "prompt": "Evaluate <span class=\"frac\"><span>a² − b²</span><span>2</span></span> for a = −5 and b = −3.",
+    "answer": "8",
+    "solution": "The numerator is 25 − 9 = 16. Divide by 2.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for substitution.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-176",
+    "section": "Challenge questions",
+    "group": "Substitution and fractions",
+    "skill": "Expressions involving fractions",
+    "prompt": "Simplify <span class=\"frac\"><span>x + 4</span><span>3</span></span> + <span class=\"frac\"><span>2x − 1</span><span>3</span></span>.",
+    "answer": "x + 1",
+    "solution": "Add numerators to obtain <span class=\"frac\"><span>3x + 3</span><span>3</span></span>, then divide both terms by 3.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "Extension: algebraic fraction operations"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions involving fractions.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-177",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Expanding single brackets",
+    "prompt": "Expand the area model below: <svg viewBox=\"0 0 300 105\" role=\"img\" aria-label=\"Rectangle height 4, split into widths 2x and 5\" style=\"max-width:300px;width:100%\"><rect x=\"35\" y=\"25\" width=\"160\" height=\"70\" fill=\"#c7dac0\" stroke=\"#526b55\"/><rect x=\"195\" y=\"25\" width=\"90\" height=\"70\" fill=\"#f5c8d7\" stroke=\"#8c5269\"/><g fill=\"#493843\" font-size=\"14\" text-anchor=\"middle\"><text x=\"115\" y=\"18\">2x</text><text x=\"240\" y=\"18\">5</text><text x=\"20\" y=\"65\">4</text><text x=\"115\" y=\"65\">?</text><text x=\"240\" y=\"65\">?</text></g></svg>",
+    "answer": "8x + 20",
+    "solution": "The two areas are 4 × 2x = 8x and 4 × 5 = 20. Add them.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expanding single brackets.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-178",
+    "section": "Challenge questions",
+    "group": "Expanding and factorising",
+    "skill": "Factorising common factors",
+    "prompt": "A rectangle has area 18x + 30 and height 6. Find its width as a simplified expression.",
+    "answer": "3x + 5",
+    "solution": "Factorise 18x + 30 = 6(3x + 5), so the width is 3x + 5.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for factorising common factors.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-179",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Expressions in context",
+    "prompt": "Two tickets cost $a each and three tickets cost $(a − 2) each. Write the total cost in simplified form.",
+    "answer": "5a − 6 dollars",
+    "solution": "2a + 3(a − 2) = 2a + 3a − 6.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for expressions in context.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  },
+  {
+    "id": "VM-ALG-180",
+    "section": "Challenge questions",
+    "group": "Applications",
+    "skill": "Multi-step reasoning",
+    "prompt": "Simplify 3(2x − y) − 2(x + 4y) + y.",
+    "answer": "4x − 10y",
+    "solution": "Expand to 6x − 3y − 2x − 8y + y. Collect x and y terms separately.",
+    "difficulty": "Extension",
+    "review_status": "mathematics_reviewed",
+    "curriculum_candidates": [
+      "NSW Stage 4 algebraic techniques (provisional)"
+    ],
+    "hints": [
+      "Identify the operation and the pronumerals involved.",
+      "Use the rule for multi-step reasoning.",
+      "Check your result by substituting a value where appropriate."
+    ]
+  }
+]
