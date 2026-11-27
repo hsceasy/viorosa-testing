@@ -580,7 +580,7 @@
     "skill": "Decimal operations",
     "prompt": "Calculate 0.6 × 0.1.",
     "answer": "0.06",
-    "solution": "Multiply 6 × 10 = 60, then divide by 1000.",
+    "solution": "Multiply 6 × 1 = 6. Each factor has one decimal place, so divide by 100: 0.06.",
     "difficulty": "Core",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
@@ -1937,8 +1937,8 @@
     "group": "Percentages",
     "skill": "Converting representations",
     "prompt": "Write 13% as a decimal.",
-    "answer": "<span class=\"frac\"><span>13</span><span>100</span></span>",
-    "solution": "13% means 13 divided by 100.",
+    "answer": "0.13",
+    "solution": "13% means 13 divided by 100, which equals 0.13.",
     "difficulty": "Foundation",
     "hints": [
       "Percent means per hundred.",
@@ -1946,11 +1946,12 @@
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "13/100",
+    "correctAnswer": "0.13",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "decimal"
   },
   {
     "id": "VM-FDP-194",
@@ -1958,8 +1959,8 @@
     "group": "Percentages",
     "skill": "Converting representations",
     "prompt": "Write 20% as a decimal.",
-    "answer": "<span class=\"frac\"><span>1</span><span>5</span></span>",
-    "solution": "20% means 20 divided by 100.",
+    "answer": "0.2",
+    "solution": "20% means 20 divided by 100, which equals 0.2.",
     "difficulty": "Foundation",
     "hints": [
       "Percent means per hundred.",
@@ -1967,112 +1968,118 @@
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "1/5",
+    "correctAnswer": "0.2",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "answerFormat": "decimal"
+  },
+  {
+    "id": "VM-FDP-309",
+    "section": "Skill practice",
+    "group": "Percentages",
+    "skill": "Converting representations",
+    "prompt": "Write 0.46 as a percentage.",
+    "answer": "46%",
+    "solution": "Multiply 0.46 by 100 to obtain 46%.",
+    "difficulty": "Foundation",
+    "hints": [
+      "Percent means per hundred.",
+      "Multiply by 100.",
+      "Move the decimal point two places right."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "46",
+    "answerFormat": "percentage",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-195",
+    "id": "VM-FDP-310",
     "section": "Skill practice",
     "group": "Percentages",
     "skill": "Converting representations",
-    "prompt": "Write 27% as a decimal.",
-    "answer": "<span class=\"frac\"><span>27</span><span>100</span></span>",
-    "solution": "27% means 27 divided by 100.",
+    "prompt": "Write 125% as a decimal.",
+    "answer": "1.25",
+    "solution": "125 ÷ 100 = 1.25.",
     "difficulty": "Foundation",
     "hints": [
-      "Percent means per hundred.",
+      "A percentage can exceed 100.",
       "Divide by 100.",
-      "Move the decimal point two places left."
+      "100% is one whole."
     ],
     "answerType": "numeric",
-    "correctAnswer": "27/100",
+    "correctAnswer": "1.25",
+    "answerFormat": "decimal",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-196",
+    "id": "VM-FDP-311",
     "section": "Skill practice",
     "group": "Percentages",
     "skill": "Converting representations",
-    "prompt": "Write 34% as a decimal.",
-    "answer": "<span class=\"frac\"><span>17</span><span>50</span></span>",
-    "solution": "34% means 34 divided by 100.",
+    "prompt": "What percentage is represented by <span class=\"frac\"><span>3</span><span>5</span></span>?",
+    "answer": "60%",
+    "solution": "3 ÷ 5 = 0.6, which is 60%.",
     "difficulty": "Foundation",
     "hints": [
-      "Percent means per hundred.",
-      "Divide by 100.",
-      "Move the decimal point two places left."
+      "Find an equivalent fraction.",
+      "Use denominator 100.",
+      "Multiply numerator and denominator by 20."
     ],
     "answerType": "numeric",
-    "correctAnswer": "17/50",
+    "correctAnswer": "60",
+    "answerFormat": "percentage",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-197",
+    "id": "VM-FDP-312",
     "section": "Skill practice",
     "group": "Percentages",
     "skill": "Converting representations",
-    "prompt": "Write 41% as a decimal.",
-    "answer": "<span class=\"frac\"><span>41</span><span>100</span></span>",
-    "solution": "41% means 41 divided by 100.",
+    "prompt": "Write 0.008 as a percentage.",
+    "answer": "0.8%",
+    "solution": "0.008 × 100 = 0.8%.",
     "difficulty": "Foundation",
     "hints": [
-      "Percent means per hundred.",
-      "Divide by 100.",
-      "Move the decimal point two places left."
+      "Percent is per hundred.",
+      "Multiply by 100.",
+      "Move the decimal point two places right."
     ],
     "answerType": "numeric",
-    "correctAnswer": "41/100",
+    "correctAnswer": "0.8",
+    "answerFormat": "percentage",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-198",
+    "id": "VM-FDP-313",
     "section": "Skill practice",
     "group": "Percentages",
     "skill": "Converting representations",
-    "prompt": "Write 48% as a decimal.",
-    "answer": "<span class=\"frac\"><span>12</span><span>25</span></span>",
-    "solution": "48% means 48 divided by 100.",
+    "prompt": "Write 2.5% as a decimal.",
+    "answer": "0.025",
+    "solution": "2.5 ÷ 100 = 0.025.",
     "difficulty": "Foundation",
     "hints": [
-      "Percent means per hundred.",
-      "Divide by 100.",
+      "Percent means divide by 100.",
+      "The answer is below 0.1.",
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "12/25",
-    "curriculum_candidates": [
-      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
-    ],
-    "review_status": "draft"
-  },
-  {
-    "id": "VM-FDP-199",
-    "section": "Skill practice",
-    "group": "Percentages",
-    "skill": "Converting representations",
-    "prompt": "Write 55% as a decimal.",
-    "answer": "<span class=\"frac\"><span>11</span><span>20</span></span>",
-    "solution": "55% means 55 divided by 100.",
-    "difficulty": "Foundation",
-    "hints": [
-      "Percent means per hundred.",
-      "Divide by 100.",
-      "Move the decimal point two places left."
-    ],
-    "answerType": "numeric",
-    "correctAnswer": "11/20",
+    "correctAnswer": "0.025",
+    "answerFormat": "decimal",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
@@ -2084,8 +2091,8 @@
     "group": "Percentages",
     "skill": "Converting representations",
     "prompt": "Write 62% as a decimal.",
-    "answer": "<span class=\"frac\"><span>31</span><span>50</span></span>",
-    "solution": "62% means 62 divided by 100.",
+    "answer": "0.62",
+    "solution": "62% means 62 divided by 100, which equals 0.62.",
     "difficulty": "Foundation",
     "hints": [
       "Percent means per hundred.",
@@ -2093,11 +2100,12 @@
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "31/50",
+    "correctAnswer": "0.62",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "decimal"
   },
   {
     "id": "VM-FDP-201",
@@ -2105,8 +2113,8 @@
     "group": "Percentages",
     "skill": "Converting representations",
     "prompt": "Write 69% as a decimal.",
-    "answer": "<span class=\"frac\"><span>69</span><span>100</span></span>",
-    "solution": "69% means 69 divided by 100.",
+    "answer": "0.69",
+    "solution": "69% means 69 divided by 100, which equals 0.69.",
     "difficulty": "Foundation",
     "hints": [
       "Percent means per hundred.",
@@ -2114,11 +2122,12 @@
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "69/100",
+    "correctAnswer": "0.69",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "decimal"
   },
   {
     "id": "VM-FDP-202",
@@ -2126,8 +2135,8 @@
     "group": "Percentages",
     "skill": "Converting representations",
     "prompt": "Write 76% as a decimal.",
-    "answer": "<span class=\"frac\"><span>19</span><span>25</span></span>",
-    "solution": "76% means 76 divided by 100.",
+    "answer": "0.76",
+    "solution": "76% means 76 divided by 100, which equals 0.76.",
     "difficulty": "Foundation",
     "hints": [
       "Percent means per hundred.",
@@ -2135,11 +2144,12 @@
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "19/25",
+    "correctAnswer": "0.76",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "decimal"
   },
   {
     "id": "VM-FDP-203",
@@ -2147,8 +2157,8 @@
     "group": "Percentages",
     "skill": "Converting representations",
     "prompt": "Write 83% as a decimal.",
-    "answer": "<span class=\"frac\"><span>83</span><span>100</span></span>",
-    "solution": "83% means 83 divided by 100.",
+    "answer": "0.83",
+    "solution": "83% means 83 divided by 100, which equals 0.83.",
     "difficulty": "Foundation",
     "hints": [
       "Percent means per hundred.",
@@ -2156,11 +2166,12 @@
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "83/100",
+    "correctAnswer": "0.83",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "decimal"
   },
   {
     "id": "VM-FDP-204",
@@ -2168,8 +2179,8 @@
     "group": "Percentages",
     "skill": "Converting representations",
     "prompt": "Write 90% as a decimal.",
-    "answer": "<span class=\"frac\"><span>9</span><span>10</span></span>",
-    "solution": "90% means 90 divided by 100.",
+    "answer": "0.9",
+    "solution": "90% means 90 divided by 100, which equals 0.9.",
     "difficulty": "Foundation",
     "hints": [
       "Percent means per hundred.",
@@ -2177,11 +2188,12 @@
       "Move the decimal point two places left."
     ],
     "answerType": "numeric",
-    "correctAnswer": "9/10",
+    "correctAnswer": "0.9",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "decimal"
   },
   {
     "id": "VM-FDP-205",
@@ -2226,126 +2238,132 @@
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-207",
+    "id": "VM-FDP-314",
     "section": "Skill practice",
     "group": "Decimals",
-    "skill": "Place value",
-    "prompt": "What is the value of the digit 7 in 0.507?",
-    "answer": "<span class=\"frac\"><span>7</span><span>1000</span></span>",
-    "solution": "The digit is in the thousandths place.",
+    "skill": "Decimal place value",
+    "prompt": "What digit is in the hundredths place in 4.583?",
+    "answer": "8",
+    "solution": "The digits after the point are 5 tenths, 8 hundredths and 3 thousandths.",
     "difficulty": "Foundation",
     "hints": [
       "Locate the decimal point.",
-      "Count three places to the right.",
-      "The digit represents seven thousandths."
+      "Count two places to the right.",
+      "The first place is tenths."
     ],
     "answerType": "numeric",
-    "correctAnswer": "7/1000",
+    "correctAnswer": "8",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-208",
+    "id": "VM-FDP-315",
     "section": "Skill practice",
     "group": "Decimals",
-    "skill": "Place value",
-    "prompt": "What is the value of the digit 7 in 0.607?",
-    "answer": "<span class=\"frac\"><span>7</span><span>1000</span></span>",
-    "solution": "The digit is in the thousandths place.",
+    "skill": "Decimal place value",
+    "prompt": "Write 6 tenths and 4 thousandths as a decimal.",
+    "answer": "0.604",
+    "solution": "0.6 + 0.004 = 0.604.",
     "difficulty": "Foundation",
     "hints": [
-      "Locate the decimal point.",
-      "Count three places to the right.",
-      "The digit represents seven thousandths."
+      "Use a place-value chart.",
+      "There are zero hundredths.",
+      "Add 0.6 and 0.004."
     ],
     "answerType": "numeric",
-    "correctAnswer": "7/1000",
+    "correctAnswer": "0.604",
+    "answerFormat": "decimal",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-209",
+    "id": "VM-FDP-316",
     "section": "Skill practice",
     "group": "Decimals",
-    "skill": "Place value",
-    "prompt": "What is the value of the digit 7 in 0.707?",
-    "answer": "<span class=\"frac\"><span>7</span><span>1000</span></span>",
-    "solution": "The digit is in the thousandths place.",
+    "skill": "Decimal place value",
+    "prompt": "Round 3.786 to the nearest tenth.",
+    "answer": "3.8",
+    "solution": "The hundredths digit is 8, so round the tenths digit up.",
     "difficulty": "Foundation",
     "hints": [
-      "Locate the decimal point.",
-      "Count three places to the right.",
-      "The digit represents seven thousandths."
+      "Locate the tenths digit.",
+      "Look at the hundredths digit.",
+      "8 is at least 5."
     ],
     "answerType": "numeric",
-    "correctAnswer": "7/1000",
+    "correctAnswer": "3.8",
+    "answerFormat": "decimal",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-210",
+    "id": "VM-FDP-317",
     "section": "Skill practice",
     "group": "Decimals",
-    "skill": "Place value",
-    "prompt": "What is the value of the digit 7 in 0.807?",
-    "answer": "<span class=\"frac\"><span>7</span><span>1000</span></span>",
-    "solution": "The digit is in the thousandths place.",
+    "skill": "Decimal place value",
+    "prompt": "Which is greater: 0.509 or 0.59? Enter the greater decimal.",
+    "answer": "0.59",
+    "solution": "Compare 0.509 and 0.590; 590 thousandths is greater.",
     "difficulty": "Foundation",
     "hints": [
-      "Locate the decimal point.",
-      "Count three places to the right.",
-      "The digit represents seven thousandths."
+      "Align decimal points.",
+      "Add a trailing zero to 0.59.",
+      "Compare the hundredths digits."
     ],
     "answerType": "numeric",
-    "correctAnswer": "7/1000",
+    "correctAnswer": "0.59",
+    "answerFormat": "decimal",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-211",
+    "id": "VM-FDP-318",
     "section": "Skill practice",
     "group": "Decimals",
-    "skill": "Place value",
-    "prompt": "What is the value of the digit 7 in 0.907?",
-    "answer": "<span class=\"frac\"><span>7</span><span>1000</span></span>",
-    "solution": "The digit is in the thousandths place.",
+    "skill": "Decimal place value",
+    "prompt": "Calculate 0.034 × 100.",
+    "answer": "3.4",
+    "solution": "Multiplying by 100 shifts each digit two places to the left in place value.",
     "difficulty": "Foundation",
     "hints": [
-      "Locate the decimal point.",
-      "Count three places to the right.",
-      "The digit represents seven thousandths."
+      "100 is ten times ten.",
+      "Multiply by ten twice.",
+      "0.034 × 10 = 0.34."
     ],
     "answerType": "numeric",
-    "correctAnswer": "7/1000",
+    "correctAnswer": "3.4",
+    "answerFormat": "decimal",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-212",
+    "id": "VM-FDP-319",
     "section": "Skill practice",
     "group": "Decimals",
-    "skill": "Place value",
-    "prompt": "What is the value of the digit 7 in 1.007?",
-    "answer": "<span class=\"frac\"><span>7</span><span>1000</span></span>",
-    "solution": "The digit is in the thousandths place.",
+    "skill": "Decimal place value",
+    "prompt": "What is the difference between 0.8 and 0.08?",
+    "answer": "0.72",
+    "solution": "0.80 − 0.08 = 0.72.",
     "difficulty": "Foundation",
     "hints": [
-      "Locate the decimal point.",
-      "Count three places to the right.",
-      "The digit represents seven thousandths."
+      "Align decimal points.",
+      "Write 0.8 as 0.80.",
+      "Subtract hundredths."
     ],
     "answerType": "numeric",
-    "correctAnswer": "7/1000",
+    "correctAnswer": "0.72",
+    "answerFormat": "decimal",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
@@ -2499,105 +2517,110 @@
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-220",
+    "id": "VM-FDP-320",
     "section": "Skill practice",
     "group": "Fractions",
-    "skill": "Addition and subtraction",
-    "prompt": "Find the missing number: <span class=\"frac\"><span>5</span><span>8</span></span> + □ = <span class=\"frac\"><span>19</span><span>24</span></span>.",
-    "answer": "<span class=\"frac\"><span>1</span><span>6</span></span>",
-    "solution": "Subtract <span class=\"frac\"><span>5</span><span>8</span></span> from <span class=\"frac\"><span>19</span><span>24</span></span> to obtain <span class=\"frac\"><span>1</span><span>6</span></span>.",
+    "skill": "Fraction operations",
+    "prompt": "A recipe uses <span class=\"frac\"><span>3</span><span>4</span></span> cup of flour. How many cups are needed for half the recipe?",
+    "answer": "<span class=\"frac\"><span>3</span><span>8</span></span>",
+    "solution": "Multiply <span class=\"frac\"><span>3</span><span>4</span></span> by <span class=\"frac\"><span>1</span><span>2</span></span> to obtain <span class=\"frac\"><span>3</span><span>8</span></span>.",
     "difficulty": "Core",
     "hints": [
-      "Use the inverse operation.",
-      "Find a common denominator.",
-      "Subtract the numerators and simplify."
+      "Half means divide by two.",
+      "Multiply by one-half.",
+      "Multiply numerators and denominators."
     ],
     "answerType": "numeric",
-    "correctAnswer": "1/6",
+    "correctAnswer": "3/8",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-221",
+    "id": "VM-FDP-321",
     "section": "Skill practice",
     "group": "Fractions",
-    "skill": "Addition and subtraction",
-    "prompt": "Find the missing number: <span class=\"frac\"><span>2</span><span>3</span></span> + □ = <span class=\"frac\"><span>17</span><span>21</span></span>.",
-    "answer": "<span class=\"frac\"><span>1</span><span>7</span></span>",
-    "solution": "Subtract <span class=\"frac\"><span>2</span><span>3</span></span> from <span class=\"frac\"><span>17</span><span>21</span></span> to obtain <span class=\"frac\"><span>1</span><span>7</span></span>.",
+    "skill": "Fraction operations",
+    "prompt": "How many quarter-litre servings can be poured from 2.5 litres?",
+    "answer": "10",
+    "solution": "2.5 ÷ 0.25 = 10.",
     "difficulty": "Core",
     "hints": [
-      "Use the inverse operation.",
-      "Find a common denominator.",
-      "Subtract the numerators and simplify."
+      "Find the size of one serving.",
+      "A quarter is 0.25.",
+      "Divide total volume by serving volume."
     ],
     "answerType": "numeric",
-    "correctAnswer": "1/7",
+    "correctAnswer": "10",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-222",
+    "id": "VM-FDP-322",
     "section": "Skill practice",
     "group": "Fractions",
-    "skill": "Addition and subtraction",
-    "prompt": "Find the missing number: <span class=\"frac\"><span>7</span><span>10</span></span> + □ = <span class=\"frac\"><span>33</span><span>40</span></span>.",
-    "answer": "<span class=\"frac\"><span>1</span><span>8</span></span>",
-    "solution": "Subtract <span class=\"frac\"><span>7</span><span>10</span></span> from <span class=\"frac\"><span>33</span><span>40</span></span> to obtain <span class=\"frac\"><span>1</span><span>8</span></span>.",
+    "skill": "Fraction operations",
+    "prompt": "A ribbon is 2 metres long. Cut off <span class=\"frac\"><span>5</span><span>6</span></span> m. How many metres remain?",
+    "answer": "<span class=\"frac\"><span>7</span><span>6</span></span>",
+    "solution": "2 = <span class=\"frac\"><span>12</span><span>6</span></span>; subtract <span class=\"frac\"><span>5</span><span>6</span></span> to obtain <span class=\"frac\"><span>7</span><span>6</span></span>.",
     "difficulty": "Core",
     "hints": [
-      "Use the inverse operation.",
-      "Find a common denominator.",
-      "Subtract the numerators and simplify."
+      "Subtract the cut length.",
+      "Write 2 in sixths.",
+      "Subtract the numerators."
     ],
     "answerType": "numeric",
-    "correctAnswer": "1/8",
+    "correctAnswer": "7/6",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-223",
+    "id": "VM-FDP-323",
     "section": "Skill practice",
     "group": "Fractions",
-    "skill": "Addition and subtraction",
-    "prompt": "Find the missing number: <span class=\"frac\"><span>8</span><span>11</span></span> + □ = <span class=\"frac\"><span>83</span><span>99</span></span>.",
-    "answer": "<span class=\"frac\"><span>1</span><span>9</span></span>",
-    "solution": "Subtract <span class=\"frac\"><span>8</span><span>11</span></span> from <span class=\"frac\"><span>83</span><span>99</span></span> to obtain <span class=\"frac\"><span>1</span><span>9</span></span>.",
+    "skill": "Fraction operations",
+    "prompt": "Find <span class=\"frac\"><span>3</span><span>8</span></span> of 56.",
+    "answer": "21",
+    "solution": "56 ÷ 8 = 7; 7 × 3 = 21.",
     "difficulty": "Core",
     "hints": [
-      "Use the inverse operation.",
-      "Find a common denominator.",
-      "Subtract the numerators and simplify."
+      "Find one eighth first.",
+      "Divide 56 by 8.",
+      "Multiply by 3."
     ],
     "answerType": "numeric",
-    "correctAnswer": "1/9",
+    "correctAnswer": "21",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-224",
+    "id": "VM-FDP-324",
     "section": "Skill practice",
     "group": "Fractions",
-    "skill": "Addition and subtraction",
-    "prompt": "Find the missing number: <span class=\"frac\"><span>3</span><span>4</span></span> + □ = <span class=\"frac\"><span>17</span><span>20</span></span>.",
-    "answer": "<span class=\"frac\"><span>1</span><span>10</span></span>",
-    "solution": "Subtract <span class=\"frac\"><span>3</span><span>4</span></span> from <span class=\"frac\"><span>17</span><span>20</span></span> to obtain <span class=\"frac\"><span>1</span><span>10</span></span>.",
+    "skill": "Fraction operations",
+    "prompt": "Two fractions have denominator 12 and sum to 1. One is <span class=\"frac\"><span>5</span><span>12</span></span>. Find the other.",
+    "answer": "<span class=\"frac\"><span>7</span><span>12</span></span>",
+    "solution": "1 = <span class=\"frac\"><span>12</span><span>12</span></span>; subtract <span class=\"frac\"><span>5</span><span>12</span></span>.",
     "difficulty": "Core",
     "hints": [
-      "Use the inverse operation.",
-      "Find a common denominator.",
-      "Subtract the numerators and simplify."
+      "Write one whole in twelfths.",
+      "Subtract the known fraction.",
+      "Keep the denominator."
     ],
     "answerType": "numeric",
-    "correctAnswer": "1/10",
+    "correctAnswer": "7/12",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
@@ -3087,21 +3110,22 @@
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-248",
+    "id": "VM-FDP-325",
     "section": "Skill practice",
     "group": "Percentages",
-    "skill": "Percentage of a quantity",
-    "prompt": "A survey of 90 students found that 15% walk to school. How many do not walk?",
-    "answer": "<span class=\"frac\"><span>153</span><span>2</span></span>",
-    "solution": "Find 85% of 90: <span class=\"frac\"><span>153</span><span>2</span></span>.",
+    "skill": "Percentage applications",
+    "prompt": "A $48 item is reduced by 15%. Find the sale price in dollars.",
+    "answer": "40.8",
+    "solution": "48 × 0.85 = 40.80.",
     "difficulty": "Core",
     "hints": [
-      "Find the complementary percentage.",
-      "Convert it to a decimal or fraction.",
-      "Multiply by the total."
+      "Find the percentage remaining.",
+      "100% − 15% = 85%.",
+      "Multiply 48 by 0.85."
     ],
     "answerType": "numeric",
-    "correctAnswer": "153/2",
+    "correctAnswer": "40.8",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
@@ -3129,21 +3153,22 @@
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-250",
+    "id": "VM-FDP-326",
     "section": "Skill practice",
     "group": "Percentages",
-    "skill": "Percentage of a quantity",
-    "prompt": "A survey of 110 students found that 25% walk to school. How many do not walk?",
-    "answer": "<span class=\"frac\"><span>165</span><span>2</span></span>",
-    "solution": "Find 75% of 110: <span class=\"frac\"><span>165</span><span>2</span></span>.",
+    "skill": "Percentage applications",
+    "prompt": "18 of 45 students cycle to school. What percentage cycle?",
+    "answer": "40%",
+    "solution": "18 ÷ 45 × 100 = 40%.",
     "difficulty": "Core",
     "hints": [
-      "Find the complementary percentage.",
-      "Convert it to a decimal or fraction.",
-      "Multiply by the total."
+      "Divide the part by the whole.",
+      "Simplify 18/45 to 2/5.",
+      "Convert to a percentage."
     ],
     "answerType": "numeric",
-    "correctAnswer": "165/2",
+    "correctAnswer": "40",
+    "answerFormat": "percentage",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
@@ -3171,21 +3196,22 @@
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-252",
+    "id": "VM-FDP-327",
     "section": "Skill practice",
     "group": "Percentages",
-    "skill": "Percentage of a quantity",
-    "prompt": "A survey of 130 students found that 35% walk to school. How many do not walk?",
-    "answer": "<span class=\"frac\"><span>169</span><span>2</span></span>",
-    "solution": "Find 65% of 130: <span class=\"frac\"><span>169</span><span>2</span></span>.",
+    "skill": "Percentage applications",
+    "prompt": "A price increases from $80 to $92. What is the percentage increase?",
+    "answer": "15%",
+    "solution": "The increase is $12; 12 ÷ 80 × 100 = 15%.",
     "difficulty": "Core",
     "hints": [
-      "Find the complementary percentage.",
-      "Convert it to a decimal or fraction.",
-      "Multiply by the total."
+      "Find the dollar increase.",
+      "Divide by the original price.",
+      "Multiply by 100."
     ],
     "answerType": "numeric",
-    "correctAnswer": "169/2",
+    "correctAnswer": "15",
+    "answerFormat": "percentage",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
@@ -3618,7 +3644,7 @@
     "skill": "Optimisation",
     "prompt": "Use each digit 1, 3, 5, 6 once to make the greatest proper fraction with a two-digit numerator and denominator.",
     "answer": "<span class=\"frac\"><span>53</span><span>61</span></span>",
-    "solution": "Compare all 12 proper fractions formed by the digit permutations. The maximum is <span class=\"frac\"><span>53</span><span>61</span></span>.",
+    "solution": "Compare the 12 proper fractions formed by the digit permutations using cross multiplication. The greatest is <span class=\"frac\"><span>53</span><span>61</span></span>. Keep the original digits without simplifying.",
     "difficulty": "Extension",
     "hints": [
       "A proper fraction is less than one.",
@@ -3630,7 +3656,8 @@
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "exactFraction"
   },
   {
     "id": "VM-FDP-274",
@@ -3638,8 +3665,8 @@
     "group": "Fractions",
     "skill": "Optimisation",
     "prompt": "Use each digit 2, 4, 6, 7 once to make the greatest proper fraction with a two-digit numerator and denominator.",
-    "answer": "<span class=\"frac\"><span>8</span><span>9</span></span>",
-    "solution": "Compare all 12 proper fractions formed by the digit permutations. The maximum is <span class=\"frac\"><span>8</span><span>9</span></span>.",
+    "answer": "<span class=\"frac\"><span>64</span><span>72</span></span>",
+    "solution": "Compare the 12 proper fractions formed by the digit permutations using cross multiplication. The greatest is <span class=\"frac\"><span>64</span><span>72</span></span>. Keep the original digits without simplifying.",
     "difficulty": "Extension",
     "hints": [
       "A proper fraction is less than one.",
@@ -3647,11 +3674,12 @@
       "Compare candidates by cross multiplication."
     ],
     "answerType": "numeric",
-    "correctAnswer": "8/9",
+    "correctAnswer": "64/72",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "exactFraction"
   },
   {
     "id": "VM-FDP-275",
@@ -3660,7 +3688,7 @@
     "skill": "Optimisation",
     "prompt": "Use each digit 3, 5, 7, 8 once to make the greatest proper fraction with a two-digit numerator and denominator.",
     "answer": "<span class=\"frac\"><span>75</span><span>83</span></span>",
-    "solution": "Compare all 12 proper fractions formed by the digit permutations. The maximum is <span class=\"frac\"><span>75</span><span>83</span></span>.",
+    "solution": "Compare the 12 proper fractions formed by the digit permutations using cross multiplication. The greatest is <span class=\"frac\"><span>75</span><span>83</span></span>. Keep the original digits without simplifying.",
     "difficulty": "Extension",
     "hints": [
       "A proper fraction is less than one.",
@@ -3672,7 +3700,8 @@
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "exactFraction"
   },
   {
     "id": "VM-FDP-276",
@@ -3680,8 +3709,8 @@
     "group": "Fractions",
     "skill": "Optimisation",
     "prompt": "Use each digit 4, 6, 8, 9 once to make the greatest proper fraction with a two-digit numerator and denominator.",
-    "answer": "<span class=\"frac\"><span>43</span><span>47</span></span>",
-    "solution": "Compare all 12 proper fractions formed by the digit permutations. The maximum is <span class=\"frac\"><span>43</span><span>47</span></span>.",
+    "answer": "<span class=\"frac\"><span>86</span><span>94</span></span>",
+    "solution": "Compare the 12 proper fractions formed by the digit permutations using cross multiplication. The greatest is <span class=\"frac\"><span>86</span><span>94</span></span>. Keep the original digits without simplifying.",
     "difficulty": "Extension",
     "hints": [
       "A proper fraction is less than one.",
@@ -3689,11 +3718,12 @@
       "Compare candidates by cross multiplication."
     ],
     "answerType": "numeric",
-    "correctAnswer": "43/47",
+    "correctAnswer": "86/94",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "exactFraction"
   },
   {
     "id": "VM-FDP-277",
@@ -3869,7 +3899,7 @@
     "group": "Percentages",
     "skill": "Successive percentage changes",
     "prompt": "A price of $100 rises by 20% and then falls by 25%. What is the overall percentage decrease?",
-    "answer": "10",
+    "answer": "10%",
     "solution": "The final multiplier is 1.2 × 0.75 = 0.9, a 10% decrease.",
     "difficulty": "Extension",
     "hints": [
@@ -3882,66 +3912,70 @@
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "percentage"
   },
   {
-    "id": "VM-FDP-286",
+    "id": "VM-FDP-328",
     "section": "Challenge questions",
     "group": "Percentages",
-    "skill": "Successive percentage changes",
-    "prompt": "A price of $150 rises by 20% and then falls by 25%. What is the overall percentage decrease?",
-    "answer": "10",
-    "solution": "The final multiplier is 1.2 × 0.75 = 0.9, a 10% decrease.",
+    "skill": "Percentage reasoning",
+    "prompt": "A price falls by 20%. By what percentage must the reduced price increase to return to the original?",
+    "answer": "25%",
+    "solution": "Use $100 as the original: $80 remains. 20 ÷ 80 × 100 = 25%.",
     "difficulty": "Extension",
     "hints": [
-      "Convert each change to a multiplier.",
-      "Multiply the multipliers.",
-      "Compare the result with 1."
+      "Choose an original price of 100.",
+      "Find the reduced price.",
+      "Use the reduced price as the base."
     ],
     "answerType": "numeric",
-    "correctAnswer": "10",
+    "correctAnswer": "25",
+    "answerFormat": "percentage",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-287",
+    "id": "VM-FDP-329",
     "section": "Challenge questions",
     "group": "Percentages",
-    "skill": "Successive percentage changes",
-    "prompt": "A price of $200 rises by 20% and then falls by 25%. What is the overall percentage decrease?",
-    "answer": "10",
-    "solution": "The final multiplier is 1.2 × 0.75 = 0.9, a 10% decrease.",
+    "skill": "Percentage reasoning",
+    "prompt": "A tank is half full. Adding 18 litres makes it 80% full. What is its capacity in litres?",
+    "answer": "60",
+    "solution": "18 litres represents 30% of capacity; 18 ÷ 0.3 = 60.",
     "difficulty": "Extension",
     "hints": [
-      "Convert each change to a multiplier.",
-      "Multiply the multipliers.",
-      "Compare the result with 1."
+      "Convert half to a percentage.",
+      "Find the increase in percentage points.",
+      "18 litres is 30% of capacity."
     ],
     "answerType": "numeric",
-    "correctAnswer": "10",
+    "correctAnswer": "60",
+    "answerFormat": "numeric",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
     "review_status": "draft"
   },
   {
-    "id": "VM-FDP-288",
+    "id": "VM-FDP-330",
     "section": "Challenge questions",
     "group": "Percentages",
-    "skill": "Successive percentage changes",
-    "prompt": "A price of $250 rises by 20% and then falls by 25%. What is the overall percentage decrease?",
-    "answer": "10",
-    "solution": "The final multiplier is 1.2 × 0.75 = 0.9, a 10% decrease.",
+    "skill": "Percentage reasoning",
+    "prompt": "A shop reduces a price by 30%, then increases the reduced price by 10%. What percentage of the original price remains?",
+    "answer": "77%",
+    "solution": "0.70 × 1.10 = 0.77, or 77%.",
     "difficulty": "Extension",
     "hints": [
-      "Convert each change to a multiplier.",
-      "Multiply the multipliers.",
-      "Compare the result with 1."
+      "Use 100 as the original price.",
+      "After the reduction 70 remains.",
+      "Increase 70 by 10%."
     ],
     "answerType": "numeric",
-    "correctAnswer": "10",
+    "correctAnswer": "77",
+    "answerFormat": "percentage",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
@@ -4205,8 +4239,8 @@
     "group": "Percentages",
     "skill": "Percentage reasoning",
     "prompt": "Two shops sell an item for $20. Shop A offers 25% off. Shop B offers 10% off then a further 20% off. What is the difference in sale prices in dollars?",
-    "answer": "<span class=\"frac\"><span>3</span><span>5</span></span>",
-    "solution": "Shop A multiplier is 0.75; shop B is 0.9 × 0.8 = 0.72. Difference is 0.03 times original.",
+    "answer": "$0.60",
+    "solution": "Shop A costs 0.75 × $20; Shop B costs 0.72 × $20. The difference is 0.03 × $20 = $0.60.",
     "difficulty": "Extension",
     "hints": [
       "Find each final price multiplier.",
@@ -4214,11 +4248,12 @@
       "Multiply their difference by the original price."
     ],
     "answerType": "numeric",
-    "correctAnswer": "3/5",
+    "correctAnswer": "0.60",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "currency"
   },
   {
     "id": "VM-FDP-302",
@@ -4226,8 +4261,8 @@
     "group": "Percentages",
     "skill": "Percentage reasoning",
     "prompt": "Two shops sell an item for $30. Shop A offers 25% off. Shop B offers 10% off then a further 20% off. What is the difference in sale prices in dollars?",
-    "answer": "<span class=\"frac\"><span>9</span><span>10</span></span>",
-    "solution": "Shop A multiplier is 0.75; shop B is 0.9 × 0.8 = 0.72. Difference is 0.03 times original.",
+    "answer": "$0.90",
+    "solution": "Shop A costs 0.75 × $30; Shop B costs 0.72 × $30. The difference is 0.03 × $30 = $0.90.",
     "difficulty": "Extension",
     "hints": [
       "Find each final price multiplier.",
@@ -4235,11 +4270,12 @@
       "Multiply their difference by the original price."
     ],
     "answerType": "numeric",
-    "correctAnswer": "9/10",
+    "correctAnswer": "0.90",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "currency"
   },
   {
     "id": "VM-FDP-303",
@@ -4247,8 +4283,8 @@
     "group": "Percentages",
     "skill": "Percentage reasoning",
     "prompt": "Two shops sell an item for $40. Shop A offers 25% off. Shop B offers 10% off then a further 20% off. What is the difference in sale prices in dollars?",
-    "answer": "<span class=\"frac\"><span>6</span><span>5</span></span>",
-    "solution": "Shop A multiplier is 0.75; shop B is 0.9 × 0.8 = 0.72. Difference is 0.03 times original.",
+    "answer": "$1.20",
+    "solution": "Shop A costs 0.75 × $40; Shop B costs 0.72 × $40. The difference is 0.03 × $40 = $1.20.",
     "difficulty": "Extension",
     "hints": [
       "Find each final price multiplier.",
@@ -4256,11 +4292,12 @@
       "Multiply their difference by the original price."
     ],
     "answerType": "numeric",
-    "correctAnswer": "6/5",
+    "correctAnswer": "1.20",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "currency"
   },
   {
     "id": "VM-FDP-304",
@@ -4268,8 +4305,8 @@
     "group": "Percentages",
     "skill": "Percentage reasoning",
     "prompt": "Two shops sell an item for $50. Shop A offers 25% off. Shop B offers 10% off then a further 20% off. What is the difference in sale prices in dollars?",
-    "answer": "<span class=\"frac\"><span>3</span><span>2</span></span>",
-    "solution": "Shop A multiplier is 0.75; shop B is 0.9 × 0.8 = 0.72. Difference is 0.03 times original.",
+    "answer": "$1.50",
+    "solution": "Shop A costs 0.75 × $50; Shop B costs 0.72 × $50. The difference is 0.03 × $50 = $1.50.",
     "difficulty": "Extension",
     "hints": [
       "Find each final price multiplier.",
@@ -4277,11 +4314,12 @@
       "Multiply their difference by the original price."
     ],
     "answerType": "numeric",
-    "correctAnswer": "3/2",
+    "correctAnswer": "1.50",
     "curriculum_candidates": [
       "NSW Stage 4 — fractions, decimals and percentages (candidate)"
     ],
-    "review_status": "draft"
+    "review_status": "draft",
+    "answerFormat": "currency"
   },
   {
     "id": "VM-FDP-305",
@@ -4390,5 +4428,598 @@
       "<span class=\"frac\"><span>8</span><span>7</span></span>",
       "<span class=\"frac\"><span>6</span><span>7</span></span>"
     ]
+  },
+  {
+    "id": "VM-FDP-331",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Rational and irrational numbers",
+    "prompt": "Which number is irrational?<ol type=\"A\"><li>0.25</li><li>√2</li><li>-3</li><li><span class=\"frac\"><span>7</span><span>9</span></span></li></ol>",
+    "answer": "B",
+    "solution": "√2 cannot be expressed as a ratio of integers. The other three can.",
+    "difficulty": "Foundation",
+    "hints": [
+      "Recall the definition of rational.",
+      "Integers and terminating decimals are rational.",
+      "A square root of a non-square integer is irrational."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "B",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "0.25",
+      "√2",
+      "-3",
+      "<span class=\"frac\"><span>7</span><span>9</span></span>"
+    ]
+  },
+  {
+    "id": "VM-FDP-332",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Rational and irrational numbers",
+    "prompt": "Which number is rational?<ol type=\"A\"><li>π</li><li>√7</li><li>√49</li><li>√11</li></ol>",
+    "answer": "C",
+    "solution": "√49 = 7, an integer, so it is rational.",
+    "difficulty": "Foundation",
+    "hints": [
+      "Look for a perfect square.",
+      "Find the square root of 49.",
+      "Every integer is rational."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "C",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "π",
+      "√7",
+      "√49",
+      "√11"
+    ]
+  },
+  {
+    "id": "VM-FDP-333",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Rational and irrational numbers",
+    "prompt": "Which statement about 0.333… (3 repeats forever) is true?<ol type=\"A\"><li>It is irrational</li><li>It equals <span class=\"frac\"><span>1</span><span>3</span></span></li><li>It equals <span class=\"frac\"><span>3</span><span>10</span></span></li><li>It is an integer</li></ol>",
+    "answer": "B",
+    "solution": "1 divided by 3 gives the recurring decimal 0.333…, so it is rational.",
+    "difficulty": "Core",
+    "hints": [
+      "Consider whether the digits repeat.",
+      "Recurring decimals are rational.",
+      "Divide 1 by 3."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "B",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "It is irrational",
+      "It equals <span class=\"frac\"><span>1</span><span>3</span></span>",
+      "It equals <span class=\"frac\"><span>3</span><span>10</span></span>",
+      "It is an integer"
+    ]
+  },
+  {
+    "id": "VM-FDP-334",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Rational and irrational numbers",
+    "prompt": "Which pair contains two irrational numbers?<ol type=\"A\"><li>√9 and π</li><li>√3 and √10</li><li>0.125 and √5</li><li>√16 and <span class=\"frac\"><span>2</span><span>7</span></span></li></ol>",
+    "answer": "B",
+    "solution": "Neither 3 nor 10 is a perfect square; both roots are irrational.",
+    "difficulty": "Core",
+    "hints": [
+      "Check each number separately.",
+      "Roots of perfect squares are integers.",
+      "Look for two non-square integer radicands."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "B",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "√9 and π",
+      "√3 and √10",
+      "0.125 and √5",
+      "√16 and <span class=\"frac\"><span>2</span><span>7</span></span>"
+    ]
+  },
+  {
+    "id": "VM-FDP-335",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Approximating irrational numbers",
+    "prompt": "Between which consecutive integers does √10 lie?<ol type=\"A\"><li>2 and 3</li><li>3 and 4</li><li>4 and 5</li><li>5 and 6</li></ol>",
+    "answer": "B",
+    "solution": "3² = 9 and 4² = 16. Since 9 &lt; 10 &lt; 16, the root lies between 3 and 4.",
+    "difficulty": "Foundation",
+    "hints": [
+      "Find nearby perfect squares.",
+      "Square the endpoints.",
+      "Take positive square roots."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "B",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "2 and 3",
+      "3 and 4",
+      "4 and 5",
+      "5 and 6"
+    ]
+  },
+  {
+    "id": "VM-FDP-336",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Approximating irrational numbers",
+    "prompt": "Between which consecutive integers does √26 lie?<ol type=\"A\"><li>4 and 5</li><li>5 and 6</li><li>6 and 7</li><li>7 and 8</li></ol>",
+    "answer": "B",
+    "solution": "5² = 25 and 6² = 36. Since 25 &lt; 26 &lt; 36, the root lies between 5 and 6.",
+    "difficulty": "Foundation",
+    "hints": [
+      "Find nearby perfect squares.",
+      "Square the endpoints.",
+      "Take positive square roots."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "B",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "4 and 5",
+      "5 and 6",
+      "6 and 7",
+      "7 and 8"
+    ]
+  },
+  {
+    "id": "VM-FDP-337",
+    "section": "Skill practice",
+    "group": "Decimals",
+    "skill": "Approximating irrational numbers",
+    "prompt": "Round √7 to two decimal places.",
+    "answer": "2.65",
+    "solution": "√7 ≈ 2.645751. The third decimal digit is 5, so round up.",
+    "difficulty": "Core",
+    "hints": [
+      "Use a calculator.",
+      "Keep at least three decimal places.",
+      "Inspect the third decimal digit."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "2.65",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "requiredFormat": "decimal"
+  },
+  {
+    "id": "VM-FDP-338",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Approximating irrational numbers",
+    "prompt": "Which labelled point is closest to √5?<svg class=\"question-diagram\" viewBox=\"0 0 320 65\" role=\"img\" aria-label=\"Number line from 2 to 3 with A at 2.2, B at 2.4, C at 2.6, D at 2.8\"><path d=\"M20 35 H300\" stroke=\"#50404b\" stroke-width=\"2\"/><path d=\"M20 29 V41\" stroke=\"#50404b\"/><text x=\"20\" y=\"57\" text-anchor=\"middle\" font-size=\"13\">2</text><path d=\"M76 29 V41\" stroke=\"#50404b\"/><text x=\"76\" y=\"22\" text-anchor=\"middle\" font-size=\"13\">A</text><path d=\"M132 29 V41\" stroke=\"#50404b\"/><text x=\"132\" y=\"22\" text-anchor=\"middle\" font-size=\"13\">B</text><path d=\"M188 29 V41\" stroke=\"#50404b\"/><text x=\"188\" y=\"22\" text-anchor=\"middle\" font-size=\"13\">C</text><path d=\"M244 29 V41\" stroke=\"#50404b\"/><text x=\"244\" y=\"22\" text-anchor=\"middle\" font-size=\"13\">D</text><path d=\"M300 29 V41\" stroke=\"#50404b\"/><text x=\"300\" y=\"57\" text-anchor=\"middle\" font-size=\"13\">3</text></svg><ol type=\"A\"><li>A</li><li>B</li><li>C</li><li>D</li></ol>",
+    "answer": "A",
+    "solution": "√5 ≈ 2.236, closest to 2.2.",
+    "difficulty": "Core",
+    "hints": [
+      "Estimate √5.",
+      "Compare with 2.2 and 2.4.",
+      "Choose the smallest distance."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "A",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "id": "VM-FDP-339",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Ordering signed FDP",
+    "prompt": "Which is smallest?<ol type=\"A\"><li><span class=\"frac\"><span>-1</span><span>2</span></span></li><li>-0.8</li><li>-0.25</li><li>0.1</li></ol>",
+    "answer": "B",
+    "solution": "-0.8 lies furthest left.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert fractions to decimals.",
+      "Imagine a number line.",
+      "Numbers further left are smaller."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "B",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "<span class=\"frac\"><span>-1</span><span>2</span></span>",
+      "-0.8",
+      "-0.25",
+      "0.1"
+    ]
+  },
+  {
+    "id": "VM-FDP-340",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Ordering signed FDP",
+    "prompt": "Which is greatest?<ol type=\"A\"><li>-1 <span class=\"frac\"><span>1</span><span>4</span></span></li><li>-1.1</li><li>-1.05</li><li>-1.2</li></ol>",
+    "answer": "C",
+    "solution": "-1.05 is closest to zero.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert fractions to decimals.",
+      "Imagine a number line.",
+      "Numbers further left are smaller."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "C",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "-1 <span class=\"frac\"><span>1</span><span>4</span></span>",
+      "-1.1",
+      "-1.05",
+      "-1.2"
+    ]
+  },
+  {
+    "id": "VM-FDP-341",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Ordering signed FDP",
+    "prompt": "Which list is in ascending order?<ol type=\"A\"><li>-0.2, <span class=\"frac\"><span>-1</span><span>2</span></span>, 0</li><li><span class=\"frac\"><span>-1</span><span>2</span></span>, -0.2, 0</li><li>0, -0.2, <span class=\"frac\"><span>-1</span><span>2</span></span></li><li>-0.2, 0, <span class=\"frac\"><span>-1</span><span>2</span></span></li></ol>",
+    "answer": "B",
+    "solution": "<span class=\"frac\"><span>-1</span><span>2</span></span> = -0.5, which is less than -0.2, then 0.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert fractions to decimals.",
+      "Imagine a number line.",
+      "Numbers further left are smaller."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "B",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "-0.2, <span class=\"frac\"><span>-1</span><span>2</span></span>, 0",
+      "<span class=\"frac\"><span>-1</span><span>2</span></span>, -0.2, 0",
+      "0, -0.2, <span class=\"frac\"><span>-1</span><span>2</span></span>",
+      "-0.2, 0, <span class=\"frac\"><span>-1</span><span>2</span></span>"
+    ]
+  },
+  {
+    "id": "VM-FDP-342",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Ordering signed FDP",
+    "prompt": "Which value lies between -0.7 and -0.4?<ol type=\"A\"><li><span class=\"frac\"><span>-3</span><span>4</span></span></li><li><span class=\"frac\"><span>-1</span><span>5</span></span></li><li><span class=\"frac\"><span>-3</span><span>5</span></span></li><li><span class=\"frac\"><span>-4</span><span>5</span></span></li></ol>",
+    "answer": "C",
+    "solution": "<span class=\"frac\"><span>-3</span><span>5</span></span> = -0.6, which lies inside the interval.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert fractions to decimals.",
+      "Imagine a number line.",
+      "Numbers further left are smaller."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "C",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "<span class=\"frac\"><span>-3</span><span>4</span></span>",
+      "<span class=\"frac\"><span>-1</span><span>5</span></span>",
+      "<span class=\"frac\"><span>-3</span><span>5</span></span>",
+      "<span class=\"frac\"><span>-4</span><span>5</span></span>"
+    ]
+  },
+  {
+    "id": "VM-FDP-343",
+    "section": "Skill practice",
+    "group": "Fractions",
+    "skill": "Mixed number operations",
+    "prompt": "Calculate 2 <span class=\"frac\"><span>1</span><span>3</span></span> + 1 <span class=\"frac\"><span>1</span><span>4</span></span>. Give a simplified improper fraction or equivalent whole number.",
+    "answer": "<span class=\"frac\"><span>43</span><span>12</span></span>",
+    "solution": "Convert to improper fractions: <span class=\"frac\"><span>7</span><span>3</span></span> + <span class=\"frac\"><span>5</span><span>4</span></span> = <span class=\"frac\"><span>43</span><span>12</span></span>.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert both mixed numbers to improper fractions.",
+      "Use the appropriate fraction operation.",
+      "Simplify the result."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "43/12",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "VM-FDP-344",
+    "section": "Skill practice",
+    "group": "Fractions",
+    "skill": "Mixed number operations",
+    "prompt": "Calculate 2 <span class=\"frac\"><span>3</span><span>4</span></span> - 1 <span class=\"frac\"><span>1</span><span>3</span></span>. Give a simplified improper fraction or equivalent whole number.",
+    "answer": "<span class=\"frac\"><span>17</span><span>12</span></span>",
+    "solution": "Convert to improper fractions: <span class=\"frac\"><span>11</span><span>4</span></span> - <span class=\"frac\"><span>4</span><span>3</span></span> = <span class=\"frac\"><span>17</span><span>12</span></span>.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert both mixed numbers to improper fractions.",
+      "Use the appropriate fraction operation.",
+      "Simplify the result."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "17/12",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "VM-FDP-345",
+    "section": "Skill practice",
+    "group": "Fractions",
+    "skill": "Mixed number operations",
+    "prompt": "Calculate 2 <span class=\"frac\"><span>1</span><span>2</span></span> × 2 <span class=\"frac\"><span>1</span><span>3</span></span>. Give a simplified improper fraction or equivalent whole number.",
+    "answer": "<span class=\"frac\"><span>35</span><span>6</span></span>",
+    "solution": "Convert to improper fractions: <span class=\"frac\"><span>5</span><span>2</span></span> × <span class=\"frac\"><span>7</span><span>3</span></span> = <span class=\"frac\"><span>35</span><span>6</span></span>.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert both mixed numbers to improper fractions.",
+      "Use the appropriate fraction operation.",
+      "Simplify the result."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "35/6",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "VM-FDP-346",
+    "section": "Skill practice",
+    "group": "Fractions",
+    "skill": "Mixed number operations",
+    "prompt": "Calculate 2 <span class=\"frac\"><span>1</span><span>4</span></span> ÷ 1 <span class=\"frac\"><span>1</span><span>2</span></span>. Give a simplified improper fraction or equivalent whole number.",
+    "answer": "<span class=\"frac\"><span>3</span><span>2</span></span>",
+    "solution": "Convert to improper fractions: <span class=\"frac\"><span>9</span><span>4</span></span> ÷ <span class=\"frac\"><span>3</span><span>2</span></span> = <span class=\"frac\"><span>3</span><span>2</span></span>. Use the reciprocal of the divisor when dividing.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert both mixed numbers to improper fractions.",
+      "Use the appropriate fraction operation.",
+      "Simplify the result."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "3/2",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "VM-FDP-347",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Scaling by fractions and decimals",
+    "prompt": "Without calculating, compare 18 × 0.4 with 18.<ol type=\"A\"><li>Greater</li><li>Equal</li><li>Smaller</li><li>Cannot tell</li></ol>",
+    "answer": "C",
+    "solution": "Multiplying a positive number by a value between 0 and 1 makes it smaller.",
+    "difficulty": "Foundation",
+    "hints": [
+      "0.4 is less than 1.",
+      "Think of taking part of 18.",
+      "A proper positive fraction of 18 is smaller."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "C",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "Greater",
+      "Equal",
+      "Smaller",
+      "Cannot tell"
+    ]
+  },
+  {
+    "id": "VM-FDP-348",
+    "section": "Skill practice",
+    "group": "Mixed",
+    "skill": "Scaling by fractions and decimals",
+    "prompt": "Without calculating, compare 12 ÷ 0.25 with 12.<ol type=\"A\"><li>Smaller</li><li>Equal</li><li>Greater</li><li>Zero</li></ol>",
+    "answer": "C",
+    "solution": "Dividing by 0.25 counts quarters, so the result is 48, greater than 12.",
+    "difficulty": "Core",
+    "hints": [
+      "0.25 is one quarter.",
+      "How many quarters fit in one whole?",
+      "Each whole contributes four quarters."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "C",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "Smaller",
+      "Equal",
+      "Greater",
+      "Zero"
+    ]
+  },
+  {
+    "id": "VM-FDP-349",
+    "section": "Challenge questions",
+    "group": "Fractions",
+    "skill": "Scaling by fractions and decimals",
+    "prompt": "Which expression has the greatest value?<ol type=\"A\"><li>8 × <span class=\"frac\"><span>3</span><span>4</span></span></li><li>8 ÷ <span class=\"frac\"><span>3</span><span>4</span></span></li><li>8 × <span class=\"frac\"><span>1</span><span>2</span></span></li><li>8 ÷ <span class=\"frac\"><span>1</span><span>2</span></span></li></ol>",
+    "answer": "D",
+    "solution": "The values are 6, <span class=\"frac\"><span>32</span><span>3</span></span>, 4 and 16. The greatest is 16.",
+    "difficulty": "Extension",
+    "hints": [
+      "Multiplication by a proper fraction reduces 8.",
+      "Division by a proper fraction increases 8.",
+      "Compare the two division results."
+    ],
+    "answerType": "multiple-choice",
+    "correctAnswer": "D",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "options": [
+      "8 × <span class=\"frac\"><span>3</span><span>4</span></span>",
+      "8 ÷ <span class=\"frac\"><span>3</span><span>4</span></span>",
+      "8 × <span class=\"frac\"><span>1</span><span>2</span></span>",
+      "8 ÷ <span class=\"frac\"><span>1</span><span>2</span></span>"
+    ]
+  },
+  {
+    "id": "VM-FDP-350",
+    "section": "Skill practice",
+    "group": "Fractions",
+    "skill": "Comparing quantities with different units",
+    "prompt": "Express 45 cm as a fraction of 1.5 m, in simplest form.",
+    "answer": "<span class=\"frac\"><span>3</span><span>10</span></span>",
+    "solution": "1.5 m = 150 cm. <span class=\"frac\"><span>45</span><span>150</span></span> = <span class=\"frac\"><span>3</span><span>10</span></span>.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert metres to centimetres.",
+      "Form the ratio part to whole.",
+      "Divide numerator and denominator by 15."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "3/10",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "requiredFormat": "simplified-fraction"
+  },
+  {
+    "id": "VM-FDP-351",
+    "section": "Skill practice",
+    "group": "Decimals",
+    "skill": "Comparing quantities with different units",
+    "prompt": "Express 350 mL as a decimal fraction of 2 L.",
+    "answer": "0.175",
+    "solution": "2 L = 2000 mL. 350 ÷ 2000 = 0.175.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert litres to millilitres.",
+      "Divide the part by the whole.",
+      "Write the result as a decimal."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "0.175",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "requiredFormat": "decimal"
+  },
+  {
+    "id": "VM-FDP-352",
+    "section": "Skill practice",
+    "group": "Percentages",
+    "skill": "Comparing quantities with different units",
+    "prompt": "What percentage of 2 kg is 300 g?",
+    "answer": "15%",
+    "solution": "2 kg = 2000 g. 300 ÷ 2000 × 100% = 15%.",
+    "difficulty": "Core",
+    "hints": [
+      "Convert kilograms to grams.",
+      "Divide 300 by 2000.",
+      "Convert the decimal to a percentage."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "15%",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "requiredFormat": "percentage"
+  },
+  {
+    "id": "VM-FDP-353",
+    "section": "Skill practice",
+    "group": "Fractions",
+    "skill": "Highest common factor",
+    "prompt": "Find the highest common factor of 36 and 48.",
+    "answer": "12",
+    "solution": "Common factors are 1, 2, 3, 4, 6 and 12. The greatest is 12.",
+    "difficulty": "Foundation",
+    "hints": [
+      "List factors of 36.",
+      "Identify those that also divide 48.",
+      "Choose the greatest."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "12",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft"
+  },
+  {
+    "id": "VM-FDP-354",
+    "section": "Skill practice",
+    "group": "Fractions",
+    "skill": "Highest common factor",
+    "prompt": "Use the highest common factor to simplify <span class=\"frac\"><span>84</span><span>126</span></span>.",
+    "answer": "<span class=\"frac\"><span>2</span><span>3</span></span>",
+    "solution": "The HCF of 84 and 126 is 42. Divide both by 42 to obtain <span class=\"frac\"><span>2</span><span>3</span></span>.",
+    "difficulty": "Core",
+    "hints": [
+      "Find the common factors.",
+      "The highest common factor is 42.",
+      "Divide both terms by 42."
+    ],
+    "answerType": "numeric",
+    "correctAnswer": "2/3",
+    "curriculum_candidates": [
+      "NSW Stage 4 — fractions, decimals and percentages (candidate)"
+    ],
+    "review_status": "draft",
+    "requiredFormat": "simplified-fraction"
   }
 ]
