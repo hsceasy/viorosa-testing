@@ -1,3 +1,11 @@
 /* Viorosa Maths shared brand tokens */
 :root{--viorosa-cream:#fffcf7;--viorosa-peach:#ffe4d8;--viorosa-honey:#f9edc9;--viorosa-lilac:#f0e6f5;--viorosa-rose:#a64e65;--viorosa-ink:#50404b;--viorosa-muted:#776b72}
 .viorosa-nav{box-sizing:border-box;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px 22px;background:var(--viorosa-cream);border-bottom:1px solid #eadbd3;color:var(--viorosa-ink);font:14px system-ui,sans-serif}.viorosa-nav a{color:#87465a;text-decoration:none;font-weight:650}.viorosa-nav .viorosa-wordmark{font:700 27px Georgia,serif;letter-spacing:-1px;color:#a64e65}.viorosa-wordmark small{display:block;text-align:center;font:700 9px system-ui;letter-spacing:3px}.viorosa-nav-links{display:flex;gap:16px;flex-wrap:wrap}.viorosa-nav a:focus-visible{outline:2px solid #a64e65;outline-offset:4px}
+
+/* Step 8: mobile navigation and responsive media */
+@media (max-width: 600px){
+.viorosa-nav{padding:10px 14px;gap:8px;min-width:0}
+.viorosa-nav-links{gap:4px 12px;max-width:100%}
+.viorosa-nav a{display:inline-flex;align-items:center;min-height:44px;max-width:100%;overflow-wrap:anywhere}
+img{max-width:100%;height:auto}
+}

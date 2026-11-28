@@ -1,4 +1,55 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Viorosa Maths | Visual gallery</title><style>body{font:16px system-ui;background:#faf5f8;color:#493b49;margin:0}main{max-width:760px;margin:auto;padding:24px}section{background:white;border:1px solid #e6d5e2;border-radius:18px;padding:20px}h1{color:#80516a}label{display:block;margin:12px 0}input{width:100%;accent-color:#a65d87}select,button{font:inherit;padding:8px;max-width:100%}svg{width:100%;height:auto}output{display:block;background:#f5eaf1;padding:16px;border-radius:10px}a{color:#80516a}</style><main><p><a href="../index.html">Back to Year 10 Core</a></p><small>VIOROSA MATHS · YEAR 10 CORE</small><h1>Visual reasoning gallery</h1><p><a href="index.html">Back to original visual lab</a></p><label for="mode">Activity</label><select id="mode"></select><section><h2 id="heading"></h2><label for="a" id="la"></label><input type="range" id="a"><label for="b" id="lb"></label><input type="range" id="b"><svg id="pic" viewBox="0 0 400 300" role="img" aria-labelledby="heading"></svg><output id="out" aria-live="polite"></output><p id="task"></p><button id="reset">Reset values</button></section></main><script>
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Year 10 Visual gallery | Viorosa Maths</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.viorosamaths.com/#organization",
+      "name": "Viorosa Maths",
+      "url": "https://www.viorosamaths.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.viorosamaths.com/#website",
+      "url": "https://www.viorosamaths.com/",
+      "name": "Viorosa Maths",
+      "publisher": {
+        "@id": "https://www.viorosamaths.com/#organization"
+      },
+      "inLanguage": "en-AU"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.viorosamaths.com/year10-core/visual/gallery.html#webpage",
+      "url": "https://www.viorosamaths.com/year10-core/visual/gallery.html",
+      "name": "Year 10 Visual gallery",
+      "isPartOf": {
+        "@id": "https://www.viorosamaths.com/#website"
+      },
+      "inLanguage": "en-AU",
+      "description": "Explore visual reasoning resources for Year 10 mathematics."
+    },
+    {
+      "@type": "LearningResource",
+      "@id": "https://www.viorosamaths.com/year10-core/visual/gallery.html#resource",
+      "url": "https://www.viorosamaths.com/year10-core/visual/gallery.html",
+      "name": "Year 10 Visual gallery",
+      "inLanguage": "en-AU",
+      "isAccessibleForFree": true,
+      "publisher": {
+        "@id": "https://www.viorosamaths.com/#organization"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://www.viorosamaths.com/year10-core/visual/gallery.html#webpage"
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="canonical" href="https://www.viorosamaths.com/year10-core/visual/gallery.html">
+<meta name="description" content="Explore visual reasoning resources for Year 10 mathematics."><style>body{font:16px system-ui;background:#faf5f8;color:#493b49;margin:0}main{max-width:760px;margin:auto;padding:24px}section{background:white;border:1px solid #e6d5e2;border-radius:18px;padding:20px}h1{color:#80516a}label{display:block;margin:12px 0}input{width:100%;accent-color:#a65d87}select,button{font:inherit;padding:8px;max-width:100%}svg{width:100%;height:auto}output{display:block;background:#f5eaf1;padding:16px;border-radius:10px}a{color:#80516a}</style><main><p><a href="../index.html">Back to Year 10 Core</a></p><small>VIOROSA MATHS · YEAR 10 CORE</small><h1>Visual reasoning gallery</h1><p><a href="index.html">Back to original visual lab</a></p><label for="mode">Activity</label><select id="mode"></select><section><h2 id="heading"></h2><label for="a" id="la"></label><input type="range" id="a"><label for="b" id="lb"></label><input type="range" id="b"><svg id="pic" viewBox="0 0 400 300" role="img" aria-labelledby="heading"></svg><output id="out" aria-live="polite"></output><p id="task"></p><button id="reset">Reset values</button></section></main><script>
 const $=id=>document.getElementById(id), f=n=>Number(n.toFixed(3)), rad=n=>n*Math.PI/180;
 const cfg=[['Bearings','Bearing (degrees)',0,359,1,60,'Distance (km)',1,20,1,10],['Exponential growth and decay','Initial value',1,10,1,4,'Multiplier',0.5,1.5,0.1,1.2],['Composite L-shaped area','Outer width (cm)',5,12,1,8,'Cut-out width (cm)',1,4,1,3],['Rectangular prism net','Length (cm)',2,8,1,5,'Width (cm)',2,6,1,3],['Parallel lines and transversals','Acute angle (degrees)',20,80,1,50,'Parallel line separation',40,90,5,60],['Probability without replacement','Pink counters',2,10,1,4,'Purple counters',2,10,1,6]];
 const line=(x,y,X,Y,d='')=>`<line x1="${x}" y1="${y}" x2="${X}" y2="${Y}" stroke="#80617e" stroke-width="2" ${d}/>`;const txt=(x,y,t)=>`<text x="${x}" y="${y}" font-size="12" fill="#493b49">${t}</text>`;const rect=(x,y,w,h,c='#ead8e9')=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="${c}" stroke="#80617e" stroke-width="1.5"/>`;
